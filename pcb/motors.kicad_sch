@@ -1,0 +1,7253 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "45e01bfc-2e13-4685-a753-ee11630baee7")
+	(paper "B")
+	(lib_symbols
+		(symbol "Driver_Motor:Pololu_Breakout_A4988"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "A"
+				(at -2.54 19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Pololu_Breakout_A4988"
+				(at -2.54 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+				(at 6.985 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
+				(at 2.54 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Pololu Breakout Board Stepper Driver A4988"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pololu*Breakout*15.2x20.3mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Pololu_Breakout_A4988_0_1"
+				(rectangle
+					(start 10.16 -17.78)
+					(end -7.62 15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Pololu_Breakout_A4988_1_1"
+				(pin power_in line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "1B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "2B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -20.32 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 17.78 270)
+					(length 2.54)
+					(name "VMOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{ENABLE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "MS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "MS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "MS3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "~{SLEEP}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "STEP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor:Stepper_Motor_bipolar"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M"
+				(at 3.81 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Stepper_Motor_bipolar"
+				(at 3.81 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.254 -0.254 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+				(at 0.254 -0.254 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "4-wire bipolar stepper motor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "bipolar stepper motor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm*Vertical* TerminalBlock* Motor*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Stepper_Motor_bipolar_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.778) (xy -1.27 2.032) (xy 0 -0.508) (xy 1.27 2.032) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Stepper_Motor_bipolar_0_1"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -4.445 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -4.445 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.445 2.54)
+					(mid -3.8127 1.905)
+					(end -4.445 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.445 1.27)
+					(mid -3.8127 0.635)
+					(end -4.445 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.445 0)
+					(mid -3.8127 -0.635)
+					(end -4.445 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.445 -1.27)
+					(mid -3.8127 -1.905)
+					(end -4.445 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 4.445)
+					(mid -1.905 3.8127)
+					(end -2.54 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.445)
+					(mid -0.635 3.8127)
+					(end -1.27 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.2512)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 4.445)
+					(mid 0.635 3.8127)
+					(end 0 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 4.445)
+					(mid 1.905 3.8127)
+					(end 1.27 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Stepper_Motor_bipolar_1_1"
+				(pin passive line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+12V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 110.49 57.15) (xy 123.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01cf11c5-1064-41fe-8551-fa250e10d7e8")
+	)
+	(wire
+		(pts
+			(xy 73.66 36.83) (xy 83.82 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d71b26-4f54-497a-bc89-22995da165da")
+	)
+	(wire
+		(pts
+			(xy 93.98 212.09) (xy 93.98 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0573b592-fa33-4ce9-bd23-67ba4a5a908b")
+	)
+	(wire
+		(pts
+			(xy 93.98 85.09) (xy 93.98 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "062267d1-cb0f-4c43-866a-ea285413225d")
+	)
+	(wire
+		(pts
+			(xy 203.2 184.15) (xy 215.9 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07660a4b-0f01-487c-a764-132a8ad44227")
+	)
+	(wire
+		(pts
+			(xy 166.37 57.15) (xy 176.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08dfe29f-5c7b-46fe-ba99-d9cc133d9acd")
+	)
+	(wire
+		(pts
+			(xy 203.2 120.65) (xy 215.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09611350-052b-4d38-b7c5-752cec5b64de")
+	)
+	(wire
+		(pts
+			(xy 166.37 44.45) (xy 176.53 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3c094a-774e-42d8-b82c-91d388ce56d1")
+	)
+	(wire
+		(pts
+			(xy 93.98 21.59) (xy 93.98 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3d7923-c1e8-4fa6-aa0f-71b14f59613a")
+	)
+	(wire
+		(pts
+			(xy 73.66 242.57) (xy 83.82 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c113843-490b-4789-b00e-b5283e658316")
+	)
+	(wire
+		(pts
+			(xy 106.68 113.03) (xy 110.49 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1472c3-194f-4f82-8ee3-ddcd2fd0cdbc")
+	)
+	(wire
+		(pts
+			(xy 106.68 110.49) (xy 113.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3d3c29-8f67-494b-a03f-7f8085261fd6")
+	)
+	(wire
+		(pts
+			(xy 203.2 240.03) (xy 203.2 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11762ab7-266c-4e7f-86aa-886823016b3f")
+	)
+	(wire
+		(pts
+			(xy 73.66 184.15) (xy 83.82 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129ec8ea-0ab8-4fff-8a70-c2e18e2059b4")
+	)
+	(wire
+		(pts
+			(xy 199.39 234.95) (xy 220.98 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1351579e-61dd-4810-942b-7ce8f462b742")
+	)
+	(wire
+		(pts
+			(xy 93.98 255.27) (xy 93.98 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c14ee6-8709-4ed1-814c-9a169d163b92")
+	)
+	(wire
+		(pts
+			(xy 73.66 173.99) (xy 83.82 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17abf433-a5db-4201-b3f9-5583bd9f9dc6")
+	)
+	(wire
+		(pts
+			(xy 93.98 148.59) (xy 93.98 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a78f6e1-1ba2-40af-87a3-8b6d6d07d3fc")
+	)
+	(wire
+		(pts
+			(xy 93.98 191.77) (xy 93.98 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be97386-a071-4f36-9d5d-ca83a6a2b04f")
+	)
+	(wire
+		(pts
+			(xy 106.68 105.41) (xy 133.35 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2e3270-ccb3-435a-9ae2-86beef3d170e")
+	)
+	(wire
+		(pts
+			(xy 166.37 41.91) (xy 176.53 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ecaad30-cfb4-42da-9866-9fbb19d1ee1d")
+	)
+	(wire
+		(pts
+			(xy 203.2 49.53) (xy 203.2 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205e8a00-a4fb-48f3-b65b-d4099800ca7b")
+	)
+	(wire
+		(pts
+			(xy 73.66 34.29) (xy 83.82 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ec4e12-71fb-4e71-99c7-cb6ddba97c48")
+	)
+	(wire
+		(pts
+			(xy 203.2 247.65) (xy 215.9 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "217998cd-f86a-433c-bc75-cdee690d2b1b")
+	)
+	(wire
+		(pts
+			(xy 166.37 110.49) (xy 176.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2183531a-9f34-4789-a8b4-cf4c5532889e")
+	)
+	(wire
+		(pts
+			(xy 205.74 242.57) (xy 215.9 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23180859-bcfa-42bd-9e05-d925d3778854")
+	)
+	(wire
+		(pts
+			(xy 106.68 171.45) (xy 128.27 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d203f5-1980-4620-8f5f-baed1792d72c")
+	)
+	(wire
+		(pts
+			(xy 166.37 118.11) (xy 176.53 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24017af5-e614-4ff8-98fb-13f49b1965f2")
+	)
+	(wire
+		(pts
+			(xy 199.39 173.99) (xy 205.74 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254f4a30-edcf-4294-baac-4a6957494de1")
+	)
+	(wire
+		(pts
+			(xy 199.39 113.03) (xy 203.2 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ecc0a1-7ce1-44a8-9541-3950d644f947")
+	)
+	(wire
+		(pts
+			(xy 73.66 115.57) (xy 83.82 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294a8e0a-82e0-4a56-bc05-166b16d71fd2")
+	)
+	(wire
+		(pts
+			(xy 166.37 173.99) (xy 176.53 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a89c9f-d7a1-4cd3-8cb1-7a7d6ba6ee25")
+	)
+	(wire
+		(pts
+			(xy 73.66 100.33) (xy 83.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0fba56-27a1-43d1-9949-442f8212ae75")
+	)
+	(wire
+		(pts
+			(xy 199.39 237.49) (xy 205.74 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8f9b94-b42a-4aff-a74b-a53d7e7c9c1f")
+	)
+	(wire
+		(pts
+			(xy 199.39 171.45) (xy 220.98 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa58df2-140f-4b7d-b772-7e3176b0eea8")
+	)
+	(wire
+		(pts
+			(xy 106.68 41.91) (xy 133.35 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fae0852-5088-4b9a-887d-458ae926d6ff")
+	)
+	(wire
+		(pts
+			(xy 186.69 212.09) (xy 186.69 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3138aa16-1fc3-41b2-8443-73994d2eadb2")
+	)
+	(wire
+		(pts
+			(xy 106.68 46.99) (xy 113.03 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c1a546-427b-4233-9e7c-3996799e34b7")
+	)
+	(bus
+		(pts
+			(xy 270.51 86.36) (xy 287.02 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3444bada-076d-4719-a42d-7d87c0eee807")
+	)
+	(wire
+		(pts
+			(xy 73.66 234.95) (xy 83.82 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a63a5d-2530-49fa-8042-3d08921aded8")
+	)
+	(wire
+		(pts
+			(xy 133.35 41.91) (xy 133.35 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ce19e3-39c9-4c4f-b5c8-2c6e8316aecc")
+	)
+	(wire
+		(pts
+			(xy 133.35 232.41) (xy 133.35 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f69a12-0967-477a-ab9e-cac86600963e")
+	)
+	(wire
+		(pts
+			(xy 166.37 97.79) (xy 176.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3942c644-e712-45b7-8df4-91024634616c")
+	)
+	(wire
+		(pts
+			(xy 113.03 242.57) (xy 123.19 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c65d1b4-8e01-46b9-aa12-82ca27fdcd6a")
+	)
+	(wire
+		(pts
+			(xy 73.66 57.15) (xy 83.82 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cef013a-68cc-448a-807a-a9fe7b963e78")
+	)
+	(wire
+		(pts
+			(xy 186.69 64.77) (xy 186.69 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fdba11a-1c88-437d-b000-0e06ac973943")
+	)
+	(wire
+		(pts
+			(xy 186.69 85.09) (xy 186.69 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41779724-4e02-4b6e-aa7f-da3ecff21d37")
+	)
+	(wire
+		(pts
+			(xy 110.49 113.03) (xy 110.49 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4379fd8f-26b0-496a-ba28-c7d2eba1be8a")
+	)
+	(wire
+		(pts
+			(xy 73.66 110.49) (xy 83.82 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a18f0a-6c98-4bb7-a116-1b5953f03fc4")
+	)
+	(wire
+		(pts
+			(xy 106.68 107.95) (xy 128.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459a49be-6329-444c-86e7-98726c0a5176")
+	)
+	(wire
+		(pts
+			(xy 73.66 224.79) (xy 83.82 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459fd88d-b19b-48b9-82db-8cb092275fe7")
+	)
+	(wire
+		(pts
+			(xy 205.74 237.49) (xy 205.74 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46fec106-7b99-4d0a-99ab-4e9f4f5f55f0")
+	)
+	(wire
+		(pts
+			(xy 73.66 120.65) (xy 83.82 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4722d101-f74e-4ecc-b131-3f445adc2bb2")
+	)
+	(wire
+		(pts
+			(xy 191.77 212.09) (xy 191.77 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48bd435d-69d5-470f-aad1-01f98ec048d8")
+	)
+	(wire
+		(pts
+			(xy 73.66 97.79) (xy 83.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48bf98af-72b6-4881-92eb-ef61263e56b1")
+	)
+	(wire
+		(pts
+			(xy 166.37 36.83) (xy 176.53 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48dd5a30-e797-4fa6-88fb-89b4b125435e")
+	)
+	(wire
+		(pts
+			(xy 205.74 115.57) (xy 215.9 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd6bf6a-c372-46ec-81ff-bfc4cfeb63ca")
+	)
+	(wire
+		(pts
+			(xy 106.68 234.95) (xy 128.27 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bdae749-2fa3-48d3-9a51-c9391e69b7b0")
+	)
+	(wire
+		(pts
+			(xy 166.37 120.65) (xy 176.53 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4387fa-09e4-4ea6-b441-33120d60fff8")
+	)
+	(wire
+		(pts
+			(xy 199.39 176.53) (xy 203.2 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ddefe6d-64b4-4c26-9f0f-f938400bf6b5")
+	)
+	(wire
+		(pts
+			(xy 199.39 168.91) (xy 226.06 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecaf003-6c99-45be-a134-d272fb56cbdd")
+	)
+	(wire
+		(pts
+			(xy 73.66 41.91) (xy 83.82 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5259f92b-a9ca-460f-9028-9ad4a15ba420")
+	)
+	(wire
+		(pts
+			(xy 73.66 118.11) (xy 83.82 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540f7b48-9c27-495a-82d7-037c97eebeab")
+	)
+	(wire
+		(pts
+			(xy 93.98 64.77) (xy 93.98 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5512e212-bca5-4825-9a63-929e994ee0e9")
+	)
+	(wire
+		(pts
+			(xy 73.66 181.61) (xy 83.82 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e0a1df-dab4-4e24-aeff-ac2e288de14d")
+	)
+	(wire
+		(pts
+			(xy 186.69 21.59) (xy 186.69 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56dac444-a26e-45b9-b4de-a32da279dec0")
+	)
+	(wire
+		(pts
+			(xy 166.37 161.29) (xy 176.53 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57901243-61e9-43fe-9d58-764a68972835")
+	)
+	(wire
+		(pts
+			(xy 166.37 54.61) (xy 176.53 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587b392a-2232-45ba-a52a-db2de1c41e21")
+	)
+	(wire
+		(pts
+			(xy 99.06 85.09) (xy 99.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3fd8f5-41a7-4c25-9be7-31e28bd15cb6")
+	)
+	(wire
+		(pts
+			(xy 93.98 128.27) (xy 93.98 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a32516-d3e4-4442-887a-ee7ff157d5de")
+	)
+	(wire
+		(pts
+			(xy 113.03 115.57) (xy 123.19 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d85493-e3e8-4409-8c26-fa45abf1a94d")
+	)
+	(wire
+		(pts
+			(xy 226.06 105.41) (xy 226.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66eb24d5-0fae-446d-9a9a-600f997c0875")
+	)
+	(wire
+		(pts
+			(xy 166.37 184.15) (xy 176.53 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f5ffa6-e7aa-4798-be42-1dc8143981e9")
+	)
+	(wire
+		(pts
+			(xy 205.74 179.07) (xy 215.9 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f37432-f746-4b9d-8d93-e701cb650d3c")
+	)
+	(wire
+		(pts
+			(xy 73.66 46.99) (xy 83.82 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69afa705-23d2-47b4-a001-15fa9448a70a")
+	)
+	(wire
+		(pts
+			(xy 166.37 115.57) (xy 176.53 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c771873-f33a-4b81-a4c9-3547f127a390")
+	)
+	(wire
+		(pts
+			(xy 133.35 168.91) (xy 133.35 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee10749-3a21-4b91-811f-3c11e1775260")
+	)
+	(wire
+		(pts
+			(xy 199.39 232.41) (xy 226.06 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd174e7-412d-4ab8-9643-dc3105b1b320")
+	)
+	(wire
+		(pts
+			(xy 226.06 41.91) (xy 226.06 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703e53a7-95de-488c-912e-ee2172dbff6b")
+	)
+	(wire
+		(pts
+			(xy 128.27 44.45) (xy 128.27 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a7d8c2-d127-4336-95b9-2ceacb9af45c")
+	)
+	(wire
+		(pts
+			(xy 73.66 227.33) (xy 83.82 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724763b1-7763-4675-ab45-14c0cbe8a6d5")
+	)
+	(wire
+		(pts
+			(xy 199.39 105.41) (xy 226.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7328da16-9c73-43e7-a5bf-0782f3664b9b")
+	)
+	(wire
+		(pts
+			(xy 110.49 184.15) (xy 123.19 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a146fa3-b63c-4ad4-829c-9d814e8659ad")
+	)
+	(wire
+		(pts
+			(xy 106.68 237.49) (xy 113.03 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be6607a-6be0-42f1-a05f-d9c562d9637e")
+	)
+	(wire
+		(pts
+			(xy 128.27 171.45) (xy 128.27 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bff96a5-1c0e-4590-b657-8d0320bd3a8d")
+	)
+	(wire
+		(pts
+			(xy 205.74 110.49) (xy 205.74 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb83336-5a68-4a6e-a694-c084fdee35d8")
+	)
+	(wire
+		(pts
+			(xy 166.37 224.79) (xy 176.53 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7edac614-f906-44bc-b17c-9a1897371a96")
+	)
+	(wire
+		(pts
+			(xy 73.66 247.65) (xy 83.82 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80174b2b-2082-46f3-ad02-1c6b39fb9c07")
+	)
+	(wire
+		(pts
+			(xy 199.39 107.95) (xy 220.98 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8020edfe-a334-4e45-b8f9-2b9f9b261f97")
+	)
+	(wire
+		(pts
+			(xy 270.51 97.79) (xy 287.02 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82716852-5329-4634-9366-bc06913386f8")
+	)
+	(wire
+		(pts
+			(xy 113.03 173.99) (xy 113.03 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e9b486-6cd3-488a-acd9-620a9665b792")
+	)
+	(wire
+		(pts
+			(xy 106.68 44.45) (xy 128.27 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8382c0db-26af-4306-b115-a458d1a5ca1e")
+	)
+	(wire
+		(pts
+			(xy 186.69 255.27) (xy 186.69 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8421cf16-ff61-4eaf-86fd-c807343c65ee")
+	)
+	(wire
+		(pts
+			(xy 73.66 171.45) (xy 83.82 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856c5673-604a-428f-9e31-d0e3e99bb198")
+	)
+	(wire
+		(pts
+			(xy 220.98 171.45) (xy 220.98 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86cbad15-d71b-4251-a32a-8c53c83b0952")
+	)
+	(wire
+		(pts
+			(xy 166.37 242.57) (xy 176.53 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a51825-2584-4278-883a-920fb6f649a2")
+	)
+	(wire
+		(pts
+			(xy 73.66 245.11) (xy 83.82 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89dc4b1f-4939-446d-8cc1-9824ffd422f5")
+	)
+	(wire
+		(pts
+			(xy 220.98 234.95) (xy 220.98 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5334f2-97b4-4a4f-84ac-5329edd1a86f")
+	)
+	(wire
+		(pts
+			(xy 73.66 179.07) (xy 83.82 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc95e2b-17ed-4c6a-a8e8-075bb5cc1733")
+	)
+	(wire
+		(pts
+			(xy 166.37 247.65) (xy 176.53 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce43d46-7686-4b26-9158-3b7fc63eb6b4")
+	)
+	(wire
+		(pts
+			(xy 99.06 148.59) (xy 99.06 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dca071c-e889-4a17-8d40-2cb4bdd5dae9")
+	)
+	(wire
+		(pts
+			(xy 166.37 179.07) (xy 176.53 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927cafbb-41f4-4955-af5c-cdb497840f38")
+	)
+	(wire
+		(pts
+			(xy 99.06 212.09) (xy 99.06 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9716c45c-a549-4bda-89fb-e5b6a433bf89")
+	)
+	(wire
+		(pts
+			(xy 166.37 168.91) (xy 176.53 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9765f577-94df-4f14-9bc5-d1b1d4b5e6fe")
+	)
+	(wire
+		(pts
+			(xy 99.06 21.59) (xy 99.06 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997b4a7d-b779-4a20-80d1-43e35b0f623b")
+	)
+	(wire
+		(pts
+			(xy 270.51 95.25) (xy 287.02 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1d4faa-a224-4f7b-a3fa-4f6640ed738e")
+	)
+	(wire
+		(pts
+			(xy 203.2 57.15) (xy 215.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9f5c6c-01c7-4802-9c15-ad54562b08ca")
+	)
+	(wire
+		(pts
+			(xy 110.49 120.65) (xy 123.19 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3f5fbd-fc39-4b7d-8b11-81f36d16b5ab")
+	)
+	(bus
+		(pts
+			(xy 270.51 91.44) (xy 287.02 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00913da-58f5-412a-ada9-10f962e53ab2")
+	)
+	(wire
+		(pts
+			(xy 166.37 107.95) (xy 176.53 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c9da42-b426-49d0-8d8f-58f845d3c563")
+	)
+	(wire
+		(pts
+			(xy 128.27 107.95) (xy 128.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3257bbf-67e4-445b-a19c-5dcd53940094")
+	)
+	(wire
+		(pts
+			(xy 186.69 128.27) (xy 186.69 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7aecb19-b616-4693-9047-e1d914f9453f")
+	)
+	(wire
+		(pts
+			(xy 191.77 85.09) (xy 191.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f985d7-9f5d-4e9e-a495-748f95c9e46b")
+	)
+	(wire
+		(pts
+			(xy 191.77 148.59) (xy 191.77 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa33a46e-8e9f-42d9-b4c5-4f65c58360a2")
+	)
+	(wire
+		(pts
+			(xy 166.37 163.83) (xy 176.53 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac2c2fc-3516-4dfa-b925-9879887f6624")
+	)
+	(wire
+		(pts
+			(xy 110.49 49.53) (xy 110.49 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aade3cee-8681-41b7-ac70-17873d4014d2")
+	)
+	(wire
+		(pts
+			(xy 199.39 110.49) (xy 205.74 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab5c8da7-373f-4352-9a0c-6a7dd549c42f")
+	)
+	(wire
+		(pts
+			(xy 73.66 107.95) (xy 83.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac375d05-7c9d-4e4d-801c-4a9ea49ed7fe")
+	)
+	(wire
+		(pts
+			(xy 110.49 247.65) (xy 123.19 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3d2922-a16b-4614-8c12-8a488ca76d1c")
+	)
+	(wire
+		(pts
+			(xy 186.69 148.59) (xy 186.69 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad41e78b-f1aa-45d9-8707-ab0f2f54aa6f")
+	)
+	(wire
+		(pts
+			(xy 199.39 44.45) (xy 220.98 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade0a030-7617-41e5-bc09-0bf23f37b945")
+	)
+	(wire
+		(pts
+			(xy 226.06 232.41) (xy 226.06 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aead4aa6-d146-42e2-9815-cd44196e9df6")
+	)
+	(wire
+		(pts
+			(xy 73.66 44.45) (xy 83.82 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e5fbfc-ba4c-47b6-bc4c-d5264167a957")
+	)
+	(wire
+		(pts
+			(xy 270.51 104.14) (xy 287.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d81e50-5789-4d28-a591-ec5d9709da0d")
+	)
+	(wire
+		(pts
+			(xy 203.2 113.03) (xy 203.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2fbd480-c8e6-4670-bce7-d70c98d54a45")
+	)
+	(wire
+		(pts
+			(xy 73.66 168.91) (xy 83.82 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b314c2f4-c41d-4313-aadb-60ed0e823aef")
+	)
+	(wire
+		(pts
+			(xy 166.37 46.99) (xy 176.53 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34b5dec-1ce7-4da9-9aa6-1f2073bb8e0f")
+	)
+	(wire
+		(pts
+			(xy 166.37 234.95) (xy 176.53 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e658ce-75e4-439c-b2d9-49fc8c7f6018")
+	)
+	(wire
+		(pts
+			(xy 220.98 107.95) (xy 220.98 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68f714c-ec9a-4326-a877-fe3b38c088ba")
+	)
+	(wire
+		(pts
+			(xy 166.37 52.07) (xy 176.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e03eeb-29e6-4a08-a7ce-6c289de3bbb8")
+	)
+	(wire
+		(pts
+			(xy 73.66 54.61) (xy 83.82 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7eb4190-1358-42e4-a1b2-c1529f88cc18")
+	)
+	(wire
+		(pts
+			(xy 106.68 49.53) (xy 110.49 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b985e7d6-141e-4ec6-9223-5f6bc0265cfa")
+	)
+	(wire
+		(pts
+			(xy 133.35 105.41) (xy 133.35 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf5a0be-bbfd-4345-8c31-1f580f053140")
+	)
+	(wire
+		(pts
+			(xy 73.66 163.83) (xy 83.82 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdfaa7a4-b2ac-45d9-9cda-41103fbe23ed")
+	)
+	(wire
+		(pts
+			(xy 199.39 240.03) (xy 203.2 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f62bf9-d91c-40b8-807e-881571f90d8b")
+	)
+	(wire
+		(pts
+			(xy 166.37 34.29) (xy 176.53 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17eb3ec-fc38-496e-bf84-ef855c689920")
+	)
+	(wire
+		(pts
+			(xy 203.2 176.53) (xy 203.2 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c18c89a9-3066-4ecc-96e1-1ea592cd88ec")
+	)
+	(wire
+		(pts
+			(xy 166.37 181.61) (xy 176.53 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19d8222-6594-4a3c-a296-e43e6240972e")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 113.03 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24621d9-f45c-44b2-88f8-dd031a3b689c")
+	)
+	(wire
+		(pts
+			(xy 166.37 227.33) (xy 176.53 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ed7359-420b-4554-8a01-493e49f420b4")
+	)
+	(wire
+		(pts
+			(xy 110.49 176.53) (xy 110.49 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34068bb-166e-4575-98ba-e7bc13776791")
+	)
+	(wire
+		(pts
+			(xy 186.69 191.77) (xy 186.69 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f89f57-8ed1-409b-bca1-b76651456080")
+	)
+	(wire
+		(pts
+			(xy 205.74 173.99) (xy 205.74 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c447c03f-5414-4972-b86d-5e88e3fb347c")
+	)
+	(wire
+		(pts
+			(xy 199.39 49.53) (xy 203.2 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c908bbcc-ec34-42de-b162-4b1899e90902")
+	)
+	(wire
+		(pts
+			(xy 106.68 232.41) (xy 133.35 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9259a53-3b12-40e9-bdaf-df8314851c86")
+	)
+	(wire
+		(pts
+			(xy 199.39 46.99) (xy 205.74 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca44c5fb-5357-4c7e-b90a-978ff543a754")
+	)
+	(wire
+		(pts
+			(xy 106.68 173.99) (xy 113.03 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc901a8d-a3fc-441b-8814-604fcdc02c98")
+	)
+	(wire
+		(pts
+			(xy 73.66 105.41) (xy 83.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1c1818-6c84-4b71-bd50-602a2408d273")
+	)
+	(wire
+		(pts
+			(xy 110.49 240.03) (xy 110.49 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5f32eb-592f-4944-835f-5368b61d0bab")
+	)
+	(wire
+		(pts
+			(xy 166.37 232.41) (xy 176.53 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cecf1f51-a63c-448e-b89a-b294235c94dd")
+	)
+	(wire
+		(pts
+			(xy 73.66 237.49) (xy 83.82 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1acf235-2b52-45e2-a52b-392d1b912957")
+	)
+	(wire
+		(pts
+			(xy 166.37 171.45) (xy 176.53 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39235af-0641-4187-9e2d-640766f768f5")
+	)
+	(wire
+		(pts
+			(xy 220.98 44.45) (xy 220.98 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66b389a-dd98-47e7-892d-c3d32b82d66c")
+	)
+	(wire
+		(pts
+			(xy 199.39 41.91) (xy 226.06 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf12e45-d860-475a-9ae0-7df74ad7b24e")
+	)
+	(wire
+		(pts
+			(xy 270.51 100.33) (xy 287.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd14f4ff-3f8c-41ac-800e-b07a9cadf758")
+	)
+	(wire
+		(pts
+			(xy 113.03 237.49) (xy 113.03 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded9afb2-fa38-47b4-84a7-cba50dea91f4")
+	)
+	(wire
+		(pts
+			(xy 106.68 176.53) (xy 110.49 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b7516b-9a18-4217-ac6d-4f2f204e89a4")
+	)
+	(wire
+		(pts
+			(xy 106.68 168.91) (xy 133.35 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17745ac-ca15-4ddb-a400-56885a862479")
+	)
+	(wire
+		(pts
+			(xy 106.68 240.03) (xy 110.49 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e9704f-463c-4ee4-929a-b0aa75897229")
+	)
+	(wire
+		(pts
+			(xy 270.51 106.68) (xy 287.02 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6465b5e-e247-48e6-8801-deab73bff13d")
+	)
+	(wire
+		(pts
+			(xy 113.03 52.07) (xy 123.19 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6df8361-67a0-4321-ab50-1bc87eb1ad03")
+	)
+	(wire
+		(pts
+			(xy 113.03 110.49) (xy 113.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f02959-9bf1-4440-9584-aaf2f72b0c3c")
+	)
+	(wire
+		(pts
+			(xy 205.74 52.07) (xy 215.9 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0f0e25-9e48-46ab-bd4c-d580999a0588")
+	)
+	(wire
+		(pts
+			(xy 73.66 232.41) (xy 83.82 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea875f96-5eaa-4df1-a6c5-ec9b6747ec9e")
+	)
+	(wire
+		(pts
+			(xy 73.66 52.07) (xy 83.82 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac33124-8481-4f18-aebf-76e63ed51554")
+	)
+	(wire
+		(pts
+			(xy 73.66 161.29) (xy 83.82 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae2b1a3-0252-41de-859a-960d956594c5")
+	)
+	(wire
+		(pts
+			(xy 128.27 234.95) (xy 128.27 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2e80da-42e0-4927-8e98-718de4d8e555")
+	)
+	(wire
+		(pts
+			(xy 166.37 245.11) (xy 176.53 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1dd346d-d722-4b46-8b96-d9e8c73d58ca")
+	)
+	(wire
+		(pts
+			(xy 113.03 179.07) (xy 123.19 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28123c8-37ba-4116-b4d5-3b8dd7909a66")
+	)
+	(wire
+		(pts
+			(xy 166.37 237.49) (xy 176.53 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36387fa-9f1c-487b-93e6-a3232df44810")
+	)
+	(wire
+		(pts
+			(xy 191.77 21.59) (xy 191.77 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38b1b77-57da-42e4-b157-d3d7c0a4ce2f")
+	)
+	(wire
+		(pts
+			(xy 205.74 46.99) (xy 205.74 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f639ed58-4769-45b7-94ed-1cd0b3c76225")
+	)
+	(wire
+		(pts
+			(xy 226.06 168.91) (xy 226.06 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f835b0d1-b2eb-469d-a006-f2eb47bc9a71")
+	)
+	(wire
+		(pts
+			(xy 166.37 100.33) (xy 176.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b4dcfb-799d-493e-8359-14ddc8df28fd")
+	)
+	(bus
+		(pts
+			(xy 270.51 88.9) (xy 287.02 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd04ef1-b415-4982-b5c3-b3adcba4c8a7")
+	)
+	(wire
+		(pts
+			(xy 166.37 105.41) (xy 176.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd337d6f-5471-4fd0-a60b-bf88e10750f7")
+	)
+	(label "~{ENABLE_3}"
+		(at 73.66 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07f08d02-a935-4602-a69b-fe628ec56ab3")
+	)
+	(label "~{ENABLE_2}"
+		(at 73.66 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d892e11-2105-4571-8d21-fe5b7062c931")
+	)
+	(label "MS3"
+		(at 73.66 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1076d46d-8110-448f-9b3f-d77ba096f532")
+	)
+	(label "~{ENABLE_7}"
+		(at 166.37 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11340dbf-b837-4cc7-9aeb-ef7c3af63448")
+	)
+	(label "MS3"
+		(at 73.66 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15f88e33-28c7-42e0-9696-9f2bc9054efe")
+	)
+	(label "STEP_7"
+		(at 166.37 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17b59acd-9a4a-482a-89ec-930fcd77803d")
+	)
+	(label "STEP_[1..8]"
+		(at 270.51 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18032ea2-5095-4949-a153-756ae3133990")
+	)
+	(label "~{RESET}"
+		(at 166.37 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b705476-7d1e-48bb-9622-ac2cd663b568")
+	)
+	(label "~{RESET}"
+		(at 73.66 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c0d34e6-3c9b-4d43-bf07-dd8b245f4071")
+	)
+	(label "MS1"
+		(at 166.37 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f6ab022-a206-445b-8d5e-6545e7e2b734")
+	)
+	(label "MS2"
+		(at 270.51 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20ee0e77-ff6f-4b19-8c2c-c59a300f10a0")
+	)
+	(label "DIR_2"
+		(at 73.66 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f608791-aead-4af3-a5b1-50c532ac75e4")
+	)
+	(label "MS2"
+		(at 73.66 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36d76748-c398-4a6d-bdf8-d79a14f4c7df")
+	)
+	(label "DIR_3"
+		(at 73.66 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37cb60d1-d86c-4212-87b5-41f22fa2406c")
+	)
+	(label "DIR_8"
+		(at 166.37 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f5aa53c-3806-4bff-89bb-af441c690121")
+	)
+	(label "~{RESET}"
+		(at 270.51 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41479b23-1fad-49b7-8cc9-4b28fb7ba26d")
+	)
+	(label "MS1"
+		(at 166.37 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4be96203-01a3-40a6-8266-de1dcbdccff7")
+	)
+	(label "MS3"
+		(at 270.51 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5184474d-111e-4bf9-bf0a-4518f1907c2e")
+	)
+	(label "~{SLEEP}"
+		(at 166.37 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57bd0f98-806d-40db-bd6d-ca0fdf049c8e")
+	)
+	(label "MS3"
+		(at 166.37 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57ff57e5-666c-472a-9d07-c8bc572e5437")
+	)
+	(label "~{SLEEP}"
+		(at 166.37 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "592d4916-415a-4564-afa9-43d1c55eac9e")
+	)
+	(label "STEP_8"
+		(at 166.37 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c36df0c-110f-44a9-867c-1298c299b761")
+	)
+	(label "MS3"
+		(at 73.66 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e270280-d96b-4804-8231-d9064e77d1f4")
+	)
+	(label "~{SLEEP}"
+		(at 166.37 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fa72de9-35c3-4f11-a6f2-0b0747e85c1d")
+	)
+	(label "MS2"
+		(at 73.66 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "610d8bfe-aa7b-4c4b-85a2-24485f3cda6f")
+	)
+	(label "MS3"
+		(at 166.37 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "683c1da2-358b-4c26-b78c-48d4a72e305b")
+	)
+	(label "DIR_5"
+		(at 166.37 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68b16db4-7a44-4ad6-af34-e306100894cc")
+	)
+	(label "MS1"
+		(at 73.66 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ebdf39a-b72a-48ed-ab76-86db64a62c7f")
+	)
+	(label "STEP_1"
+		(at 73.66 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f7bc29f-840a-49b6-ad34-6f4c05d83ce3")
+	)
+	(label "~{ENABLE_6}"
+		(at 166.37 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b44e7e6-f470-42da-bd34-a9b939132f20")
+	)
+	(label "~{SLEEP}"
+		(at 73.66 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "844e6625-3673-4f61-b63f-87344c94b21f")
+	)
+	(label "~{ENABLE_[1..8]}"
+		(at 270.51 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90bbc2cf-bfb9-4b16-a415-62c5d0cd652f")
+	)
+	(label "~{ENABLE_1}"
+		(at 73.66 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "938e060c-c078-456b-9cf3-bbe682dc7968")
+	)
+	(label "MS2"
+		(at 166.37 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "996270c2-ce91-44e3-8fd8-9c28f562b030")
+	)
+	(label "STEP_3"
+		(at 73.66 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b206cbf-cb89-4155-8fc2-c79632a132e2")
+	)
+	(label "~{ENABLE_8}"
+		(at 166.37 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b3e912b-3788-4e60-b996-9317e07a87bc")
+	)
+	(label "DIR_6"
+		(at 166.37 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d64c25f-ea99-4813-b567-9f723793a774")
+	)
+	(label "~{ENABLE_4}"
+		(at 73.66 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e16e2c6-bc46-4db1-98fb-ab9c537618fd")
+	)
+	(label "~{RESET}"
+		(at 73.66 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fab72e5-d679-4609-9143-4d3a6a2b35d4")
+	)
+	(label "MS2"
+		(at 73.66 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0d0dbba-b27f-4142-853f-8e4f31ad64d9")
+	)
+	(label "STEP_6"
+		(at 166.37 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a65e7ce6-6b5b-4cd6-9bc3-6f5795b15d7e")
+	)
+	(label "DIR_7"
+		(at 166.37 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9a8da58-fef6-4030-9bc7-e2047635e2d9")
+	)
+	(label "~{RESET}"
+		(at 166.37 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aab5cea3-71c9-48b1-9ae7-9b0a6984a8c3")
+	)
+	(label "DIR_[1..8]"
+		(at 270.51 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac121384-7830-47c2-a32e-70e9111fc9e9")
+	)
+	(label "~{SLEEP}"
+		(at 73.66 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aee9ce92-f897-4c27-896b-3c19c4d028ec")
+	)
+	(label "~{SLEEP}"
+		(at 270.51 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af08f747-815c-47e8-b168-b43747a95672")
+	)
+	(label "~{SLEEP}"
+		(at 166.37 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af1fbbb4-913f-4af0-b193-05ed22cda0b8")
+	)
+	(label "MS3"
+		(at 166.37 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b20c64dd-bab1-4a71-932d-29e81cf3074c")
+	)
+	(label "STEP_2"
+		(at 73.66 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b526a8bb-aa2e-443a-bce3-4021f6d3b2af")
+	)
+	(label "MS1"
+		(at 270.51 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b95b7570-b301-4963-bcea-e70dec7336a0")
+	)
+	(label "MS1"
+		(at 166.37 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9ef9454-8135-413d-8dbc-85c891482320")
+	)
+	(label "MS2"
+		(at 166.37 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb06e910-167f-42a6-899a-76a6168f8521")
+	)
+	(label "~{RESET}"
+		(at 73.66 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc1267a2-355f-4a68-9d48-26dd84b08e82")
+	)
+	(label "MS1"
+		(at 73.66 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0b8cf95-2e82-4956-a865-b9e17d4a8ee5")
+	)
+	(label "~{RESET}"
+		(at 73.66 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1976485-e826-413a-a4df-9e8b683e89a9")
+	)
+	(label "~{SLEEP}"
+		(at 73.66 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3745945-4990-43b6-8783-13ff739bc135")
+	)
+	(label "DIR_4"
+		(at 73.66 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c71025f4-c257-47dc-bbae-c2da5dad65d8")
+	)
+	(label "~{RESET}"
+		(at 166.37 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca0192a4-dc81-4875-bf7c-a6c5d7577d83")
+	)
+	(label "MS3"
+		(at 166.37 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc7c5275-3e77-4580-b1ae-9be4fe3f7fbb")
+	)
+	(label "MS2"
+		(at 166.37 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd2a3424-314e-4966-83d9-cb1b23d6200b")
+	)
+	(label "MS2"
+		(at 166.37 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1829b6b-2228-4099-958b-7f928adbe0a9")
+	)
+	(label "~{RESET}"
+		(at 166.37 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dac287a5-65df-4ceb-a443-d82fa7602be7")
+	)
+	(label "DIR_1"
+		(at 73.66 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc0c27fe-199a-42e4-9e2c-da00492397a3")
+	)
+	(label "STEP_5"
+		(at 166.37 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "deeddbd6-c69f-4730-b0d3-02e5ead20abb")
+	)
+	(label "MS1"
+		(at 73.66 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0e04986-6570-458f-bf2a-1a09001ab40a")
+	)
+	(label "~{SLEEP}"
+		(at 73.66 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2b9ff95-7cb3-4eca-957d-fc53731b209e")
+	)
+	(label "STEP_4"
+		(at 73.66 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8944ace-9ca0-4232-a857-2ec86088254e")
+	)
+	(label "MS1"
+		(at 166.37 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0339eff-e144-4b21-acec-abc3526493ac")
+	)
+	(label "~{ENABLE_5}"
+		(at 166.37 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f43e6285-3d0e-49c8-b8b3-224316a4d24a")
+	)
+	(label "MS2"
+		(at 73.66 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6afdd14-0f61-4c90-8123-7f8b58a5dc5b")
+	)
+	(label "MS3"
+		(at 73.66 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd1731a0-aa34-48e4-a312-071e96d8b8c9")
+	)
+	(label "MS1"
+		(at 73.66 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff1b65ad-3e5d-4781-b870-55cac7573a8f")
+	)
+	(hierarchical_label "~{ENABLE_[1..8]}"
+		(shape output)
+		(at 287.02 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0265d200-8d9f-455c-b013-8b719fb364a9")
+	)
+	(hierarchical_label "DIR_[1..8]"
+		(shape output)
+		(at 287.02 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21a0b3ad-617f-4b05-aada-b2fbfd3daee0")
+	)
+	(hierarchical_label "STEP_[1..8]"
+		(shape output)
+		(at 287.02 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93ca0140-6fc7-4400-a240-8b347c3059fd")
+	)
+	(hierarchical_label "MS1"
+		(shape output)
+		(at 287.02 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b91e8feb-4c91-45a6-a451-c9615a72c45e")
+	)
+	(hierarchical_label "MS2"
+		(shape output)
+		(at 287.02 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b94dde6d-5550-4f9f-ba38-04b51f473457")
+	)
+	(hierarchical_label "MS3"
+		(shape output)
+		(at 287.02 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0c045cf-5e4a-41f0-b14c-4ae7339924c7")
+	)
+	(hierarchical_label "~{RESET}"
+		(shape output)
+		(at 287.02 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c710a3ad-df87-44e5-acb9-526d97d57b22")
+	)
+	(hierarchical_label "~{SLEEP}"
+		(shape output)
+		(at 287.02 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7b4e225-c8c6-4c8f-8583-1f4c942f8df2")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 196.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05137350-a091-4602-9c22-157770d17272")
+		(property "Reference" "#PWR010"
+			(at 93.98 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "239cdf6f-70f4-4a49-9f4f-c75193b8238a")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 93.98 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "105dad20-2188-40f5-958f-c6d79e82226a")
+		(property "Reference" "#PWR011"
+			(at 93.98 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 93.218 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 93.98 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1b1fe10-1100-418f-97ac-4c9c85793e44")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_bipolar")
+		(at 130.81 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15aae1d7-631b-412d-b788-dc4169dcd5b8")
+		(property "Reference" "M2"
+			(at 135.89 115.989 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_bipolar"
+			(at 135.89 118.529 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 131.064 118.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 131.064 118.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4-wire bipolar stepper motor"
+			(at 130.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "577b9cb4-c0ce-43f8-adc9-61a59cb104ba")
+		)
+		(pin "4"
+			(uuid "98c54efd-9fb6-4830-9189-a7e400a2aef3")
+		)
+		(pin "2"
+			(uuid "2b70f22c-f57a-4578-a5df-b606839469f3")
+		)
+		(pin "3"
+			(uuid "4437c4e5-3a39-46f4-93ea-9d919d0527cf")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_bipolar")
+		(at 130.81 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16eda132-43c4-4435-99a8-8a04e9151cc3")
+		(property "Reference" "M1"
+			(at 135.89 52.489 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_bipolar"
+			(at 135.89 55.029 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 131.064 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 131.064 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4-wire bipolar stepper motor"
+			(at 130.81 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42739730-d240-4623-b8e2-b40a6d5d74d7")
+		)
+		(pin "4"
+			(uuid "8d0bb7bd-289c-4f7f-8787-bacb6765cf69")
+		)
+		(pin "2"
+			(uuid "d8a7578e-0e9f-4e9c-9e9f-b1e5bec6b614")
+		)
+		(pin "3"
+			(uuid "a0640231-48eb-44bb-958c-8ad618f1c491")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
+		(at 186.69 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18571d46-716b-4011-8804-390a31a5022b")
+		(property "Reference" "A6"
+			(at 193.9133 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pololu_Breakout_A4988"
+			(at 193.9133 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+			(at 193.675 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
+			(at 189.23 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
+			(at 186.69 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed8d7995-4708-4d2f-8022-45075f265590")
+		)
+		(pin "10"
+			(uuid "de53f5a9-1cfc-4fda-a10e-edf3e48d685c")
+		)
+		(pin "3"
+			(uuid "a6eedfd6-be40-4d32-886b-d7c90da5f3b9")
+		)
+		(pin "9"
+			(uuid "b34f0273-5dbb-4cf3-8922-a8f9e88baf32")
+		)
+		(pin "8"
+			(uuid "4a4f5f41-bcc6-46c7-be15-9c03d485b7cc")
+		)
+		(pin "11"
+			(uuid "658ee570-e82f-44fa-8133-f1c0f12394a9")
+		)
+		(pin "5"
+			(uuid "9aa81707-31fb-4247-a622-591be5b176c7")
+		)
+		(pin "7"
+			(uuid "31de2c64-52e5-43b1-94e0-4463b803b7f7")
+		)
+		(pin "6"
+			(uuid "2f7bd465-3ef5-453e-b2f4-583b603a9981")
+		)
+		(pin "2"
+			(uuid "bb03f1db-c88e-4c47-bf02-54ce99be50db")
+		)
+		(pin "16"
+			(uuid "e27b1893-4369-4aa8-8175-de56fd6196cc")
+		)
+		(pin "4"
+			(uuid "9919e265-f5af-439a-a977-8ef793994bc8")
+		)
+		(pin "13"
+			(uuid "dc66a096-c847-4b52-ac6c-96f79efdc3ba")
+		)
+		(pin "12"
+			(uuid "23373be6-e026-4c87-9229-b70ed5692759")
+		)
+		(pin "15"
+			(uuid "82695beb-22f3-45b1-ac62-30d938c13514")
+		)
+		(pin "14"
+			(uuid "9c94fcdf-98bd-4b83-bdfe-c78722dc3540")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "A6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_bipolar")
+		(at 130.81 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1992416b-723e-4718-a9d4-5e2eada21e21")
+		(property "Reference" "M4"
+			(at 135.89 242.989 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_bipolar"
+			(at 135.89 245.529 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 131.064 245.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 131.064 245.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4-wire bipolar stepper motor"
+			(at 130.81 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9db90361-13ae-41f1-b7a3-ebc649a19df9")
+		)
+		(pin "4"
+			(uuid "a93dd118-3372-450f-a1e8-e6d55451a238")
+		)
+		(pin "2"
+			(uuid "0bc2a826-d7cf-4112-b3fb-820408d12f53")
+		)
+		(pin "3"
+			(uuid "a3fe784d-4eec-4e2c-8e3b-c60b4934cadd")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 191.77 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20773915-d203-49dd-97f2-2fc8b905b2a1")
+		(property "Reference" "#PWR030"
+			(at 191.77 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 192.532 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 191.77 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7677580-b1af-42fd-9470-057158fd6f7a")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
+		(at 93.98 234.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20e51e1a-e21b-497f-8478-aaf18a9fde99")
+		(property "Reference" "A4"
+			(at 101.2033 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pololu_Breakout_A4988"
+			(at 101.2033 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+			(at 100.965 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
+			(at 96.52 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
+			(at 93.98 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df26ebe8-88e2-4165-add4-7d2ac2be65ad")
+		)
+		(pin "10"
+			(uuid "a69f3b0f-f51f-4add-a2fc-9cbe342eca5e")
+		)
+		(pin "3"
+			(uuid "29421611-9d15-4695-83f8-24711de57816")
+		)
+		(pin "9"
+			(uuid "da78389e-f53b-4bfd-97b4-58a2fac999d1")
+		)
+		(pin "8"
+			(uuid "ef990251-bbbd-4e3f-8f48-f87481361e78")
+		)
+		(pin "11"
+			(uuid "08eab9fc-7865-4dfd-8ca9-e408d388dbbc")
+		)
+		(pin "5"
+			(uuid "9120b36b-c41c-4421-8824-8518704dab92")
+		)
+		(pin "7"
+			(uuid "a7408b2d-daef-40f8-828f-c6397d19b537")
+		)
+		(pin "6"
+			(uuid "8b044b04-6ff0-48bd-8832-0355c2fe7187")
+		)
+		(pin "2"
+			(uuid "402caba1-0adf-4ef4-a3da-63845574c4a6")
+		)
+		(pin "16"
+			(uuid "230bc60f-8d7d-4f32-8b7f-6a2a6a6d45c0")
+		)
+		(pin "4"
+			(uuid "7ec822b7-1582-46c6-80f9-dd66850fd274")
+		)
+		(pin "13"
+			(uuid "23181492-d7f8-414f-8ca7-83d6ae96b3be")
+		)
+		(pin "12"
+			(uuid "3962ca49-adc2-4bba-965b-665adbabdd99")
+		)
+		(pin "15"
+			(uuid "e5af6281-62b3-49d8-81e4-49f83de8606a")
+		)
+		(pin "14"
+			(uuid "3ccea45a-a12d-4632-a11f-f4ddb43da544")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "A4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 186.69 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "21a6f032-2a87-42c1-affd-772684dab03c")
+		(property "Reference" "#PWR019"
+			(at 186.69 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 185.928 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 186.69 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f880244f-a6b7-4d57-a7d1-c56137bca7b6")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 99.06 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e85579d-394f-4180-a121-760be43d4ab9")
+		(property "Reference" "#PWR014"
+			(at 99.06 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 99.822 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 99.06 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9801dced-3adf-44f9-92bd-fbb2777bd5ce")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 260.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "347cfe59-1295-4ba1-a287-271d3e9cd1c9")
+		(property "Reference" "#PWR026"
+			(at 186.69 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 265.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "716dbc26-f363-42d3-b44b-068a910383cb")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 99.06 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f01302b-3ace-407f-bf2a-38db09a1be90")
+		(property "Reference" "#PWR015"
+			(at 99.06 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 99.822 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 99.06 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec14fabb-6163-4634-918f-6d5fc11dc567")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4807ecdc-5c12-4518-b96b-cea92c674204")
+		(property "Reference" "#PWR08"
+			(at 93.98 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83d8b02a-7a07-4590-b1ab-bcdfbffa92de")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
+		(at 186.69 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4adc7469-aefb-450a-852e-336bd3546051")
+		(property "Reference" "A7"
+			(at 193.9133 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pololu_Breakout_A4988"
+			(at 193.9133 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+			(at 193.675 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
+			(at 189.23 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
+			(at 186.69 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31799e64-2aec-45e8-871f-ffbeb9bc3386")
+		)
+		(pin "10"
+			(uuid "2bdbc4e8-7462-4580-8328-ac7a09378cca")
+		)
+		(pin "3"
+			(uuid "dffc2aaa-3797-4219-b5e9-a8dba21124fa")
+		)
+		(pin "9"
+			(uuid "093d6745-7e12-4435-b3c1-feb8c77f5516")
+		)
+		(pin "8"
+			(uuid "2ad54195-57bc-4a08-82ab-fe1dd99e6f4d")
+		)
+		(pin "11"
+			(uuid "a5b8223e-c2d5-4336-822c-5c8c81590b75")
+		)
+		(pin "5"
+			(uuid "6e5e89db-90b0-47ec-bf3f-d5c6e10699a4")
+		)
+		(pin "7"
+			(uuid "f3d803c9-beb0-44b2-ab6d-f08598326744")
+		)
+		(pin "6"
+			(uuid "ced9d3ac-4294-4b27-8e99-876d1e31a7fd")
+		)
+		(pin "2"
+			(uuid "645dbbdb-396b-441b-92ef-0b3cef0e5cb3")
+		)
+		(pin "16"
+			(uuid "e0761c7f-2846-49e5-8484-26fb2ac69ec8")
+		)
+		(pin "4"
+			(uuid "02e864ee-e86d-4dd2-b7d7-d0851349b946")
+		)
+		(pin "13"
+			(uuid "a8549855-06f5-4772-aa47-37bb16bf8f0a")
+		)
+		(pin "12"
+			(uuid "2bd91ab9-3604-40a4-a88c-190fb37ada72")
+		)
+		(pin "15"
+			(uuid "523d6d90-6ffa-444a-992a-0c94babdf017")
+		)
+		(pin "14"
+			(uuid "df6833fc-8f64-4b09-a028-043074b1f82a")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "A7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 99.06 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51e452eb-b2ca-4e5a-bd20-8982d5237e2c")
+		(property "Reference" "#PWR016"
+			(at 99.06 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 99.822 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 99.06 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ea50abb-9f18-4e21-83f5-b3ea4d7de6f2")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 93.98 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "528373ab-3401-49c4-b9d3-a774793ee060")
+		(property "Reference" "#PWR07"
+			(at 93.98 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 93.218 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 93.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d20f6078-e665-4aa9-93b7-dea180f59233")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_bipolar")
+		(at 130.81 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5baf18e4-e93d-48ab-b00d-4ae892d2b93f")
+		(property "Reference" "M3"
+			(at 135.89 179.489 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_bipolar"
+			(at 135.89 182.029 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 131.064 181.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 131.064 181.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4-wire bipolar stepper motor"
+			(at 130.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e60d16e8-9e7e-45b2-b3a4-18c44b522c17")
+		)
+		(pin "4"
+			(uuid "a486250b-7a5a-4a7d-ba37-fb01486decea")
+		)
+		(pin "2"
+			(uuid "78408416-1d78-452b-914f-df24a0f24574")
+		)
+		(pin "3"
+			(uuid "269fe3d1-f34b-4885-8cb9-25f24a2fc8a1")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_bipolar")
+		(at 223.52 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62e19a0f-883e-4f6a-aeb6-2686d4e23113")
+		(property "Reference" "M6"
+			(at 228.6 115.989 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_bipolar"
+			(at 228.6 118.529 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.774 118.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 223.774 118.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4-wire bipolar stepper motor"
+			(at 223.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f39cacb4-b4da-4e40-8aa8-347586c5b990")
+		)
+		(pin "4"
+			(uuid "290116a3-cf71-4a10-b5a7-59c5f19c2d2a")
+		)
+		(pin "2"
+			(uuid "965f9590-924c-48fb-9dd0-9680db18a5ee")
+		)
+		(pin "3"
+			(uuid "7d4321ee-cb6f-4af6-aa1d-6688b7641161")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 191.77 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "697354df-ef28-44dd-9fe0-aa643378cf1d")
+		(property "Reference" "#PWR027"
+			(at 191.77 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 192.532 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 191.77 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23d2103e-bc52-4c8f-9257-5ddef11a1915")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 260.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b324c66-3690-4de3-8be2-033b8b72b5bc")
+		(property "Reference" "#PWR012"
+			(at 93.98 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 265.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea78344a-8fdd-4020-9654-24d924de88b8")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 93.98 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73ed7304-37b3-42bb-8b61-12fa7594bad8")
+		(property "Reference" "#PWR01"
+			(at 93.98 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 93.218 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 93.98 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73a132bb-4d7a-4fe4-86be-b1e513e90723")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
+		(at 93.98 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a072239-f25c-450a-bf35-a0834a878e42")
+		(property "Reference" "A2"
+			(at 101.2033 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pololu_Breakout_A4988"
+			(at 101.2033 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+			(at 100.965 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
+			(at 96.52 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
+			(at 93.98 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d310225-9915-43e0-aa0d-c97cad7c5ecf")
+		)
+		(pin "10"
+			(uuid "e1fd3948-d152-4909-9afc-afb00e78f818")
+		)
+		(pin "3"
+			(uuid "6872fba6-8e8f-4220-b8d9-24a68604289d")
+		)
+		(pin "9"
+			(uuid "77fadba5-fddc-4634-8d71-9c0ca0ed3d65")
+		)
+		(pin "8"
+			(uuid "86eb881c-77fb-4661-aa87-a60cfee1c7ed")
+		)
+		(pin "11"
+			(uuid "0dd7e766-638d-4f86-86e8-dd7ee4459c37")
+		)
+		(pin "5"
+			(uuid "a8a7b3e4-af40-4a59-a698-07af7efbd2c3")
+		)
+		(pin "7"
+			(uuid "9e2c5bc2-dd99-41bd-9514-d009498757e5")
+		)
+		(pin "6"
+			(uuid "69901587-0026-49bd-8e6f-1bca79e4a191")
+		)
+		(pin "2"
+			(uuid "e4d284bb-1b36-48a5-9dcd-84dd0488f615")
+		)
+		(pin "16"
+			(uuid "c916c6f3-ac25-42a9-8511-a623b46d48c9")
+		)
+		(pin "4"
+			(uuid "5cf213b4-1faa-4212-a4de-626925e383f1")
+		)
+		(pin "13"
+			(uuid "6164539d-42bc-4ff9-9dd6-d54890e43262")
+		)
+		(pin "12"
+			(uuid "c3d5af21-d139-4e37-aaa0-84014537a4a3")
+		)
+		(pin "15"
+			(uuid "31d7b4e1-fc74-478b-9bf1-aa8c2a06d255")
+		)
+		(pin "14"
+			(uuid "2127ef25-6627-45bb-a3ee-4bccfd3adc6d")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "A2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 196.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e1d81bd-7a97-47d2-a6f6-15ef73447102")
+		(property "Reference" "#PWR024"
+			(at 186.69 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f9a2656-fca2-46b7-a489-7c266163e5bf")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 99.06 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e746ea0-ba13-4ec4-b04f-ed0b5e1843c6")
+		(property "Reference" "#PWR013"
+			(at 99.06 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 99.822 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 99.06 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6bcaf2c-32f9-456d-afcc-89a1648e3f20")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80e6d232-13e1-459e-8509-9dc29a769b1f")
+		(property "Reference" "#PWR022"
+			(at 186.69 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "918bb75a-3ca5-4655-b50c-5fd726e6233b")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "829a5128-8d2b-4dc5-b39e-58b7dd978c68")
+		(property "Reference" "#PWR02"
+			(at 93.98 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e54e0056-815b-4d4e-a2e5-0cc0b7b6e9f5")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 186.69 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88e301ef-7158-42a6-b07b-59e7b771d2ce")
+		(property "Reference" "#PWR023"
+			(at 186.69 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 185.928 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 186.69 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7be27d40-2959-438e-8d5c-60c5e746f94f")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
+		(at 93.98 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bb30704-3c0c-4204-bc53-c476f3916d5d")
+		(property "Reference" "A1"
+			(at 101.2033 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pololu_Breakout_A4988"
+			(at 101.2033 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+			(at 100.965 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
+			(at 96.52 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
+			(at 93.98 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92895da4-f043-4a4d-9b8b-52258bb6d976")
+		)
+		(pin "10"
+			(uuid "defde95d-0952-4e86-8acb-279085e969b0")
+		)
+		(pin "3"
+			(uuid "d7e2ecaf-c5e5-4747-a35e-d6ab9d451f33")
+		)
+		(pin "9"
+			(uuid "51e86d03-da0b-4165-a09c-a1a3202008d4")
+		)
+		(pin "8"
+			(uuid "fff1910f-93d9-492b-99cd-c07a9d7966a0")
+		)
+		(pin "11"
+			(uuid "0f68dff7-69a1-41a3-9a6c-fd0a2ee7518a")
+		)
+		(pin "5"
+			(uuid "0c81086e-49ed-47a5-94e9-2b3904270276")
+		)
+		(pin "7"
+			(uuid "05551e54-91b8-46fa-8dd0-669ba324a25e")
+		)
+		(pin "6"
+			(uuid "e8dc892a-ea22-40aa-83a9-0e197ea019be")
+		)
+		(pin "2"
+			(uuid "792b6a29-cfbd-4d71-b341-e4ba9c26ff6a")
+		)
+		(pin "16"
+			(uuid "c18864b9-db20-4012-9b71-ddf13f8173d6")
+		)
+		(pin "4"
+			(uuid "625f9fea-2ff3-45ab-883e-5f283d01ee49")
+		)
+		(pin "13"
+			(uuid "1e16d03e-614c-4cef-a71b-09f2ddb2a147")
+		)
+		(pin "12"
+			(uuid "c473fd34-c984-4f5b-8d6e-1df28e92e4c2")
+		)
+		(pin "15"
+			(uuid "27623741-699e-4c62-b719-98d65a15306f")
+		)
+		(pin "14"
+			(uuid "9282e3c4-9404-41d4-b690-24e52d93a3c0")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 93.98 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ca316e7-dc90-463d-9370-981d32900d71")
+		(property "Reference" "#PWR09"
+			(at 93.98 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 93.218 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 93.98 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5f68593-9989-4491-9bda-1dee4f8a875e")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_bipolar")
+		(at 223.52 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd047386-f324-4239-8272-2e959e231c9b")
+		(property "Reference" "M5"
+			(at 228.6 52.489 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_bipolar"
+			(at 228.6 55.029 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.774 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 223.774 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4-wire bipolar stepper motor"
+			(at 223.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c544a644-870c-4d6d-9738-43cf57dd37a3")
+		)
+		(pin "4"
+			(uuid "c5ddd471-d235-4879-a10f-5dac411e154d")
+		)
+		(pin "2"
+			(uuid "fd07ecf5-673f-44cc-aec7-6d5711143db3")
+		)
+		(pin "3"
+			(uuid "7bb00d8f-b126-469f-b3e3-c840685b9eeb")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
+		(at 186.69 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1ecabf9-0344-4690-a66e-1dba13e87128")
+		(property "Reference" "A5"
+			(at 193.9133 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pololu_Breakout_A4988"
+			(at 193.9133 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+			(at 193.675 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
+			(at 189.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
+			(at 186.69 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96b42461-2ec5-4f89-9da8-724f5e8f5a04")
+		)
+		(pin "10"
+			(uuid "072fa5c0-3860-4b6a-a5f4-97cd347074b3")
+		)
+		(pin "3"
+			(uuid "d13b9875-1fd3-43a2-a2e5-f83115d5929f")
+		)
+		(pin "9"
+			(uuid "05bab6fc-7192-4970-80c1-9d35655c9821")
+		)
+		(pin "8"
+			(uuid "92e3198d-99f7-4ed8-b6d9-4c29fd43b37a")
+		)
+		(pin "11"
+			(uuid "92fe3870-4f87-4aad-bf39-536cdd3c534b")
+		)
+		(pin "5"
+			(uuid "3df23084-15e6-49bd-b74f-8dcad6aa7e2c")
+		)
+		(pin "7"
+			(uuid "328730ba-e8c7-487e-8170-d7ff833d3a93")
+		)
+		(pin "6"
+			(uuid "be33af88-0125-479b-8ec4-9cb11bec7e65")
+		)
+		(pin "2"
+			(uuid "33a9ae62-c9c2-44cc-828c-f3b0118c4e03")
+		)
+		(pin "16"
+			(uuid "b949cc6a-6099-4446-b5e1-01e43d727446")
+		)
+		(pin "4"
+			(uuid "530e60c8-774c-411c-a178-046a2e92ae79")
+		)
+		(pin "13"
+			(uuid "bd452918-0a31-4063-b4b7-a94ab1fe463c")
+		)
+		(pin "12"
+			(uuid "f18cfc2b-0c97-495a-bfaa-dbf1c1dc43b4")
+		)
+		(pin "15"
+			(uuid "888052c5-4206-470b-ab28-06d059245719")
+		)
+		(pin "14"
+			(uuid "b5b015b2-a076-4803-ab16-c01d1feb236e")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "A5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_bipolar")
+		(at 223.52 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c964b763-fc87-4891-9d23-286121f15b9b")
+		(property "Reference" "M7"
+			(at 228.6 179.489 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_bipolar"
+			(at 228.6 182.029 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.774 181.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 223.774 181.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4-wire bipolar stepper motor"
+			(at 223.52 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b3a2a1e-fe8b-48e4-9362-f375b064d3ab")
+		)
+		(pin "4"
+			(uuid "d85258d1-3fd1-49cb-8443-25df5dfac32e")
+		)
+		(pin "2"
+			(uuid "7c277ab0-1e61-4351-8fd9-56ad640017c0")
+		)
+		(pin "3"
+			(uuid "02b3ece0-ccfa-494d-a3f9-593e2f9d5acf")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
+		(at 186.69 234.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9f083dc-2f45-4956-9442-0b0556221705")
+		(property "Reference" "A8"
+			(at 193.9133 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pololu_Breakout_A4988"
+			(at 193.9133 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+			(at 193.675 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
+			(at 189.23 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
+			(at 186.69 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50459344-1601-4e45-b6ca-8ed6db8d1a8d")
+		)
+		(pin "10"
+			(uuid "9f23054e-0b07-4a34-91ac-98b447c0c811")
+		)
+		(pin "3"
+			(uuid "b5e8dbc5-eaf9-4a33-a8ba-b66df0d9bc31")
+		)
+		(pin "9"
+			(uuid "8ff9348f-339b-437e-993f-77c2fe127a09")
+		)
+		(pin "8"
+			(uuid "62d199ee-965a-48a3-9c23-cb861f17cd8a")
+		)
+		(pin "11"
+			(uuid "29447f4a-4532-4915-8916-5e7fdf34c307")
+		)
+		(pin "5"
+			(uuid "a7abea87-9493-4ca0-a2ef-28d01b11a432")
+		)
+		(pin "7"
+			(uuid "5a3d77dc-5f18-4ac6-ae69-0b632b711b1c")
+		)
+		(pin "6"
+			(uuid "6ab5f0e1-ca48-496b-a61a-c5647add1056")
+		)
+		(pin "2"
+			(uuid "e772c522-95d9-4709-beed-8e728cf027b1")
+		)
+		(pin "16"
+			(uuid "04f8b3f7-746c-40de-843c-ce328940b7a9")
+		)
+		(pin "4"
+			(uuid "c2896b49-cc15-4ed1-8d7e-8e8c78ceaefe")
+		)
+		(pin "13"
+			(uuid "94eeb62b-a5c1-4bf3-9c19-d400517ed346")
+		)
+		(pin "12"
+			(uuid "4c523711-cb0c-4bc6-a159-cf90fa929fee")
+		)
+		(pin "15"
+			(uuid "264d9eae-12fe-4cea-8ad0-6de37b80ce1a")
+		)
+		(pin "14"
+			(uuid "50da715f-08b7-4ab6-8292-2a684e5f58c4")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "A8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
+		(at 93.98 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9f89770-13c8-401b-b072-84293a4e9630")
+		(property "Reference" "A3"
+			(at 101.2033 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pololu_Breakout_A4988"
+			(at 101.2033 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+			(at 100.965 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
+			(at 96.52 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
+			(at 93.98 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55b3c506-cf2b-432c-83a2-90f088937e58")
+		)
+		(pin "10"
+			(uuid "3578d02c-5fb0-42cf-be39-e8c648478278")
+		)
+		(pin "3"
+			(uuid "d858f18d-7fd5-411c-883b-30665f18d3c5")
+		)
+		(pin "9"
+			(uuid "b96d69c7-1b5f-4b7b-8f69-14c2e6b1440c")
+		)
+		(pin "8"
+			(uuid "06cdcd5d-3c56-4b23-8ca0-e60ab7c3e6a0")
+		)
+		(pin "11"
+			(uuid "23312607-ba8c-43eb-b6e5-29a33e810fbd")
+		)
+		(pin "5"
+			(uuid "44ab4f70-fd83-47da-a6c5-6193057b7d0a")
+		)
+		(pin "7"
+			(uuid "ab37fe32-cde5-4b45-9871-22e1d40ce3c1")
+		)
+		(pin "6"
+			(uuid "77da7a57-9bbc-4b10-b4a6-b8f323dd3fca")
+		)
+		(pin "2"
+			(uuid "31646123-9de3-4fc6-ad39-e7977b55a715")
+		)
+		(pin "16"
+			(uuid "65b2fcb3-b201-496c-b28f-0edcfbe04144")
+		)
+		(pin "4"
+			(uuid "adfbfedd-b43f-4e0e-998a-9271f6a5e01c")
+		)
+		(pin "13"
+			(uuid "a880e505-9923-48d1-a17b-041e92f97534")
+		)
+		(pin "12"
+			(uuid "0d34f1c1-43e5-4264-a5d3-f2e30ef836c5")
+		)
+		(pin "15"
+			(uuid "56947d4b-9556-4d7c-9fb7-0cb1ad9019e3")
+		)
+		(pin "14"
+			(uuid "48062782-94ec-4b7d-81ef-e8777d4bbb9e")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "A3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 186.69 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ccb29ecf-9259-4802-b23f-4c84e5025a3f")
+		(property "Reference" "#PWR021"
+			(at 186.69 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 185.928 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 186.69 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d17ffb1-6212-406b-b100-ae0124c9c3f8")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 191.77 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da4ccdb9-b5eb-438c-8336-1a6d5d5b9bb3")
+		(property "Reference" "#PWR028"
+			(at 191.77 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 192.532 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 191.77 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f787b3da-3f48-463c-9d83-bf19b685eeae")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6b9faa3-dc95-44e1-ba8a-4eef771e6760")
+		(property "Reference" "#PWR020"
+			(at 186.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e05fcc6-3f23-42a2-b2c2-73b58b7077f6")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_bipolar")
+		(at 223.52 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9268eb1-4ca4-4646-bec5-663206b97962")
+		(property "Reference" "M8"
+			(at 228.6 242.989 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_bipolar"
+			(at 228.6 245.529 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.774 245.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 223.774 245.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4-wire bipolar stepper motor"
+			(at 223.52 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8d31902-4132-4d40-bb96-17742134d054")
+		)
+		(pin "4"
+			(uuid "b06ebca9-d7ad-4b13-ada2-765b9ec78222")
+		)
+		(pin "2"
+			(uuid "706ee639-4a50-4715-a396-0072332b3662")
+		)
+		(pin "3"
+			(uuid "fb30e416-212e-4a3c-a558-b912cc5bb888")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 191.77 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eec27423-fff4-4f88-bb56-586138f20cf4")
+		(property "Reference" "#PWR029"
+			(at 191.77 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 192.532 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 191.77 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c38c8bf7-c3b7-445a-81ef-113f96289d02")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 186.69 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f78aa7ea-4ab6-4939-a3a1-6923b4ef393c")
+		(property "Reference" "#PWR025"
+			(at 186.69 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 185.928 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 186.69 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5544aab-d712-423a-9361-557bd6afbd19")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
