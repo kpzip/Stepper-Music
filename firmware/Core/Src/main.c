@@ -49,6 +49,8 @@ TIM_HandleTypeDef htim9;
 TIM_HandleTypeDef htim10;
 TIM_HandleTypeDef htim11;
 
+UART_HandleTypeDef huart1;
+
 PCD_HandleTypeDef hpcd_USB_OTG_FS;
 
 /* USER CODE BEGIN PV */
@@ -67,6 +69,7 @@ static void MX_TIM9_Init(void);
 static void MX_TIM10_Init(void);
 static void MX_TIM11_Init(void);
 static void MX_USB_OTG_FS_PCD_Init(void);
+static void MX_USART1_UART_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -114,6 +117,7 @@ int main(void)
   MX_TIM10_Init();
   MX_TIM11_Init();
   MX_USB_OTG_FS_PCD_Init();
+  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -570,6 +574,39 @@ static void MX_TIM11_Init(void)
 }
 
 /**
+  * @brief USART1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART1_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART1_Init 0 */
+
+  /* USER CODE END USART1_Init 0 */
+
+  /* USER CODE BEGIN USART1_Init 1 */
+
+  /* USER CODE END USART1_Init 1 */
+  huart1.Instance = USART1;
+  huart1.Init.BaudRate = 31250;
+  huart1.Init.WordLength = UART_WORDLENGTH_8B;
+  huart1.Init.StopBits = UART_STOPBITS_1;
+  huart1.Init.Parity = UART_PARITY_NONE;
+  huart1.Init.Mode = UART_MODE_RX;
+  huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+  if (HAL_UART_Init(&huart1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART1_Init 2 */
+
+  /* USER CODE END USART1_Init 2 */
+
+}
+
+/**
   * @brief USB_OTG_FS Initialization Function
   * @param None
   * @retval None
@@ -611,14 +648,48 @@ static void MX_USB_OTG_FS_PCD_Init(void)
   */
 static void MX_GPIO_Init(void)
 {
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
   /* USER CODE BEGIN MX_GPIO_Init_1 */
 
   /* USER CODE END MX_GPIO_Init_1 */
 
   /* GPIO Ports Clock Enable */
+  __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOH_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOC, ENABLE_6_Pin|ENABLE_7_Pin|ENABLE_8_Pin|DIR_1_Pin
+                          |DIR_2_Pin|DIR_3_Pin|DIR_4_Pin|DIR_5_Pin
+                          |DIR_6_Pin|DIR_7_Pin|DIR_8_Pin|ENABLE_1_Pin
+                          |ENABLE_2_Pin|ENABLE_3_Pin|ENABLE_4_Pin|ENABLE_5_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, MS1_Pin|MS2_Pin|MS3_Pin|RESET_Pin
+                          |SLEEP_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pins : ENABLE_6_Pin ENABLE_7_Pin ENABLE_8_Pin DIR_1_Pin
+                           DIR_2_Pin DIR_3_Pin DIR_4_Pin DIR_5_Pin
+                           DIR_6_Pin DIR_7_Pin DIR_8_Pin ENABLE_1_Pin
+                           ENABLE_2_Pin ENABLE_3_Pin ENABLE_4_Pin ENABLE_5_Pin */
+  GPIO_InitStruct.Pin = ENABLE_6_Pin|ENABLE_7_Pin|ENABLE_8_Pin|DIR_1_Pin
+                          |DIR_2_Pin|DIR_3_Pin|DIR_4_Pin|DIR_5_Pin
+                          |DIR_6_Pin|DIR_7_Pin|DIR_8_Pin|ENABLE_1_Pin
+                          |ENABLE_2_Pin|ENABLE_3_Pin|ENABLE_4_Pin|ENABLE_5_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : MS1_Pin MS2_Pin MS3_Pin RESET_Pin
+                           SLEEP_Pin */
+  GPIO_InitStruct.Pin = MS1_Pin|MS2_Pin|MS3_Pin|RESET_Pin
+                          |SLEEP_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /* USER CODE BEGIN MX_GPIO_Init_2 */
 

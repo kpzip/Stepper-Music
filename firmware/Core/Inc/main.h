@@ -59,6 +59,48 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define ENABLE_6_Pin GPIO_PIN_13
+#define ENABLE_6_GPIO_Port GPIOC
+#define ENABLE_7_Pin GPIO_PIN_14
+#define ENABLE_7_GPIO_Port GPIOC
+#define ENABLE_8_Pin GPIO_PIN_15
+#define ENABLE_8_GPIO_Port GPIOC
+#define DIR_1_Pin GPIO_PIN_0
+#define DIR_1_GPIO_Port GPIOC
+#define DIR_2_Pin GPIO_PIN_1
+#define DIR_2_GPIO_Port GPIOC
+#define DIR_3_Pin GPIO_PIN_2
+#define DIR_3_GPIO_Port GPIOC
+#define DIR_4_Pin GPIO_PIN_3
+#define DIR_4_GPIO_Port GPIOC
+#define DIR_5_Pin GPIO_PIN_4
+#define DIR_5_GPIO_Port GPIOC
+#define DIR_6_Pin GPIO_PIN_5
+#define DIR_6_GPIO_Port GPIOC
+#define MS1_Pin GPIO_PIN_0
+#define MS1_GPIO_Port GPIOB
+#define MS2_Pin GPIO_PIN_1
+#define MS2_GPIO_Port GPIOB
+#define MS3_Pin GPIO_PIN_2
+#define MS3_GPIO_Port GPIOB
+#define DIR_7_Pin GPIO_PIN_6
+#define DIR_7_GPIO_Port GPIOC
+#define DIR_8_Pin GPIO_PIN_7
+#define DIR_8_GPIO_Port GPIOC
+#define ENABLE_1_Pin GPIO_PIN_8
+#define ENABLE_1_GPIO_Port GPIOC
+#define ENABLE_2_Pin GPIO_PIN_9
+#define ENABLE_2_GPIO_Port GPIOC
+#define ENABLE_3_Pin GPIO_PIN_10
+#define ENABLE_3_GPIO_Port GPIOC
+#define ENABLE_4_Pin GPIO_PIN_11
+#define ENABLE_4_GPIO_Port GPIOC
+#define ENABLE_5_Pin GPIO_PIN_12
+#define ENABLE_5_GPIO_Port GPIOC
+#define RESET_Pin GPIO_PIN_4
+#define RESET_GPIO_Port GPIOB
+#define SLEEP_Pin GPIO_PIN_5
+#define SLEEP_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
