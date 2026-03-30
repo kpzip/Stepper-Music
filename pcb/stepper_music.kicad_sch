@@ -10462,6 +10462,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "RMCF1206FT10K0"
+			(at 40.64 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "RMCF1206FT10K0CT-ND"
+			(at 40.64 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6b02a950-bf1b-487a-94fd-94a7f4bd6a34")
 		)
@@ -11973,6 +11995,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "RC1206FR-075K1L"
+			(at 367.03 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "311-5.10KFRCT-ND"
+			(at 367.03 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "73d1922d-9b09-4530-9bb8-7675c205043f")
 		)
@@ -12836,6 +12880,28 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
+			(at 184.15 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC1206FR-0788K7L"
+			(at 184.15 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "311-88.7KFRCT-ND"
 			(at 184.15 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -14090,6 +14156,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "RMCF1206FT220R"
+			(at 330.2 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "RMCF1206FT220RCT-ND"
+			(at 330.2 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bbd99281-a1b2-42d7-b042-878538cbd2f9")
 		)
@@ -14173,6 +14261,28 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
+			(at 175.26 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW120622K1FKEAC"
+			(at 175.26 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "541-CRCW120622K1FKEACCT-ND"
 			(at 175.26 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16391,6 +16501,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "RMCF1206FT10K0"
+			(at 378.46 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "RMCF1206FT10K0CT-ND"
+			(at 378.46 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9f2329a0-82c2-445c-a629-5af892eee93e")
 		)
@@ -16562,6 +16694,28 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "RMCF1206FT220R"
+			(at 361.95 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "RMCF1206FT220RCT-ND"
+			(at 361.95 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "abd52e8f-a11b-4e36-b0e3-e8cda1052f63")
 		)
@@ -16723,6 +16877,28 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
+			(at 377.19 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC1206FR-075K1L"
+			(at 377.19 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "311-5.10KFRCT-ND"
 			(at 377.19 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -17201,6 +17377,28 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
+			(at 394.97 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC1206FR-071KL"
+			(at 394.97 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "311-1.00KFRCT-ND"
 			(at 394.97 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -17917,6 +18115,28 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
+			(at 332.74 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RMCF1206FT220R"
+			(at 332.74 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "RMCF1206FT220RCT-ND"
 			(at 332.74 116.84 90)
 			(hide yes)
 			(show_name no)
