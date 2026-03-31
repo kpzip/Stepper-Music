@@ -5,7 +5,7 @@
 	(uuid "45e01bfc-2e13-4685-a753-ee11630baee7")
 	(paper "B")
 	(lib_symbols
-		(symbol "Motor:Stepper_Motor_bipolar"
+		(symbol "Motor:Stepper_Motor_unipolar_6pin"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -26,7 +26,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Stepper_Motor_bipolar"
+			(property "Value" "Stepper_Motor_unipolar_6pin"
 				(at 3.81 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -59,7 +59,7 @@
 					)
 				)
 			)
-			(property "Description" "4-wire bipolar stepper motor"
+			(property "Description" "6-wire unipolar stepper motor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -70,7 +70,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "bipolar stepper motor"
+			(property "ki_keywords" "unipolar stepper motor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -81,7 +81,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "PinHeader*P2.54mm*Vertical* TerminalBlock* Motor*"
+			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -92,7 +92,7 @@
 					)
 				)
 			)
-			(symbol "Stepper_Motor_bipolar_0_0"
+			(symbol "Stepper_Motor_unipolar_6pin_0_0"
 				(polyline
 					(pts
 						(xy -1.27 -1.778) (xy -1.27 2.032) (xy 0 -0.508) (xy 1.27 2.032) (xy 1.27 -1.778)
@@ -106,7 +106,7 @@
 					)
 				)
 			)
-			(symbol "Stepper_Motor_bipolar_0_1"
+			(symbol "Stepper_Motor_unipolar_6pin_0_1"
 				(polyline
 					(pts
 						(xy -5.08 2.54) (xy -4.445 2.54)
@@ -181,7 +181,19 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 5.08) (xy -2.54 4.445)
+						(xy -4.445 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 4.445) (xy -2.54 5.08)
 					)
 					(stroke
 						(width 0)
@@ -207,6 +219,18 @@
 					(start 0 4.445)
 					(mid -0.635 3.8127)
 					(end -1.27 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.445) (xy 0 5.08)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -252,7 +276,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 5.08) (xy 2.54 4.445)
+						(xy 2.54 4.445) (xy 2.54 5.08)
 					)
 					(stroke
 						(width 0)
@@ -263,7 +287,7 @@
 					)
 				)
 			)
-			(symbol "Stepper_Motor_bipolar_1_1"
+			(symbol "Stepper_Motor_unipolar_6pin_1_1"
 				(pin passive line
 					(at -2.54 7.62 270)
 					(length 2.54)
@@ -283,6 +307,24 @@
 					)
 				)
 				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 2.54 7.62 270)
 					(length 2.54)
 					(name "-"
@@ -292,7 +334,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -310,7 +352,25 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -328,7 +388,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -339,6 +399,70 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(no_connect
+		(at 123.19 54.61)
+		(uuid "1e0382e2-ac42-430c-b6e5-9d84030acf1f")
+	)
+	(no_connect
+		(at 123.19 245.11)
+		(uuid "22a6301a-17ca-4a26-8a42-579568772eb0")
+	)
+	(no_connect
+		(at 123.19 118.11)
+		(uuid "2382804f-56e8-4ee9-b428-f7ce68afe56f")
+	)
+	(no_connect
+		(at 223.52 173.99)
+		(uuid "24450a68-63ef-4383-95de-5cd6267f70dc")
+	)
+	(no_connect
+		(at 130.81 237.49)
+		(uuid "26accdd3-8948-4006-bf87-d59c7d08e396")
+	)
+	(no_connect
+		(at 130.81 110.49)
+		(uuid "279c70c2-c0ea-480b-b063-03bc9a9b704a")
+	)
+	(no_connect
+		(at 130.81 173.99)
+		(uuid "27b2b0f7-3e84-4611-8de9-6f4d5addc760")
+	)
+	(no_connect
+		(at 215.9 118.11)
+		(uuid "31d10e3f-271f-4729-9e3a-724e2b10dbdf")
+	)
+	(no_connect
+		(at 223.52 110.49)
+		(uuid "3829d8c6-0e8b-4809-8b35-8c2021d45c3d")
+	)
+	(no_connect
+		(at 223.52 237.49)
+		(uuid "3ccf1b8a-def3-47bd-93c3-8bf7798280b5")
+	)
+	(no_connect
+		(at 215.9 54.61)
+		(uuid "49157d08-b2f3-4805-aff4-202000e6dfcc")
+	)
+	(no_connect
+		(at 130.81 46.99)
+		(uuid "5a0212ba-d29a-40d1-8962-994fb92a7a67")
+	)
+	(no_connect
+		(at 215.9 245.11)
+		(uuid "64ffe4d6-87a8-4b89-9e69-e73b28e77dc8")
+	)
+	(no_connect
+		(at 223.52 46.99)
+		(uuid "b3bc80bd-25d5-474d-b4ba-e479a241ccf3")
+	)
+	(no_connect
+		(at 215.9 181.61)
+		(uuid "d6e0528c-cb87-44dc-b415-6e7b303a4301")
+	)
+	(no_connect
+		(at 123.19 181.61)
+		(uuid "fd6b7ae2-6e3f-4c7e-89bd-f48ea9245a66")
 	)
 	(wire
 		(pts
@@ -2757,535 +2881,7 @@
 		(uuid "d7b4e225-c8c6-4c8f-8583-1f4c942f8df2")
 	)
 	(symbol
-		(lib_id "Motor:Stepper_Motor_bipolar")
-		(at 130.81 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15aae1d7-631b-412d-b788-dc4169dcd5b8")
-		(property "Reference" "M2"
-			(at 135.89 115.989 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Stepper_Motor_bipolar"
-			(at 135.89 118.529 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 131.064 118.364 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-			(at 131.064 118.364 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4-wire bipolar stepper motor"
-			(at 130.81 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "577b9cb4-c0ce-43f8-adc9-61a59cb104ba")
-		)
-		(pin "4"
-			(uuid "98c54efd-9fb6-4830-9189-a7e400a2aef3")
-		)
-		(pin "2"
-			(uuid "2b70f22c-f57a-4578-a5df-b606839469f3")
-		)
-		(pin "3"
-			(uuid "4437c4e5-3a39-46f4-93ea-9d919d0527cf")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "M2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Stepper_Motor_bipolar")
-		(at 130.81 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16eda132-43c4-4435-99a8-8a04e9151cc3")
-		(property "Reference" "M1"
-			(at 135.89 52.489 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Stepper_Motor_bipolar"
-			(at 135.89 55.029 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 131.064 54.864 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-			(at 131.064 54.864 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4-wire bipolar stepper motor"
-			(at 130.81 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "42739730-d240-4623-b8e2-b40a6d5d74d7")
-		)
-		(pin "4"
-			(uuid "8d0bb7bd-289c-4f7f-8787-bacb6765cf69")
-		)
-		(pin "2"
-			(uuid "d8a7578e-0e9f-4e9c-9e9f-b1e5bec6b614")
-		)
-		(pin "3"
-			(uuid "a0640231-48eb-44bb-958c-8ad618f1c491")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "M1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Stepper_Motor_bipolar")
-		(at 130.81 245.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1992416b-723e-4718-a9d4-5e2eada21e21")
-		(property "Reference" "M4"
-			(at 135.89 242.989 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Stepper_Motor_bipolar"
-			(at 135.89 245.529 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 131.064 245.364 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-			(at 131.064 245.364 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4-wire bipolar stepper motor"
-			(at 130.81 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9db90361-13ae-41f1-b7a3-ebc649a19df9")
-		)
-		(pin "4"
-			(uuid "a93dd118-3372-450f-a1e8-e6d55451a238")
-		)
-		(pin "2"
-			(uuid "0bc2a826-d7cf-4112-b3fb-820408d12f53")
-		)
-		(pin "3"
-			(uuid "a3fe784d-4eec-4e2c-8e3b-c60b4934cadd")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "M4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Stepper_Motor_bipolar")
-		(at 130.81 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5baf18e4-e93d-48ab-b00d-4ae892d2b93f")
-		(property "Reference" "M3"
-			(at 135.89 179.489 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Stepper_Motor_bipolar"
-			(at 135.89 182.029 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 131.064 181.864 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-			(at 131.064 181.864 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4-wire bipolar stepper motor"
-			(at 130.81 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e60d16e8-9e7e-45b2-b3a4-18c44b522c17")
-		)
-		(pin "4"
-			(uuid "a486250b-7a5a-4a7d-ba37-fb01486decea")
-		)
-		(pin "2"
-			(uuid "78408416-1d78-452b-914f-df24a0f24574")
-		)
-		(pin "3"
-			(uuid "269fe3d1-f34b-4885-8cb9-25f24a2fc8a1")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "M3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Stepper_Motor_bipolar")
-		(at 223.52 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62e19a0f-883e-4f6a-aeb6-2686d4e23113")
-		(property "Reference" "M6"
-			(at 228.6 115.989 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Stepper_Motor_bipolar"
-			(at 228.6 118.529 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.774 118.364 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-			(at 223.774 118.364 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4-wire bipolar stepper motor"
-			(at 223.52 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f39cacb4-b4da-4e40-8aa8-347586c5b990")
-		)
-		(pin "4"
-			(uuid "290116a3-cf71-4a10-b5a7-59c5f19c2d2a")
-		)
-		(pin "2"
-			(uuid "965f9590-924c-48fb-9dd0-9680db18a5ee")
-		)
-		(pin "3"
-			(uuid "7d4321ee-cb6f-4af6-aa1d-6688b7641161")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "M6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Stepper_Motor_bipolar")
-		(at 223.52 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd047386-f324-4239-8272-2e959e231c9b")
-		(property "Reference" "M5"
-			(at 228.6 52.489 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Stepper_Motor_bipolar"
-			(at 228.6 55.029 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.774 54.864 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-			(at 223.774 54.864 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4-wire bipolar stepper motor"
-			(at 223.52 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c544a644-870c-4d6d-9738-43cf57dd37a3")
-		)
-		(pin "4"
-			(uuid "c5ddd471-d235-4879-a10f-5dac411e154d")
-		)
-		(pin "2"
-			(uuid "fd07ecf5-673f-44cc-aec7-6d5711143db3")
-		)
-		(pin "3"
-			(uuid "7bb00d8f-b126-469f-b3e3-c840685b9eeb")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "M5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Stepper_Motor_bipolar")
+		(lib_id "Motor:Stepper_Motor_unipolar_6pin")
 		(at 223.52 181.61 0)
 		(unit 1)
 		(body_style 1)
@@ -3295,7 +2891,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c964b763-fc87-4891-9d23-286121f15b9b")
+		(uuid "0e736a51-e21a-4283-93d0-d98e0d62395d")
 		(property "Reference" "M7"
 			(at 228.6 179.489 0)
 			(show_name no)
@@ -3307,7 +2903,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Stepper_Motor_bipolar"
+		(property "Value" "Stepper_Motor_unipolar_6pin"
 			(at 228.6 182.029 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3318,7 +2914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 223.774 181.864 0)
 			(hide yes)
 			(show_name no)
@@ -3340,7 +2936,7 @@
 				)
 			)
 		)
-		(property "Description" "4-wire bipolar stepper motor"
+		(property "Description" "6-wire unipolar stepper motor"
 			(at 223.52 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -3351,17 +2947,56 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "9b3a2a1e-fe8b-48e4-9362-f375b064d3ab")
+		(property "Manufacturer Part Number" "B6B-PH-K-S"
+			(at 223.52 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "4"
-			(uuid "d85258d1-3fd1-49cb-8443-25df5dfac32e")
+		(property "Vendor" "Digi-Key"
+			(at 223.52 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "2"
-			(uuid "7c277ab0-1e61-4351-8fd9-56ad640017c0")
+		(property "Vendor Part Number" "455-1708-ND"
+			(at 223.52 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "1ef18fa5-1ddf-471a-bde6-e24c1be1216c")
+		)
+		(pin "5"
+			(uuid "c4c85583-61b5-4d17-8546-818474374e0e")
 		)
 		(pin "3"
-			(uuid "02b3ece0-ccfa-494d-a3f9-593e2f9d5acf")
+			(uuid "0929aef1-b958-4b83-bf18-416d2b4c5417")
+		)
+		(pin "1"
+			(uuid "2cba0431-d34f-47ee-897d-ce5ac9f57aca")
+		)
+		(pin "4"
+			(uuid "eb1a0f38-e4f7-47d5-9d5a-056f91cc33bc")
+		)
+		(pin "2"
+			(uuid "d96e26db-d9f0-4ecc-8c68-434b60839f88")
 		)
 		(instances
 			(project "stepper_music"
@@ -3373,7 +3008,388 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor:Stepper_Motor_bipolar")
+		(lib_id "Motor:Stepper_Motor_unipolar_6pin")
+		(at 223.52 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e7af2a9-babf-46ae-b837-a8b9dcb4ed4b")
+		(property "Reference" "M6"
+			(at 228.6 115.989 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_unipolar_6pin"
+			(at 228.6 118.529 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 223.774 118.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 223.774 118.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-wire unipolar stepper motor"
+			(at 223.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B-PH-K-S"
+			(at 223.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 223.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "455-1708-ND"
+			(at 223.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "489ce755-677d-4e04-b593-dce8dfeeae3e")
+		)
+		(pin "5"
+			(uuid "41fc5aaa-8624-46d8-94a4-7de8357de889")
+		)
+		(pin "3"
+			(uuid "29dbd8a9-b16e-440f-9041-239fbb6d5589")
+		)
+		(pin "1"
+			(uuid "a84d4576-7955-4348-a249-4db880c340ba")
+		)
+		(pin "4"
+			(uuid "f36768a7-f229-4ecb-8d5d-1f3fc245d5cb")
+		)
+		(pin "2"
+			(uuid "1fcb8f54-3370-4f10-819d-6ffff524cba1")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_unipolar_6pin")
+		(at 130.81 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "591eaf40-c4b3-4080-943a-a58033888966")
+		(property "Reference" "M2"
+			(at 135.89 115.989 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_unipolar_6pin"
+			(at 135.89 118.529 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 131.064 118.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 131.064 118.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-wire unipolar stepper motor"
+			(at 130.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B-PH-K-S"
+			(at 130.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 130.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "455-1708-ND"
+			(at 130.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "80075c1a-4fe6-43cd-aa1a-64fffa7df84f")
+		)
+		(pin "5"
+			(uuid "f6765147-02e7-406d-bc3c-2ac34fdded0c")
+		)
+		(pin "3"
+			(uuid "eef5517b-b99e-4ee8-b3c3-e9503bba292f")
+		)
+		(pin "1"
+			(uuid "b157cbaf-6898-45e9-a2b2-2eb705859355")
+		)
+		(pin "4"
+			(uuid "236eeae0-dcb2-4ac6-ae5b-ed7995576bc9")
+		)
+		(pin "2"
+			(uuid "016761dd-9026-4979-9d6f-bbcea31c155a")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_unipolar_6pin")
+		(at 130.81 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67913181-ec28-4b8d-8aba-1c5cc288e0bd")
+		(property "Reference" "M3"
+			(at 135.89 179.489 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_unipolar_6pin"
+			(at 135.89 182.029 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 131.064 181.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 131.064 181.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-wire unipolar stepper motor"
+			(at 130.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B-PH-K-S"
+			(at 130.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 130.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "455-1708-ND"
+			(at 130.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "94edd0be-21e7-4a23-8087-8b5ea68fd114")
+		)
+		(pin "5"
+			(uuid "e87134e4-3129-4d4f-8fba-ff8e686df580")
+		)
+		(pin "3"
+			(uuid "b77240a9-1a9b-43bb-a336-e23050fc36a0")
+		)
+		(pin "1"
+			(uuid "5bb24db8-405a-45e9-aff4-a77826a356bd")
+		)
+		(pin "4"
+			(uuid "930e37cc-6525-41a8-8691-873d660c97be")
+		)
+		(pin "2"
+			(uuid "18bfdb5f-09fd-4b49-b0ae-b99d52aebbf2")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_unipolar_6pin")
 		(at 223.52 245.11 0)
 		(unit 1)
 		(body_style 1)
@@ -3383,7 +3399,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e9268eb1-4ca4-4646-bec5-663206b97962")
+		(uuid "687b04a6-37d3-40c6-ade9-b2a2a40ae3f8")
 		(property "Reference" "M8"
 			(at 228.6 242.989 0)
 			(show_name no)
@@ -3395,7 +3411,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Stepper_Motor_bipolar"
+		(property "Value" "Stepper_Motor_unipolar_6pin"
 			(at 228.6 245.529 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3406,7 +3422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 223.774 245.364 0)
 			(hide yes)
 			(show_name no)
@@ -3428,7 +3444,7 @@
 				)
 			)
 		)
-		(property "Description" "4-wire bipolar stepper motor"
+		(property "Description" "6-wire unipolar stepper motor"
 			(at 223.52 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -3439,22 +3455,442 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "a8d31902-4132-4d40-bb96-17742134d054")
+		(property "Manufacturer Part Number" "B6B-PH-K-S"
+			(at 223.52 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "4"
-			(uuid "b06ebca9-d7ad-4b13-ada2-765b9ec78222")
+		(property "Vendor" "Digi-Key"
+			(at 223.52 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "2"
-			(uuid "706ee639-4a50-4715-a396-0072332b3662")
+		(property "Vendor Part Number" "455-1708-ND"
+			(at 223.52 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "6de3c90e-3cc3-4e03-9935-927b06ddadb5")
+		)
+		(pin "5"
+			(uuid "12edddac-ddca-4840-a0c9-c08afc86c6a4")
 		)
 		(pin "3"
-			(uuid "fb30e416-212e-4a3c-a558-b912cc5bb888")
+			(uuid "d8f94c3c-c5e2-434e-b6a6-6b153ea8d262")
+		)
+		(pin "1"
+			(uuid "bc4e2c33-e158-45b6-9c81-8bac8e477f2e")
+		)
+		(pin "4"
+			(uuid "5e6e4da7-7fce-4673-8f0e-7f1e99a1cb61")
+		)
+		(pin "2"
+			(uuid "9288e18f-ee3b-4cc0-802a-75c4525c575d")
 		)
 		(instances
 			(project "stepper_music"
 				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
 					(reference "M8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_unipolar_6pin")
+		(at 130.81 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72a6b92f-2600-4e3b-b533-cde5929422cc")
+		(property "Reference" "M4"
+			(at 135.89 242.989 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_unipolar_6pin"
+			(at 135.89 245.529 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 131.064 245.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 131.064 245.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-wire unipolar stepper motor"
+			(at 130.81 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B-PH-K-S"
+			(at 130.81 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 130.81 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "455-1708-ND"
+			(at 130.81 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "900069e0-c52b-4ea3-9793-99f53b87cac0")
+		)
+		(pin "5"
+			(uuid "877b680e-8e94-4dbc-879f-f06ce77f6236")
+		)
+		(pin "3"
+			(uuid "d93b3e33-d4ae-4786-bcb3-de48e3a4e4c6")
+		)
+		(pin "1"
+			(uuid "cac7a208-8524-4f66-b4d4-8a5e27c7afce")
+		)
+		(pin "4"
+			(uuid "d80d3f89-a230-4988-82f3-cd527080fb29")
+		)
+		(pin "2"
+			(uuid "55f3a89e-bb2d-4c6f-88b6-5b04704c3541")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_unipolar_6pin")
+		(at 130.81 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8611e04-0d56-48df-955f-5dced96fcbcc")
+		(property "Reference" "M1"
+			(at 135.89 52.489 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_unipolar_6pin"
+			(at 135.89 55.029 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 131.064 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 131.064 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-wire unipolar stepper motor"
+			(at 130.81 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B-PH-K-S"
+			(at 130.81 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 130.81 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "455-1708-ND"
+			(at 130.81 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "e82b7e3d-5a00-4e52-a677-404bf76597e4")
+		)
+		(pin "5"
+			(uuid "136f69c2-0596-42ef-88a3-b5beaa53695f")
+		)
+		(pin "3"
+			(uuid "45f3d3c2-a9d8-4f59-a387-5d39f64ea1ea")
+		)
+		(pin "1"
+			(uuid "3fe0d60b-5b3d-424c-8f03-28f6bd65560a")
+		)
+		(pin "4"
+			(uuid "a1978df9-0fa0-46e9-ace4-fec0436ed5d2")
+		)
+		(pin "2"
+			(uuid "38f3fa20-00b7-44eb-9a84-021f82931cc7")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_unipolar_6pin")
+		(at 223.52 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2afb3a5-ad17-46ad-accd-fb176e9417bf")
+		(property "Reference" "M5"
+			(at 228.6 52.489 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_unipolar_6pin"
+			(at 228.6 55.029 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 223.774 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 223.774 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-wire unipolar stepper motor"
+			(at 223.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B-PH-K-S"
+			(at 223.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 223.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "455-1708-ND"
+			(at 223.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "10fb5f1c-b8ef-42ec-8faa-0d751492846d")
+		)
+		(pin "5"
+			(uuid "2ae1bde4-385d-4e76-a47b-f314629ea536")
+		)
+		(pin "3"
+			(uuid "ff815d8f-1b88-4881-aef3-e0614ea8e3f3")
+		)
+		(pin "1"
+			(uuid "03e1f96c-43fc-4e72-be6f-08f4ca70c09e")
+		)
+		(pin "4"
+			(uuid "6588b0d7-f637-4b34-8c0b-2944bdd22fc8")
+		)
+		(pin "2"
+			(uuid "a5d18524-0d9d-4d83-82f2-a552bc0be83b")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M5")
 					(unit 1)
 				)
 			)

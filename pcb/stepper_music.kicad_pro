@@ -658,6 +658,12 @@
           "label": "Vendor Part Number",
           "name": "Vendor Part Number",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -708,7 +714,7 @@
         "uuid": "c1f09015-b8de-4a7b-b4da-e4fcb6b13235"
       }
     ],
-    "used_designators": "R11-50,C22-77,#PWR81-176,U8-15",
+    "used_designators": "M2-10",
     "variants": []
   },
   "sheets": [
