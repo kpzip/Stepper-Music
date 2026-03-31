@@ -9070,6 +9070,16 @@
 		)
 		(uuid "58e3719d-01f7-49d7-8620-005538800bf0")
 	)
+	(label "5V_REGOUT"
+		(at 205.74 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63a7a79d-6b00-4a82-b846-ac3d20a3662a")
+	)
 	(label "~{ENABLE_6}"
 		(at 81.28 203.2 0)
 		(effects
