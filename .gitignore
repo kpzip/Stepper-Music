@@ -41,3 +41,5 @@ fp-info-cache
 
 # kicad history
 .history/
+.history_old/
+.history_trim/
