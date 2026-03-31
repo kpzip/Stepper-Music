@@ -708,7 +708,7 @@
         "uuid": "c1f09015-b8de-4a7b-b4da-e4fcb6b13235"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R11-50,C22-77,#PWR81-176,U8-15",
     "variants": []
   },
   "sheets": [
@@ -719,6 +719,38 @@
     [
       "65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df",
       "Motors & Drivers"
+    ],
+    [
+      "d586785d-5219-4549-8fd2-ceb2e303be2c",
+      "Driver 1"
+    ],
+    [
+      "08eedecc-4324-421b-8619-41688fa76849",
+      "Driver 2"
+    ],
+    [
+      "f7e37d7f-d74d-464d-bb2e-26fef4e38440",
+      "Driver 3"
+    ],
+    [
+      "627db15f-8545-460a-83cc-41b559e00082",
+      "Driver 4"
+    ],
+    [
+      "7c709d1e-4f00-4901-a1f8-f6836429dc30",
+      "Driver 5"
+    ],
+    [
+      "60dae45a-bf18-4832-b54f-8416f293d78e",
+      "Driver 6"
+    ],
+    [
+      "f069a111-c28e-40fd-84d8-8b318c4858de",
+      "Driver 7"
+    ],
+    [
+      "5bbe4836-44e8-4f24-b1ae-ed92f44e542e",
+      "Driver 8"
     ]
   ],
   "text_variables": {},

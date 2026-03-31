@@ -5,395 +5,6 @@
 	(uuid "45e01bfc-2e13-4685-a753-ee11630baee7")
 	(paper "B")
 	(lib_symbols
-		(symbol "Driver_Motor:Pololu_Breakout_A4988"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "A"
-				(at -2.54 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Pololu_Breakout_A4988"
-				(at -2.54 16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
-				(at 6.985 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
-				(at 2.54 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Pololu Breakout Board Stepper Driver A4988"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pololu*Breakout*15.2x20.3mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Pololu_Breakout_A4988_0_1"
-				(rectangle
-					(start 10.16 -17.78)
-					(end -7.62 15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "Pololu_Breakout_A4988_1_1"
-				(pin power_in line
-					(at 0 -20.32 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 17.78 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "1B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "1A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "2A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "2B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -20.32 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 17.78 270)
-					(length 2.54)
-					(name "VMOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "~{ENABLE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "MS1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -10.16 0)
-					(length 2.54)
-					(name "MS2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -12.7 0)
-					(length 2.54)
-					(name "MS3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 10.16 0)
-					(length 2.54)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "~{SLEEP}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "STEP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "DIR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Motor:Stepper_Motor_bipolar"
 			(pin_names
 				(offset 0)
@@ -728,399 +339,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3.3V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(wire
 		(pts
@@ -1134,43 +352,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 36.83) (xy 83.82 36.83)
+			(xy 73.66 36.83) (xy 86.36 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "01d71b26-4f54-497a-bc89-22995da165da")
-	)
-	(wire
-		(pts
-			(xy 93.98 212.09) (xy 93.98 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0573b592-fa33-4ce9-bd23-67ba4a5a908b")
-	)
-	(wire
-		(pts
-			(xy 93.98 85.09) (xy 93.98 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "062267d1-cb0f-4c43-866a-ea285413225d")
-	)
-	(wire
-		(pts
-			(xy 191.77 191.77) (xy 191.77 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06f522b5-d833-4353-a48e-7474b781e671")
 	)
 	(wire
 		(pts
@@ -1184,7 +372,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 57.15) (xy 176.53 57.15)
+			(xy 196.85 107.95) (xy 220.98 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ae6b2d-9bf6-400d-8d08-3a31ad93025e")
+	)
+	(wire
+		(pts
+			(xy 166.37 57.15) (xy 179.07 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1204,53 +402,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 44.45) (xy 176.53 44.45)
+			(xy 104.14 237.49) (xy 113.03 237.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a3c094a-774e-42d8-b82c-91d388ce56d1")
-	)
-	(wire
-		(pts
-			(xy 93.98 21.59) (xy 93.98 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b3d7923-c1e8-4fa6-aa0f-71b14f59613a")
-	)
-	(wire
-		(pts
-			(xy 73.66 242.57) (xy 83.82 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c113843-490b-4789-b00e-b5283e658316")
-	)
-	(wire
-		(pts
-			(xy 106.68 113.03) (xy 110.49 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c1472c3-194f-4f82-8ee3-ddcd2fd0cdbc")
-	)
-	(wire
-		(pts
-			(xy 106.68 110.49) (xy 113.03 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d3d3c29-8f67-494b-a03f-7f8085261fd6")
+		(uuid "0bb72b5c-d663-468e-9510-b43fdfa63f94")
 	)
 	(wire
 		(pts
@@ -1264,7 +422,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 184.15) (xy 83.82 184.15)
+			(xy 73.66 184.15) (xy 86.36 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1274,27 +432,17 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 234.95) (xy 220.98 234.95)
+			(xy 166.37 247.65) (xy 179.07 247.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1351579e-61dd-4810-942b-7ce8f462b742")
+		(uuid "158fd81d-3327-4b5c-8ec3-5e859d3a4e12")
 	)
 	(wire
 		(pts
-			(xy 93.98 255.27) (xy 93.98 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14c14ee6-8709-4ed1-814c-9a169d163b92")
-	)
-	(wire
-		(pts
-			(xy 73.66 173.99) (xy 83.82 173.99)
+			(xy 73.66 173.99) (xy 86.36 173.99)
 		)
 		(stroke
 			(width 0)
@@ -1304,43 +452,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 148.59) (xy 93.98 153.67)
+			(xy 196.85 110.49) (xy 205.74 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a78f6e1-1ba2-40af-87a3-8b6d6d07d3fc")
-	)
-	(wire
-		(pts
-			(xy 93.98 191.77) (xy 93.98 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1be97386-a071-4f36-9d5d-ca83a6a2b04f")
-	)
-	(wire
-		(pts
-			(xy 106.68 105.41) (xy 133.35 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c2e3270-ccb3-435a-9ae2-86beef3d170e")
-	)
-	(wire
-		(pts
-			(xy 166.37 41.91) (xy 176.53 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ecaad30-cfb4-42da-9866-9fbb19d1ee1d")
+		(uuid "19f83072-78fa-425a-aec2-84a8b5d62345")
 	)
 	(wire
 		(pts
@@ -1354,7 +472,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 34.29) (xy 83.82 34.29)
+			(xy 73.66 34.29) (xy 86.36 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1374,13 +492,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 110.49) (xy 176.53 110.49)
+			(xy 166.37 110.49) (xy 179.07 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2183531a-9f34-4789-a8b4-cf4c5532889e")
+	)
+	(wire
+		(pts
+			(xy 196.85 240.03) (xy 203.2 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22c575d9-05d7-4e6b-9fd0-7c8cb18b724e")
 	)
 	(wire
 		(pts
@@ -1394,67 +522,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 171.45) (xy 128.27 171.45)
+			(xy 166.37 46.99) (xy 179.07 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23d203f5-1980-4620-8f5f-baed1792d72c")
+		(uuid "23926373-786a-43cd-931f-2ac7b5940726")
 	)
 	(wire
 		(pts
-			(xy 166.37 118.11) (xy 176.53 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24017af5-e614-4ff8-98fb-13f49b1965f2")
-	)
-	(wire
-		(pts
-			(xy 199.39 173.99) (xy 205.74 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "254f4a30-edcf-4294-baac-4a6957494de1")
-	)
-	(wire
-		(pts
-			(xy 199.39 113.03) (xy 203.2 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25ecc0a1-7ce1-44a8-9541-3950d644f947")
-	)
-	(wire
-		(pts
-			(xy 73.66 115.57) (xy 83.82 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "294a8e0a-82e0-4a56-bc05-166b16d71fd2")
-	)
-	(wire
-		(pts
-			(xy 166.37 173.99) (xy 176.53 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29a89c9f-d7a1-4cd3-8cb1-7a7d6ba6ee25")
-	)
-	(wire
-		(pts
-			(xy 73.66 100.33) (xy 83.82 100.33)
+			(xy 73.66 100.33) (xy 86.36 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1464,53 +542,43 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 237.49) (xy 205.74 237.49)
+			(xy 73.66 115.57) (xy 86.36 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f8f9b94-b42a-4aff-a74b-a53d7e7c9c1f")
+		(uuid "2cc838c5-5036-4df4-8134-785c5873bd58")
 	)
 	(wire
 		(pts
-			(xy 199.39 171.45) (xy 220.98 171.45)
+			(xy 196.85 171.45) (xy 220.98 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fa58df2-140f-4b7d-b772-7e3176b0eea8")
+		(uuid "2d129abf-fc8a-4204-90fa-9df3092743f5")
 	)
 	(wire
 		(pts
-			(xy 106.68 41.91) (xy 133.35 41.91)
+			(xy 196.85 232.41) (xy 226.06 232.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fae0852-5088-4b9a-887d-458ae926d6ff")
+		(uuid "2dac50f9-654d-47f7-ab6b-1604cd648888")
 	)
 	(wire
 		(pts
-			(xy 186.69 212.09) (xy 186.69 217.17)
+			(xy 73.66 234.95) (xy 86.36 234.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3138aa16-1fc3-41b2-8443-73994d2eadb2")
-	)
-	(wire
-		(pts
-			(xy 106.68 46.99) (xy 113.03 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32c1a546-427b-4233-9e7c-3996799e34b7")
+		(uuid "32d50bf4-31a9-419c-9cd4-2f30f1a11574")
 	)
 	(bus
 		(pts
@@ -1524,26 +592,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 64.77) (xy 99.06 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3474123c-56fb-4225-967d-47cc4bfb0727")
-	)
-	(wire
-		(pts
-			(xy 73.66 234.95) (xy 83.82 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35a63a5d-2530-49fa-8042-3d08921aded8")
-	)
-	(wire
-		(pts
 			(xy 133.35 41.91) (xy 133.35 46.99)
 		)
 		(stroke
@@ -1551,6 +599,26 @@
 			(type default)
 		)
 		(uuid "35ce19e3-39c9-4c4f-b5c8-2c6e8316aecc")
+	)
+	(wire
+		(pts
+			(xy 166.37 41.91) (xy 179.07 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e98315-b9d3-4d09-b34b-705411251d47")
+	)
+	(wire
+		(pts
+			(xy 166.37 237.49) (xy 179.07 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370d1bb7-6a01-467f-8f60-0ef450fd1d46")
 	)
 	(wire
 		(pts
@@ -1564,13 +632,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 97.79) (xy 176.53 97.79)
+			(xy 104.14 173.99) (xy 113.03 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3942c644-e712-45b7-8df4-91024634616c")
+		(uuid "3a1bfb5f-9592-4780-afc3-aeac17fb508d")
 	)
 	(wire
 		(pts
@@ -1584,7 +652,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 57.15) (xy 83.82 57.15)
+			(xy 73.66 57.15) (xy 86.36 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1594,23 +662,33 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 64.77) (xy 186.69 69.85)
+			(xy 104.14 41.91) (xy 133.35 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3fdba11a-1c88-437d-b000-0e06ac973943")
+		(uuid "3d1b772e-b9d8-4270-ae8c-817bc61d4b9b")
 	)
 	(wire
 		(pts
-			(xy 186.69 85.09) (xy 186.69 90.17)
+			(xy 73.66 237.49) (xy 86.36 237.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41779724-4e02-4b6e-aa7f-da3ecff21d37")
+		(uuid "3db4b6aa-971e-4f6a-8250-c35fcaf1de75")
+	)
+	(wire
+		(pts
+			(xy 166.37 36.83) (xy 179.07 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c11400-10f9-438d-af69-a9507949ac78")
 	)
 	(wire
 		(pts
@@ -1624,27 +702,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 110.49) (xy 83.82 110.49)
+			(xy 104.14 44.45) (xy 128.27 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43a18f0a-6c98-4bb7-a116-1b5953f03fc4")
+		(uuid "44bd6ddb-6387-4b3a-9852-56fc51ead0a4")
 	)
 	(wire
 		(pts
-			(xy 106.68 107.95) (xy 128.27 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "459a49be-6329-444c-86e7-98726c0a5176")
-	)
-	(wire
-		(pts
-			(xy 73.66 224.79) (xy 83.82 224.79)
+			(xy 73.66 224.79) (xy 86.36 224.79)
 		)
 		(stroke
 			(width 0)
@@ -1664,27 +732,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 120.65) (xy 83.82 120.65)
+			(xy 73.66 242.57) (xy 86.36 242.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4722d101-f74e-4ecc-b131-3f445adc2bb2")
+		(uuid "474941b9-eb4e-4f92-ab86-73d952919618")
 	)
 	(wire
 		(pts
-			(xy 191.77 212.09) (xy 191.77 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48bd435d-69d5-470f-aad1-01f98ec048d8")
-	)
-	(wire
-		(pts
-			(xy 73.66 97.79) (xy 83.82 97.79)
+			(xy 73.66 97.79) (xy 86.36 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1694,13 +752,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 36.83) (xy 176.53 36.83)
+			(xy 166.37 227.33) (xy 179.07 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48dd5a30-e797-4fa6-88fb-89b4b125435e")
+		(uuid "4a9a4259-9875-488b-b5f3-d4951bab6e56")
 	)
 	(wire
 		(pts
@@ -1714,17 +772,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 234.95) (xy 128.27 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bdae749-2fa3-48d3-9a51-c9391e69b7b0")
-	)
-	(wire
-		(pts
-			(xy 166.37 120.65) (xy 176.53 120.65)
+			(xy 166.37 120.65) (xy 179.07 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1734,27 +782,27 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 176.53) (xy 203.2 176.53)
+			(xy 166.37 44.45) (xy 179.07 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ddefe6d-64b4-4c26-9f0f-f938400bf6b5")
+		(uuid "4cc92627-eb18-4dd9-83bb-f238a763bdb0")
 	)
 	(wire
 		(pts
-			(xy 199.39 168.91) (xy 226.06 168.91)
+			(xy 104.14 49.53) (xy 110.49 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ecaf003-6c99-45be-a134-d272fb56cbdd")
+		(uuid "4ed8e143-a80e-4e58-8ad4-272b6794292d")
 	)
 	(wire
 		(pts
-			(xy 73.66 41.91) (xy 83.82 41.91)
+			(xy 73.66 41.91) (xy 86.36 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1764,27 +812,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 118.11) (xy 83.82 118.11)
+			(xy 73.66 118.11) (xy 86.36 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "540f7b48-9c27-495a-82d7-037c97eebeab")
+		(uuid "541e41ca-d7dd-4fc3-8060-42f350422c44")
 	)
 	(wire
 		(pts
-			(xy 93.98 64.77) (xy 93.98 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5512e212-bca5-4825-9a63-929e994ee0e9")
-	)
-	(wire
-		(pts
-			(xy 73.66 181.61) (xy 83.82 181.61)
+			(xy 73.66 181.61) (xy 86.36 181.61)
 		)
 		(stroke
 			(width 0)
@@ -1794,17 +832,27 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 21.59) (xy 186.69 26.67)
+			(xy 73.66 247.65) (xy 86.36 247.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56dac444-a26e-45b9-b4de-a32da279dec0")
+		(uuid "56d8be5c-e6c1-4ba8-b852-4436df3a9c76")
 	)
 	(wire
 		(pts
-			(xy 166.37 161.29) (xy 176.53 161.29)
+			(xy 196.85 44.45) (xy 220.98 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5710497a-f093-4bfa-9ec8-49eabf6e2d6e")
+	)
+	(wire
+		(pts
+			(xy 166.37 161.29) (xy 179.07 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1814,7 +862,27 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 54.61) (xy 176.53 54.61)
+			(xy 196.85 105.41) (xy 226.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a9451c-1638-46fb-9714-bce08258a7de")
+	)
+	(wire
+		(pts
+			(xy 104.14 234.95) (xy 128.27 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57bb52b0-904c-4427-8f19-e1a92b48a527")
+	)
+	(wire
+		(pts
+			(xy 166.37 54.61) (xy 179.07 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1824,23 +892,43 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 85.09) (xy 99.06 90.17)
+			(xy 196.85 176.53) (xy 203.2 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e3fd8f5-41a7-4c25-9be7-31e28bd15cb6")
+		(uuid "5e76a554-8e6b-4457-bc0a-c19109119843")
 	)
 	(wire
 		(pts
-			(xy 93.98 128.27) (xy 93.98 133.35)
+			(xy 104.14 110.49) (xy 113.03 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64a32516-d3e4-4442-887a-ee7ff157d5de")
+		(uuid "5e9175e1-1ee0-4ed3-bf07-c6dbec859bf1")
+	)
+	(wire
+		(pts
+			(xy 166.37 100.33) (xy 179.07 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "620011cd-5085-41e6-91c5-a7e1644e949e")
+	)
+	(wire
+		(pts
+			(xy 196.85 113.03) (xy 203.2 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628305fc-42c7-4311-a779-60b8ea8ef919")
 	)
 	(wire
 		(pts
@@ -1864,7 +952,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 184.15) (xy 176.53 184.15)
+			(xy 166.37 184.15) (xy 179.07 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1884,17 +972,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 191.77) (xy 99.06 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68d28032-8d1b-46aa-b32a-90888f9df92d")
-	)
-	(wire
-		(pts
-			(xy 73.66 46.99) (xy 83.82 46.99)
+			(xy 73.66 46.99) (xy 86.36 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1904,13 +982,53 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 115.57) (xy 176.53 115.57)
+			(xy 73.66 245.11) (xy 86.36 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6d2dbf-45f9-480e-a2f0-27bb3d3275c8")
+	)
+	(wire
+		(pts
+			(xy 166.37 115.57) (xy 179.07 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6c771873-f33a-4b81-a4c9-3547f127a390")
+	)
+	(wire
+		(pts
+			(xy 73.66 232.41) (xy 86.36 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cfdab8b-48ef-4385-a35d-c7a53faca987")
+	)
+	(wire
+		(pts
+			(xy 104.14 107.95) (xy 128.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d53ca98-2861-47a1-8fdb-28acd27cd5e5")
+	)
+	(wire
+		(pts
+			(xy 196.85 46.99) (xy 205.74 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6debf8be-d7f6-43d0-a103-10f60fa1e8bd")
 	)
 	(wire
 		(pts
@@ -1921,16 +1039,6 @@
 			(type default)
 		)
 		(uuid "6ee10749-3a21-4b91-811f-3c11e1775260")
-	)
-	(wire
-		(pts
-			(xy 199.39 232.41) (xy 226.06 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fd174e7-412d-4ab8-9643-dc3105b1b320")
 	)
 	(wire
 		(pts
@@ -1954,7 +1062,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 227.33) (xy 83.82 227.33)
+			(xy 73.66 227.33) (xy 86.36 227.33)
 		)
 		(stroke
 			(width 0)
@@ -1964,13 +1072,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 105.41) (xy 226.06 105.41)
+			(xy 104.14 171.45) (xy 128.27 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7328da16-9c73-43e7-a5bf-0782f3664b9b")
+		(uuid "76c5e04f-7704-4177-80a0-0e19d257a913")
 	)
 	(wire
 		(pts
@@ -1981,16 +1089,6 @@
 			(type default)
 		)
 		(uuid "7a146fa3-b63c-4ad4-829c-9d814e8659ad")
-	)
-	(wire
-		(pts
-			(xy 106.68 237.49) (xy 113.03 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7be6607a-6be0-42f1-a05f-d9c562d9637e")
 	)
 	(wire
 		(pts
@@ -2014,33 +1112,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 224.79) (xy 176.53 224.79)
+			(xy 166.37 224.79) (xy 179.07 224.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7edac614-f906-44bc-b17c-9a1897371a96")
-	)
-	(wire
-		(pts
-			(xy 73.66 247.65) (xy 83.82 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80174b2b-2082-46f3-ad02-1c6b39fb9c07")
-	)
-	(wire
-		(pts
-			(xy 199.39 107.95) (xy 220.98 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8020edfe-a334-4e45-b8f9-2b9f9b261f97")
 	)
 	(wire
 		(pts
@@ -2064,27 +1142,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 44.45) (xy 128.27 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8382c0db-26af-4306-b115-a458d1a5ca1e")
-	)
-	(wire
-		(pts
-			(xy 186.69 255.27) (xy 186.69 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8421cf16-ff61-4eaf-86fd-c807343c65ee")
-	)
-	(wire
-		(pts
-			(xy 73.66 171.45) (xy 83.82 171.45)
+			(xy 73.66 171.45) (xy 86.36 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2104,36 +1162,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 242.57) (xy 176.53 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88a51825-2584-4278-883a-920fb6f649a2")
-	)
-	(wire
-		(pts
-			(xy 73.66 245.11) (xy 83.82 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89dc4b1f-4939-446d-8cc1-9824ffd422f5")
-	)
-	(wire
-		(pts
-			(xy 191.77 64.77) (xy 191.77 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aac9d04-89c4-4d5d-9efb-1343b3764ce1")
-	)
-	(wire
-		(pts
 			(xy 220.98 234.95) (xy 220.98 237.49)
 		)
 		(stroke
@@ -2144,7 +1172,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 179.07) (xy 83.82 179.07)
+			(xy 73.66 179.07) (xy 86.36 179.07)
 		)
 		(stroke
 			(width 0)
@@ -2154,73 +1182,43 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 247.65) (xy 176.53 247.65)
+			(xy 196.85 49.53) (xy 203.2 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ce43d46-7686-4b26-9158-3b7fc63eb6b4")
+		(uuid "8d060cdb-53bd-4f3c-bfd0-95e310581a4a")
 	)
 	(wire
 		(pts
-			(xy 99.06 148.59) (xy 99.06 153.67)
+			(xy 196.85 168.91) (xy 226.06 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8dca071c-e889-4a17-8d40-2cb4bdd5dae9")
+		(uuid "8f6baa16-32c3-4235-aef6-11bbe4a14226")
 	)
 	(wire
 		(pts
-			(xy 191.77 255.27) (xy 191.77 260.35)
+			(xy 196.85 41.91) (xy 226.06 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90cad284-7bcf-49fd-9af2-314a6ee26853")
+		(uuid "90b6aae9-0baf-4d07-aed1-76b44a25f94f")
 	)
 	(wire
 		(pts
-			(xy 166.37 179.07) (xy 176.53 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "927cafbb-41f4-4955-af5c-cdb497840f38")
-	)
-	(wire
-		(pts
-			(xy 99.06 212.09) (xy 99.06 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9716c45c-a549-4bda-89fb-e5b6a433bf89")
-	)
-	(wire
-		(pts
-			(xy 166.37 168.91) (xy 176.53 168.91)
+			(xy 166.37 168.91) (xy 179.07 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9765f577-94df-4f14-9bc5-d1b1d4b5e6fe")
-	)
-	(wire
-		(pts
-			(xy 99.06 21.59) (xy 99.06 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "997b4a7d-b779-4a20-80d1-43e35b0f623b")
 	)
 	(wire
 		(pts
@@ -2234,13 +1232,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 128.27) (xy 191.77 133.35)
+			(xy 196.85 237.49) (xy 205.74 237.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d257fac-0dd1-46b4-bafd-b9de359a7cef")
+		(uuid "9d4b9440-f1b0-46b8-a0ed-a52715babeb7")
 	)
 	(wire
 		(pts
@@ -2274,7 +1272,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 107.95) (xy 176.53 107.95)
+			(xy 166.37 107.95) (xy 179.07 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2294,37 +1292,27 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 128.27) (xy 186.69 133.35)
+			(xy 104.14 240.03) (xy 110.49 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7aecb19-b616-4693-9047-e1d914f9453f")
+		(uuid "a4a0eb32-4b9a-4826-a17e-37316d05960c")
 	)
 	(wire
 		(pts
-			(xy 191.77 85.09) (xy 191.77 90.17)
+			(xy 166.37 234.95) (xy 179.07 234.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7f985d7-9f5d-4e9e-a495-748f95c9e46b")
+		(uuid "a68d195f-a5dc-4e4c-b497-eec35853a64f")
 	)
 	(wire
 		(pts
-			(xy 191.77 148.59) (xy 191.77 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa33a46e-8e9f-42d9-b4c5-4f65c58360a2")
-	)
-	(wire
-		(pts
-			(xy 166.37 163.83) (xy 176.53 163.83)
+			(xy 166.37 163.83) (xy 179.07 163.83)
 		)
 		(stroke
 			(width 0)
@@ -2344,17 +1332,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 110.49) (xy 205.74 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab5c8da7-373f-4352-9a0c-6a7dd549c42f")
-	)
-	(wire
-		(pts
-			(xy 73.66 107.95) (xy 83.82 107.95)
+			(xy 73.66 107.95) (xy 86.36 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2374,26 +1352,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 148.59) (xy 186.69 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad41e78b-f1aa-45d9-8707-ab0f2f54aa6f")
-	)
-	(wire
-		(pts
-			(xy 199.39 44.45) (xy 220.98 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ade0a030-7617-41e5-bc09-0bf23f37b945")
-	)
-	(wire
-		(pts
 			(xy 226.06 232.41) (xy 226.06 237.49)
 		)
 		(stroke
@@ -2404,7 +1362,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 44.45) (xy 83.82 44.45)
+			(xy 73.66 44.45) (xy 86.36 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2434,33 +1392,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 168.91) (xy 83.82 168.91)
+			(xy 73.66 168.91) (xy 86.36 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b314c2f4-c41d-4313-aadb-60ed0e823aef")
-	)
-	(wire
-		(pts
-			(xy 166.37 46.99) (xy 176.53 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b34b5dec-1ce7-4da9-9aa6-1f2073bb8e0f")
-	)
-	(wire
-		(pts
-			(xy 166.37 234.95) (xy 176.53 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4e658ce-75e4-439c-b2d9-49fc8c7f6018")
 	)
 	(wire
 		(pts
@@ -2474,17 +1412,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 52.07) (xy 176.53 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6e03eeb-29e6-4a08-a7ce-6c289de3bbb8")
-	)
-	(wire
-		(pts
-			(xy 73.66 54.61) (xy 83.82 54.61)
+			(xy 73.66 54.61) (xy 86.36 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2494,13 +1422,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 49.53) (xy 110.49 49.53)
+			(xy 104.14 168.91) (xy 133.35 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b985e7d6-141e-4ec6-9223-5f6bc0265cfa")
+		(uuid "bb1fd393-0ef6-4a5f-860a-7013062a2311")
+	)
+	(wire
+		(pts
+			(xy 166.37 118.11) (xy 179.07 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc91d324-4467-4268-a5ad-f04b61517b12")
 	)
 	(wire
 		(pts
@@ -2514,33 +1452,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 163.83) (xy 83.82 163.83)
+			(xy 73.66 163.83) (xy 86.36 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bdfaa7a4-b2ac-45d9-9cda-41103fbe23ed")
-	)
-	(wire
-		(pts
-			(xy 199.39 240.03) (xy 203.2 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0f62bf9-d91c-40b8-807e-881571f90d8b")
-	)
-	(wire
-		(pts
-			(xy 166.37 34.29) (xy 176.53 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c17eb3ec-fc38-496e-bf84-ef855c689920")
 	)
 	(wire
 		(pts
@@ -2554,13 +1472,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 181.61) (xy 176.53 181.61)
+			(xy 166.37 181.61) (xy 179.07 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c19d8222-6594-4a3c-a296-e43e6240972e")
+	)
+	(wire
+		(pts
+			(xy 196.85 173.99) (xy 205.74 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c22dccd6-e9e3-4d5a-bac3-df19d0719a9a")
 	)
 	(wire
 		(pts
@@ -2574,16 +1502,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 227.33) (xy 176.53 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2ed7359-420b-4554-8a01-493e49f420b4")
-	)
-	(wire
-		(pts
 			(xy 110.49 176.53) (xy 110.49 184.15)
 		)
 		(stroke
@@ -2594,13 +1512,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 191.77) (xy 186.69 196.85)
+			(xy 166.37 173.99) (xy 179.07 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3f89f57-8ed1-409b-bca1-b76651456080")
+		(uuid "c406ea8a-8775-4da0-ae86-d7ea09547313")
 	)
 	(wire
 		(pts
@@ -2614,63 +1532,43 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 49.53) (xy 203.2 49.53)
+			(xy 196.85 234.95) (xy 220.98 234.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c908bbcc-ec34-42de-b162-4b1899e90902")
+		(uuid "c97fe5c2-967c-4f0b-8b38-f49392e82dc6")
 	)
 	(wire
 		(pts
-			(xy 106.68 232.41) (xy 133.35 232.41)
+			(xy 166.37 97.79) (xy 179.07 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9259a53-3b12-40e9-bdaf-df8314851c86")
+		(uuid "caae193d-c86f-44c3-86f1-21b82e1f3400")
 	)
 	(wire
 		(pts
-			(xy 99.06 255.27) (xy 99.06 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c92ca99a-a4cb-4f6d-abc1-bbe739989acd")
-	)
-	(wire
-		(pts
-			(xy 199.39 46.99) (xy 205.74 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca44c5fb-5357-4c7e-b90a-978ff543a754")
-	)
-	(wire
-		(pts
-			(xy 106.68 173.99) (xy 113.03 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc901a8d-a3fc-441b-8814-604fcdc02c98")
-	)
-	(wire
-		(pts
-			(xy 73.66 105.41) (xy 83.82 105.41)
+			(xy 73.66 105.41) (xy 86.36 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cd1c1818-6c84-4b71-bd50-602a2408d273")
+	)
+	(wire
+		(pts
+			(xy 166.37 179.07) (xy 179.07 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd27e322-59f8-44b6-aa25-245ca80405e8")
 	)
 	(wire
 		(pts
@@ -2684,7 +1582,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 232.41) (xy 176.53 232.41)
+			(xy 166.37 232.41) (xy 179.07 232.41)
 		)
 		(stroke
 			(width 0)
@@ -2694,23 +1592,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 237.49) (xy 83.82 237.49)
+			(xy 73.66 110.49) (xy 86.36 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1acf235-2b52-45e2-a52b-392d1b912957")
+		(uuid "d1703532-cab3-4669-beb7-788b0d135a55")
 	)
 	(wire
 		(pts
-			(xy 166.37 171.45) (xy 176.53 171.45)
+			(xy 104.14 176.53) (xy 110.49 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d39235af-0641-4187-9e2d-640766f768f5")
+		(uuid "d32a20fd-74c8-4483-982a-11ff6b9c881a")
 	)
 	(wire
 		(pts
@@ -2724,23 +1622,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 128.27) (xy 99.06 133.35)
+			(xy 166.37 52.07) (xy 179.07 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "daee7389-aead-4a03-a00c-7595b8764ab0")
-	)
-	(wire
-		(pts
-			(xy 199.39 41.91) (xy 226.06 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcf12e45-d860-475a-9ae0-7df74ad7b24e")
+		(uuid "d980917e-502c-494a-8079-139ff66d65f7")
 	)
 	(wire
 		(pts
@@ -2764,36 +1652,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 176.53) (xy 110.49 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0b7516b-9a18-4217-ac6d-4f2f204e89a4")
-	)
-	(wire
-		(pts
-			(xy 106.68 168.91) (xy 133.35 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e17745ac-ca15-4ddb-a400-56885a862479")
-	)
-	(wire
-		(pts
-			(xy 106.68 240.03) (xy 110.49 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2e9704f-463c-4ee4-929a-b0aa75897229")
-	)
-	(wire
-		(pts
 			(xy 270.51 106.68) (xy 287.02 106.68)
 		)
 		(stroke
@@ -2811,6 +1669,36 @@
 			(type default)
 		)
 		(uuid "e6df8361-67a0-4321-ab50-1bc87eb1ad03")
+	)
+	(wire
+		(pts
+			(xy 104.14 46.99) (xy 113.03 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f52157-d1c6-418b-a822-4fe7edebb4fb")
+	)
+	(wire
+		(pts
+			(xy 104.14 113.03) (xy 110.49 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ff832b-5a42-4649-9483-a11cf2a94ff4")
+	)
+	(wire
+		(pts
+			(xy 166.37 245.11) (xy 179.07 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9da98e6-fb7e-4be7-934e-f44f84c1fea9")
 	)
 	(wire
 		(pts
@@ -2834,17 +1722,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 232.41) (xy 83.82 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea875f96-5eaa-4df1-a6c5-ec9b6747ec9e")
-	)
-	(wire
-		(pts
-			(xy 73.66 52.07) (xy 83.82 52.07)
+			(xy 73.66 52.07) (xy 86.36 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2854,13 +1732,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 161.29) (xy 83.82 161.29)
+			(xy 73.66 161.29) (xy 86.36 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eae2b1a3-0252-41de-859a-960d956594c5")
+	)
+	(wire
+		(pts
+			(xy 104.14 232.41) (xy 133.35 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebaf4088-5876-4901-96f0-734a41f64c66")
 	)
 	(wire
 		(pts
@@ -2874,16 +1762,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 245.11) (xy 176.53 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1dd346d-d722-4b46-8b96-d9e8c73d58ca")
-	)
-	(wire
-		(pts
 			(xy 113.03 179.07) (xy 123.19 179.07)
 		)
 		(stroke
@@ -2894,23 +1772,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 237.49) (xy 176.53 237.49)
+			(xy 166.37 242.57) (xy 179.07 242.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f36387fa-9f1c-487b-93e6-a3232df44810")
-	)
-	(wire
-		(pts
-			(xy 191.77 21.59) (xy 191.77 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f38b1b77-57da-42e4-b157-d3d7c0a4ce2f")
+		(uuid "f484e737-af38-4804-8af5-6c4f3b6ee396")
 	)
 	(wire
 		(pts
@@ -2934,13 +1802,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 100.33) (xy 176.53 100.33)
+			(xy 104.14 105.41) (xy 133.35 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9b4dcfb-799d-493e-8359-14ddc8df28fd")
+		(uuid "f9287502-7801-424d-bc8d-5ec91a86b3df")
+	)
+	(wire
+		(pts
+			(xy 166.37 171.45) (xy 179.07 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab11e27-7c42-44db-8bc2-7175145bbc05")
 	)
 	(bus
 		(pts
@@ -2954,7 +1832,27 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 105.41) (xy 176.53 105.41)
+			(xy 73.66 120.65) (xy 86.36 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc10943b-b8ef-4738-8a1d-c6bac7efab99")
+	)
+	(wire
+		(pts
+			(xy 166.37 34.29) (xy 179.07 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd71abf-8a92-4174-9f2e-421d27bc6473")
+	)
+	(wire
+		(pts
+			(xy 166.37 105.41) (xy 179.07 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2964,7 +1862,7 @@
 	)
 	(image
 		(at 342.9 172.72)
-		(scale 5.03897)
+		(scale 6.45697)
 		(uuid "0974c273-0042-4b16-8145-3bf129070b93")
 		(data "/9j/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMU"
 			"FRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU"
@@ -3859,239 +2757,6 @@
 		(uuid "d7b4e225-c8c6-4c8f-8583-1f4c942f8df2")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 93.98 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05137350-a091-4602-9c22-157770d17272")
-		(property "Reference" "#PWR010"
-			(at 93.98 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "239cdf6f-70f4-4a49-9f4f-c75193b8238a")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d641077-8126-44cc-97c9-46cfcbaeed59")
-		(property "Reference" "#PWR067"
-			(at 99.06 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "03a66de0-1415-49ee-bf27-374a3b51f77c")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 93.98 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "105dad20-2188-40f5-958f-c6d79e82226a")
-		(property "Reference" "#PWR011"
-			(at 93.98 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 93.218 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 93.98 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1b1fe10-1100-418f-97ac-4c9c85793e44")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Motor:Stepper_Motor_bipolar")
 		(at 130.81 118.11 0)
 		(unit 1)
@@ -4268,142 +2933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
-		(at 186.69 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18571d46-716b-4011-8804-390a31a5022b")
-		(property "Reference" "A6"
-			(at 193.9133 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Pololu_Breakout_A4988"
-			(at 193.9133 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
-			(at 193.675 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
-			(at 189.23 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
-			(at 186.69 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 186.69 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed8d7995-4708-4d2f-8022-45075f265590")
-		)
-		(pin "10"
-			(uuid "de53f5a9-1cfc-4fda-a10e-edf3e48d685c")
-		)
-		(pin "3"
-			(uuid "a6eedfd6-be40-4d32-886b-d7c90da5f3b9")
-		)
-		(pin "9"
-			(uuid "b34f0273-5dbb-4cf3-8922-a8f9e88baf32")
-		)
-		(pin "8"
-			(uuid "4a4f5f41-bcc6-46c7-be15-9c03d485b7cc")
-		)
-		(pin "11"
-			(uuid "658ee570-e82f-44fa-8133-f1c0f12394a9")
-		)
-		(pin "5"
-			(uuid "9aa81707-31fb-4247-a622-591be5b176c7")
-		)
-		(pin "7"
-			(uuid "31de2c64-52e5-43b1-94e0-4463b803b7f7")
-		)
-		(pin "6"
-			(uuid "2f7bd465-3ef5-453e-b2f4-583b603a9981")
-		)
-		(pin "2"
-			(uuid "bb03f1db-c88e-4c47-bf02-54ce99be50db")
-		)
-		(pin "16"
-			(uuid "e27b1893-4369-4aa8-8175-de56fd6196cc")
-		)
-		(pin "4"
-			(uuid "9919e265-f5af-439a-a977-8ef793994bc8")
-		)
-		(pin "13"
-			(uuid "dc66a096-c847-4b52-ac6c-96f79efdc3ba")
-		)
-		(pin "12"
-			(uuid "23373be6-e026-4c87-9229-b70ed5692759")
-		)
-		(pin "15"
-			(uuid "82695beb-22f3-45b1-ac62-30d938c13514")
-		)
-		(pin "14"
-			(uuid "9c94fcdf-98bd-4b83-bdfe-c78722dc3540")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "A6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Motor:Stepper_Motor_bipolar")
 		(at 130.81 245.11 0)
 		(unit 1)
@@ -4486,1286 +3015,6 @@
 			(project "stepper_music"
 				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
 					(reference "M4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19d94445-bb0c-4624-8f2b-665e546e9051")
-		(property "Reference" "#PWR068"
-			(at 99.06 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "246b4be6-c694-4b4a-b672-bbaf4f087b3f")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 191.77 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "20773915-d203-49dd-97f2-2fc8b905b2a1")
-		(property "Reference" "#PWR030"
-			(at 191.77 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 192.532 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 191.77 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f7677580-b1af-42fd-9470-057158fd6f7a")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
-		(at 93.98 234.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20e51e1a-e21b-497f-8478-aaf18a9fde99")
-		(property "Reference" "A4"
-			(at 101.2033 214.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Pololu_Breakout_A4988"
-			(at 101.2033 217.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
-			(at 100.965 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
-			(at 96.52 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
-			(at 93.98 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 93.98 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df26ebe8-88e2-4165-add4-7d2ac2be65ad")
-		)
-		(pin "10"
-			(uuid "a69f3b0f-f51f-4add-a2fc-9cbe342eca5e")
-		)
-		(pin "3"
-			(uuid "29421611-9d15-4695-83f8-24711de57816")
-		)
-		(pin "9"
-			(uuid "da78389e-f53b-4bfd-97b4-58a2fac999d1")
-		)
-		(pin "8"
-			(uuid "ef990251-bbbd-4e3f-8f48-f87481361e78")
-		)
-		(pin "11"
-			(uuid "08eab9fc-7865-4dfd-8ca9-e408d388dbbc")
-		)
-		(pin "5"
-			(uuid "9120b36b-c41c-4421-8824-8518704dab92")
-		)
-		(pin "7"
-			(uuid "a7408b2d-daef-40f8-828f-c6397d19b537")
-		)
-		(pin "6"
-			(uuid "8b044b04-6ff0-48bd-8832-0355c2fe7187")
-		)
-		(pin "2"
-			(uuid "402caba1-0adf-4ef4-a3da-63845574c4a6")
-		)
-		(pin "16"
-			(uuid "230bc60f-8d7d-4f32-8b7f-6a2a6a6d45c0")
-		)
-		(pin "4"
-			(uuid "7ec822b7-1582-46c6-80f9-dd66850fd274")
-		)
-		(pin "13"
-			(uuid "23181492-d7f8-414f-8ca7-83d6ae96b3be")
-		)
-		(pin "12"
-			(uuid "3962ca49-adc2-4bba-965b-665adbabdd99")
-		)
-		(pin "15"
-			(uuid "e5af6281-62b3-49d8-81e4-49f83de8606a")
-		)
-		(pin "14"
-			(uuid "3ccea45a-a12d-4632-a11f-f4ddb43da544")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "A4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 186.69 21.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "21a6f032-2a87-42c1-affd-772684dab03c")
-		(property "Reference" "#PWR019"
-			(at 186.69 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 185.928 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 186.69 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f880244f-a6b7-4d57-a7d1-c56137bca7b6")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 99.06 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2e85579d-394f-4180-a121-760be43d4ab9")
-		(property "Reference" "#PWR014"
-			(at 99.06 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 99.822 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 99.06 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9801dced-3adf-44f9-92bd-fbb2777bd5ce")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 260.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "347cfe59-1295-4ba1-a287-271d3e9cd1c9")
-		(property "Reference" "#PWR026"
-			(at 186.69 266.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 265.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "716dbc26-f363-42d3-b44b-068a910383cb")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36ac2b87-8e5b-465b-b6ce-2ddcf1c34567")
-		(property "Reference" "#PWR066"
-			(at 99.06 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ad215c7-ffad-48e2-8a45-24bea0527196")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 99.06 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3f01302b-3ace-407f-bf2a-38db09a1be90")
-		(property "Reference" "#PWR015"
-			(at 99.06 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 99.822 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 99.06 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec14fabb-6163-4634-918f-6d5fc11dc567")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 191.77 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f980072-2a5f-4634-bb21-19d6b4b1f882")
-		(property "Reference" "#PWR071"
-			(at 191.77 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95f2a958-8ffd-4c98-81f6-e6062e15ca39")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 93.98 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4807ecdc-5c12-4518-b96b-cea92c674204")
-		(property "Reference" "#PWR08"
-			(at 93.98 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "83d8b02a-7a07-4590-b1ab-bcdfbffa92de")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
-		(at 186.69 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4adc7469-aefb-450a-852e-336bd3546051")
-		(property "Reference" "A7"
-			(at 193.9133 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Pololu_Breakout_A4988"
-			(at 193.9133 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
-			(at 193.675 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
-			(at 189.23 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
-			(at 186.69 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 186.69 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "31799e64-2aec-45e8-871f-ffbeb9bc3386")
-		)
-		(pin "10"
-			(uuid "2bdbc4e8-7462-4580-8328-ac7a09378cca")
-		)
-		(pin "3"
-			(uuid "dffc2aaa-3797-4219-b5e9-a8dba21124fa")
-		)
-		(pin "9"
-			(uuid "093d6745-7e12-4435-b3c1-feb8c77f5516")
-		)
-		(pin "8"
-			(uuid "2ad54195-57bc-4a08-82ab-fe1dd99e6f4d")
-		)
-		(pin "11"
-			(uuid "a5b8223e-c2d5-4336-822c-5c8c81590b75")
-		)
-		(pin "5"
-			(uuid "6e5e89db-90b0-47ec-bf3f-d5c6e10699a4")
-		)
-		(pin "7"
-			(uuid "f3d803c9-beb0-44b2-ab6d-f08598326744")
-		)
-		(pin "6"
-			(uuid "ced9d3ac-4294-4b27-8e99-876d1e31a7fd")
-		)
-		(pin "2"
-			(uuid "645dbbdb-396b-441b-92ef-0b3cef0e5cb3")
-		)
-		(pin "16"
-			(uuid "e0761c7f-2846-49e5-8484-26fb2ac69ec8")
-		)
-		(pin "4"
-			(uuid "02e864ee-e86d-4dd2-b7d7-d0851349b946")
-		)
-		(pin "13"
-			(uuid "a8549855-06f5-4772-aa47-37bb16bf8f0a")
-		)
-		(pin "12"
-			(uuid "2bd91ab9-3604-40a4-a88c-190fb37ada72")
-		)
-		(pin "15"
-			(uuid "523d6d90-6ffa-444a-992a-0c94babdf017")
-		)
-		(pin "14"
-			(uuid "df6833fc-8f64-4b09-a028-043074b1f82a")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "A7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 99.06 21.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51e452eb-b2ca-4e5a-bd20-8982d5237e2c")
-		(property "Reference" "#PWR016"
-			(at 99.06 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 99.822 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 99.06 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7ea50abb-9f18-4e21-83f5-b3ea4d7de6f2")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 93.98 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "528373ab-3401-49c4-b9d3-a774793ee060")
-		(property "Reference" "#PWR07"
-			(at 93.98 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 93.218 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 93.98 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d20f6078-e665-4aa9-93b7-dea180f59233")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 191.77 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54d2a659-dd0a-4c25-b0ba-7cc482e06a59")
-		(property "Reference" "#PWR073"
-			(at 191.77 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e3d0ea8-4bcb-4d16-9627-aa8fc5ebd0b6")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 191.77 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a78ecc6-628d-4786-9086-e5352fb3eb6e")
-		(property "Reference" "#PWR072"
-			(at 191.77 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38e09e94-c805-48af-b0f6-fc31d97cb66b")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -5948,975 +3197,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 191.77 21.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "697354df-ef28-44dd-9fe0-aa643378cf1d")
-		(property "Reference" "#PWR027"
-			(at 191.77 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 192.532 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 191.77 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "23d2103e-bc52-4c8f-9257-5ddef11a1915")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 93.98 260.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b324c66-3690-4de3-8be2-033b8b72b5bc")
-		(property "Reference" "#PWR012"
-			(at 93.98 266.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 265.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea78344a-8fdd-4020-9654-24d924de88b8")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 93.98 21.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "73ed7304-37b3-42bb-8b61-12fa7594bad8")
-		(property "Reference" "#PWR01"
-			(at 93.98 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 93.218 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 93.98 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "73a132bb-4d7a-4fe4-86be-b1e513e90723")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
-		(at 93.98 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a072239-f25c-450a-bf35-a0834a878e42")
-		(property "Reference" "A2"
-			(at 101.2033 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Pololu_Breakout_A4988"
-			(at 101.2033 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
-			(at 100.965 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
-			(at 96.52 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
-			(at 93.98 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 93.98 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d310225-9915-43e0-aa0d-c97cad7c5ecf")
-		)
-		(pin "10"
-			(uuid "e1fd3948-d152-4909-9afc-afb00e78f818")
-		)
-		(pin "3"
-			(uuid "6872fba6-8e8f-4220-b8d9-24a68604289d")
-		)
-		(pin "9"
-			(uuid "77fadba5-fddc-4634-8d71-9c0ca0ed3d65")
-		)
-		(pin "8"
-			(uuid "86eb881c-77fb-4661-aa87-a60cfee1c7ed")
-		)
-		(pin "11"
-			(uuid "0dd7e766-638d-4f86-86e8-dd7ee4459c37")
-		)
-		(pin "5"
-			(uuid "a8a7b3e4-af40-4a59-a698-07af7efbd2c3")
-		)
-		(pin "7"
-			(uuid "9e2c5bc2-dd99-41bd-9514-d009498757e5")
-		)
-		(pin "6"
-			(uuid "69901587-0026-49bd-8e6f-1bca79e4a191")
-		)
-		(pin "2"
-			(uuid "e4d284bb-1b36-48a5-9dcd-84dd0488f615")
-		)
-		(pin "16"
-			(uuid "c916c6f3-ac25-42a9-8511-a623b46d48c9")
-		)
-		(pin "4"
-			(uuid "5cf213b4-1faa-4212-a4de-626925e383f1")
-		)
-		(pin "13"
-			(uuid "6164539d-42bc-4ff9-9dd6-d54890e43262")
-		)
-		(pin "12"
-			(uuid "c3d5af21-d139-4e37-aaa0-84014537a4a3")
-		)
-		(pin "15"
-			(uuid "31d7b4e1-fc74-478b-9bf1-aa8c2a06d255")
-		)
-		(pin "14"
-			(uuid "2127ef25-6627-45bb-a3ee-4bccfd3adc6d")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "A2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e1d81bd-7a97-47d2-a6f6-15ef73447102")
-		(property "Reference" "#PWR024"
-			(at 186.69 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2f9a2656-fca2-46b7-a489-7c266163e5bf")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 99.06 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7e746ea0-ba13-4ec4-b04f-ed0b5e1843c6")
-		(property "Reference" "#PWR013"
-			(at 99.06 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 99.822 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 99.06 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a6bcaf2c-32f9-456d-afcc-89a1648e3f20")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80e6d232-13e1-459e-8509-9dc29a769b1f")
-		(property "Reference" "#PWR022"
-			(at 186.69 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "918bb75a-3ca5-4655-b50c-5fd726e6233b")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 93.98 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "829a5128-8d2b-4dc5-b39e-58b7dd978c68")
-		(property "Reference" "#PWR02"
-			(at 93.98 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e54e0056-815b-4d4e-a2e5-0cc0b7b6e9f5")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 186.69 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "88e301ef-7158-42a6-b07b-59e7b771d2ce")
-		(property "Reference" "#PWR023"
-			(at 186.69 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 185.928 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 186.69 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7be27d40-2959-438e-8d5c-60c5e746f94f")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
-		(at 93.98 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bb30704-3c0c-4204-bc53-c476f3916d5d")
-		(property "Reference" "A1"
-			(at 101.2033 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Pololu_Breakout_A4988"
-			(at 101.2033 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
-			(at 100.965 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
-			(at 96.52 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
-			(at 93.98 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 93.98 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "92895da4-f043-4a4d-9b8b-52258bb6d976")
-		)
-		(pin "10"
-			(uuid "defde95d-0952-4e86-8acb-279085e969b0")
-		)
-		(pin "3"
-			(uuid "d7e2ecaf-c5e5-4747-a35e-d6ab9d451f33")
-		)
-		(pin "9"
-			(uuid "51e86d03-da0b-4165-a09c-a1a3202008d4")
-		)
-		(pin "8"
-			(uuid "fff1910f-93d9-492b-99cd-c07a9d7966a0")
-		)
-		(pin "11"
-			(uuid "0f68dff7-69a1-41a3-9a6c-fd0a2ee7518a")
-		)
-		(pin "5"
-			(uuid "0c81086e-49ed-47a5-94e9-2b3904270276")
-		)
-		(pin "7"
-			(uuid "05551e54-91b8-46fa-8dd0-669ba324a25e")
-		)
-		(pin "6"
-			(uuid "e8dc892a-ea22-40aa-83a9-0e197ea019be")
-		)
-		(pin "2"
-			(uuid "792b6a29-cfbd-4d71-b341-e4ba9c26ff6a")
-		)
-		(pin "16"
-			(uuid "c18864b9-db20-4012-9b71-ddf13f8173d6")
-		)
-		(pin "4"
-			(uuid "625f9fea-2ff3-45ab-883e-5f283d01ee49")
-		)
-		(pin "13"
-			(uuid "1e16d03e-614c-4cef-a71b-09f2ddb2a147")
-		)
-		(pin "12"
-			(uuid "c473fd34-c984-4f5b-8d6e-1df28e92e4c2")
-		)
-		(pin "15"
-			(uuid "27623741-699e-4c62-b719-98d65a15306f")
-		)
-		(pin "14"
-			(uuid "9282e3c4-9404-41d4-b690-24e52d93a3c0")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "A1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 93.98 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9ca316e7-dc90-463d-9370-981d32900d71")
-		(property "Reference" "#PWR09"
-			(at 93.98 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 93.218 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 93.98 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f5f68593-9989-4491-9bda-1dee4f8a875e")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Motor:Stepper_Motor_bipolar")
 		(at 223.52 54.61 0)
 		(unit 1)
@@ -6999,142 +3279,6 @@
 			(project "stepper_music"
 				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
 					(reference "M5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
-		(at 186.69 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1ecabf9-0344-4690-a66e-1dba13e87128")
-		(property "Reference" "A5"
-			(at 193.9133 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Pololu_Breakout_A4988"
-			(at 193.9133 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
-			(at 193.675 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
-			(at 189.23 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
-			(at 186.69 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 186.69 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "96b42461-2ec5-4f89-9da8-724f5e8f5a04")
-		)
-		(pin "10"
-			(uuid "072fa5c0-3860-4b6a-a5f4-97cd347074b3")
-		)
-		(pin "3"
-			(uuid "d13b9875-1fd3-43a2-a2e5-f83115d5929f")
-		)
-		(pin "9"
-			(uuid "05bab6fc-7192-4970-80c1-9d35655c9821")
-		)
-		(pin "8"
-			(uuid "92e3198d-99f7-4ed8-b6d9-4c29fd43b37a")
-		)
-		(pin "11"
-			(uuid "92fe3870-4f87-4aad-bf39-536cdd3c534b")
-		)
-		(pin "5"
-			(uuid "3df23084-15e6-49bd-b74f-8dcad6aa7e2c")
-		)
-		(pin "7"
-			(uuid "328730ba-e8c7-487e-8170-d7ff833d3a93")
-		)
-		(pin "6"
-			(uuid "be33af88-0125-479b-8ec4-9cb11bec7e65")
-		)
-		(pin "2"
-			(uuid "33a9ae62-c9c2-44cc-828c-f3b0118c4e03")
-		)
-		(pin "16"
-			(uuid "b949cc6a-6099-4446-b5e1-01e43d727446")
-		)
-		(pin "4"
-			(uuid "530e60c8-774c-411c-a178-046a2e92ae79")
-		)
-		(pin "13"
-			(uuid "bd452918-0a31-4063-b4b7-a94ab1fe463c")
-		)
-		(pin "12"
-			(uuid "f18cfc2b-0c97-495a-bfaa-dbf1c1dc43b4")
-		)
-		(pin "15"
-			(uuid "888052c5-4206-470b-ab28-06d059245719")
-		)
-		(pin "14"
-			(uuid "b5b015b2-a076-4803-ab16-c01d1feb236e")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "A5")
 					(unit 1)
 				)
 			)
@@ -7229,666 +3373,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
-		(at 186.69 234.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9f083dc-2f45-4956-9442-0b0556221705")
-		(property "Reference" "A8"
-			(at 193.9133 214.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Pololu_Breakout_A4988"
-			(at 193.9133 217.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
-			(at 193.675 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
-			(at 189.23 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
-			(at 186.69 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 186.69 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "50459344-1601-4e45-b6ca-8ed6db8d1a8d")
-		)
-		(pin "10"
-			(uuid "9f23054e-0b07-4a34-91ac-98b447c0c811")
-		)
-		(pin "3"
-			(uuid "b5e8dbc5-eaf9-4a33-a8ba-b66df0d9bc31")
-		)
-		(pin "9"
-			(uuid "8ff9348f-339b-437e-993f-77c2fe127a09")
-		)
-		(pin "8"
-			(uuid "62d199ee-965a-48a3-9c23-cb861f17cd8a")
-		)
-		(pin "11"
-			(uuid "29447f4a-4532-4915-8916-5e7fdf34c307")
-		)
-		(pin "5"
-			(uuid "a7abea87-9493-4ca0-a2ef-28d01b11a432")
-		)
-		(pin "7"
-			(uuid "5a3d77dc-5f18-4ac6-ae69-0b632b711b1c")
-		)
-		(pin "6"
-			(uuid "6ab5f0e1-ca48-496b-a61a-c5647add1056")
-		)
-		(pin "2"
-			(uuid "e772c522-95d9-4709-beed-8e728cf027b1")
-		)
-		(pin "16"
-			(uuid "04f8b3f7-746c-40de-843c-ce328940b7a9")
-		)
-		(pin "4"
-			(uuid "c2896b49-cc15-4ed1-8d7e-8e8c78ceaefe")
-		)
-		(pin "13"
-			(uuid "94eeb62b-a5c1-4bf3-9c19-d400517ed346")
-		)
-		(pin "12"
-			(uuid "4c523711-cb0c-4bc6-a159-cf90fa929fee")
-		)
-		(pin "15"
-			(uuid "264d9eae-12fe-4cea-8ad0-6de37b80ce1a")
-		)
-		(pin "14"
-			(uuid "50da715f-08b7-4ab6-8292-2a684e5f58c4")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "A8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
-		(at 93.98 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9f89770-13c8-401b-b072-84293a4e9630")
-		(property "Reference" "A3"
-			(at 101.2033 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Pololu_Breakout_A4988"
-			(at 101.2033 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
-			(at 100.965 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.pololu.com/product/2980/pictures"
-			(at 96.52 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Pololu Breakout Board, Stepper Driver A4988"
-			(at 93.98 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 93.98 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55b3c506-cf2b-432c-83a2-90f088937e58")
-		)
-		(pin "10"
-			(uuid "3578d02c-5fb0-42cf-be39-e8c648478278")
-		)
-		(pin "3"
-			(uuid "d858f18d-7fd5-411c-883b-30665f18d3c5")
-		)
-		(pin "9"
-			(uuid "b96d69c7-1b5f-4b7b-8f69-14c2e6b1440c")
-		)
-		(pin "8"
-			(uuid "06cdcd5d-3c56-4b23-8ca0-e60ab7c3e6a0")
-		)
-		(pin "11"
-			(uuid "23312607-ba8c-43eb-b6e5-29a33e810fbd")
-		)
-		(pin "5"
-			(uuid "44ab4f70-fd83-47da-a6c5-6193057b7d0a")
-		)
-		(pin "7"
-			(uuid "ab37fe32-cde5-4b45-9871-22e1d40ce3c1")
-		)
-		(pin "6"
-			(uuid "77da7a57-9bbc-4b10-b4a6-b8f323dd3fca")
-		)
-		(pin "2"
-			(uuid "31646123-9de3-4fc6-ad39-e7977b55a715")
-		)
-		(pin "16"
-			(uuid "65b2fcb3-b201-496c-b28f-0edcfbe04144")
-		)
-		(pin "4"
-			(uuid "adfbfedd-b43f-4e0e-998a-9271f6a5e01c")
-		)
-		(pin "13"
-			(uuid "a880e505-9923-48d1-a17b-041e92f97534")
-		)
-		(pin "12"
-			(uuid "0d34f1c1-43e5-4264-a5d3-f2e30ef836c5")
-		)
-		(pin "15"
-			(uuid "56947d4b-9556-4d7c-9fb7-0cb1ad9019e3")
-		)
-		(pin "14"
-			(uuid "48062782-94ec-4b7d-81ef-e8777d4bbb9e")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "A3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 186.69 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ccb29ecf-9259-4802-b23f-4c84e5025a3f")
-		(property "Reference" "#PWR021"
-			(at 186.69 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 185.928 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 186.69 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d17ffb1-6212-406b-b100-ae0124c9c3f8")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 191.77 260.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccc68110-ab68-4d56-bc63-e0a032849a19")
-		(property "Reference" "#PWR070"
-			(at 191.77 266.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 265.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf45de99-f8d3-4545-b6c2-59c3e07be482")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 191.77 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "da4ccdb9-b5eb-438c-8336-1a6d5d5b9bb3")
-		(property "Reference" "#PWR028"
-			(at 191.77 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 192.532 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 191.77 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f787b3da-3f48-463c-9d83-bf19b685eeae")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 260.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da6159f6-f618-4976-9a02-7b0823fcec8a")
-		(property "Reference" "#PWR069"
-			(at 99.06 266.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 265.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a92e077-f25e-44f5-8859-779b0e070650")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6b9faa3-dc95-44e1-ba8a-4eef771e6760")
-		(property "Reference" "#PWR020"
-			(at 186.69 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e05fcc6-3f23-42a2-b2c2-73b58b7077f6")
-		)
-		(instances
-			(project "stepper_music"
-				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Motor:Stepper_Motor_bipolar")
 		(at 223.52 245.11 0)
 		(unit 1)
@@ -7976,156 +3460,1330 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 191.77 148.59 0)
-		(unit 1)
-		(body_style 1)
+	(sheet
+		(at 86.36 92.71)
+		(size 17.78 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(uuid "eec27423-fff4-4f88-bb56-586138f20cf4")
-		(property "Reference" "#PWR029"
-			(at 191.77 152.4 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "08eedecc-4324-421b-8619-41688fa76849")
+		(property "Sheetname" "Driver 2"
+			(at 86.36 91.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "+12V"
-			(at 192.532 143.51 0)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 86.36 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" ""
-			(at 191.77 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "1A" output
+			(at 104.14 107.95 0)
+			(uuid "60f647fc-6102-478e-956f-dbf4923e8637")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Datasheet" ""
-			(at 191.77 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "1B" output
+			(at 104.14 105.41 0)
+			(uuid "ad1fecc5-42cd-45ff-a570-ec622b35e1ae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 191.77 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "2A" output
+			(at 104.14 110.49 0)
+			(uuid "36e039e1-5875-4ebb-bf36-99cb1e0c517f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(pin "1"
-			(uuid "c38c8bf7-c3b7-445a-81ef-113f96289d02")
+		(pin "2B" output
+			(at 104.14 113.03 0)
+			(uuid "3f4bb760-ed4f-4fb3-bc3f-06a799e9929c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 86.36 110.49 180)
+			(uuid "e78e761b-1994-4367-9530-da28bfd8df13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 86.36 115.57 180)
+			(uuid "9cb5b335-ad20-4b7c-94e9-658e75d66b1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 86.36 118.11 180)
+			(uuid "f6e904f2-2716-4f73-8399-bac9ea7f4afd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3" input
+			(at 86.36 120.65 180)
+			(uuid "e308cc82-3eda-451d-93f9-e321354f18e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 86.36 107.95 180)
+			(uuid "9c2af528-e23b-441b-8f6c-ee5c77eb26f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 86.36 105.41 180)
+			(uuid "9290e22f-95bf-4bec-88fa-18aa83d642c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 86.36 97.79 180)
+			(uuid "62f03022-ab0e-4e9f-88ab-4efbc38a9d33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 86.36 100.33 180)
+			(uuid "16395bac-725c-489a-a84b-6ee27d039b25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
 		(instances
 			(project "stepper_music"
 				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR029")
-					(unit 1)
+					(page "4")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 186.69 212.09 0)
-		(unit 1)
-		(body_style 1)
+	(sheet
+		(at 179.07 219.71)
+		(size 17.78 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(uuid "f78aa7ea-4ab6-4939-a3a1-6923b4ef393c")
-		(property "Reference" "#PWR025"
-			(at 186.69 215.9 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5bbe4836-44e8-4f24-b1ae-ed92f44e542e")
+		(property "Sheetname" "Driver 8"
+			(at 179.07 218.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 185.928 207.01 0)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 179.07 253.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" ""
-			(at 186.69 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "1A" output
+			(at 196.85 234.95 0)
+			(uuid "9020fa22-de72-44d0-8296-85fd83761d89")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Datasheet" ""
-			(at 186.69 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "1B" output
+			(at 196.85 232.41 0)
+			(uuid "d52993d5-9f9d-4f17-a4c1-d8065edbb20c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 186.69 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "2A" output
+			(at 196.85 237.49 0)
+			(uuid "e620563a-73e1-43b7-8a52-1d87e82d5ab5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(pin "1"
-			(uuid "d5544aab-d712-423a-9361-557bd6afbd19")
+		(pin "2B" output
+			(at 196.85 240.03 0)
+			(uuid "33418306-3923-4129-bc67-d5c4d83f4795")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 179.07 237.49 180)
+			(uuid "b6e43a4f-a352-41db-9466-64ed1c9d3dac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 179.07 242.57 180)
+			(uuid "bbd70f2a-2487-44bf-9032-67ce7d9dc55a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 179.07 245.11 180)
+			(uuid "46bc2182-306f-4912-9a8c-26958db37322")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3" input
+			(at 179.07 247.65 180)
+			(uuid "c8a04c04-f1e4-4c7c-83a9-6549810cfb74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 179.07 234.95 180)
+			(uuid "5af42987-dd73-4dfd-b0de-0ba23943bc19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 179.07 232.41 180)
+			(uuid "b3160a4d-539f-4ffe-83b9-8ec7c1739fac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 179.07 224.79 180)
+			(uuid "6c3a2f7a-9c0a-4572-90ce-0c6fa85b77ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 179.07 227.33 180)
+			(uuid "ebe24710-beb7-4503-967a-33384390c23e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
 		(instances
 			(project "stepper_music"
 				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
-					(reference "#PWR025")
-					(unit 1)
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 92.71)
+		(size 17.78 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "60dae45a-bf18-4832-b54f-8416f293d78e")
+		(property "Sheetname" "Driver 6"
+			(at 179.07 91.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 179.07 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1A" output
+			(at 196.85 107.95 0)
+			(uuid "148c4281-c3a4-4f7a-9b6e-d673c3419418")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1B" output
+			(at 196.85 105.41 0)
+			(uuid "fed12c32-6a79-4203-940b-35fa6c959a23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 196.85 110.49 0)
+			(uuid "4c50c073-cc0f-4af8-b748-db1eb94b3144")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2B" output
+			(at 196.85 113.03 0)
+			(uuid "c823a1e1-e0c8-4616-a827-5cf95cf0b949")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 179.07 110.49 180)
+			(uuid "0f8d4754-f5fb-416e-96b6-83af1df53920")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 179.07 115.57 180)
+			(uuid "9a8aee56-e5fe-42c2-b4d2-7677c6ca7035")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 179.07 118.11 180)
+			(uuid "c6651d86-28e2-4bd6-adba-43b3a1a12051")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3" input
+			(at 179.07 120.65 180)
+			(uuid "81fce3ec-c654-4780-bfd3-ff029cf200e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 179.07 107.95 180)
+			(uuid "fde99af6-7eff-4af8-bf36-d4816de7a9d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 179.07 105.41 180)
+			(uuid "b3703bf1-dee1-403c-a05b-e827c947eb55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 179.07 97.79 180)
+			(uuid "b99dbd30-54ad-48e6-9d4a-aa1fafed2dd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 179.07 100.33 180)
+			(uuid "c50bd682-3476-4701-aebf-f43731ec3504")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 219.71)
+		(size 17.78 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "627db15f-8545-460a-83cc-41b559e00082")
+		(property "Sheetname" "Driver 4"
+			(at 86.36 218.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 86.36 253.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1A" output
+			(at 104.14 234.95 0)
+			(uuid "a51306b9-09c6-4287-9489-8053aed098dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1B" output
+			(at 104.14 232.41 0)
+			(uuid "854b2033-f138-41f9-be12-12852dd5b664")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 104.14 237.49 0)
+			(uuid "ce1c4df4-bb1b-4fe3-afa1-4191005b73f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2B" output
+			(at 104.14 240.03 0)
+			(uuid "761cfa1e-9b3f-4534-9878-5bf8724c13ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 86.36 237.49 180)
+			(uuid "7dd49532-3661-4dc6-a327-cd6651c91ade")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 86.36 242.57 180)
+			(uuid "a2feb4c1-2160-4f05-bd2d-55a4f304b36c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 86.36 245.11 180)
+			(uuid "71f85703-946b-4760-946c-c0929449de9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3" input
+			(at 86.36 247.65 180)
+			(uuid "87a94c20-8607-4d4c-8465-c577d887766a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 86.36 234.95 180)
+			(uuid "ef47b542-3e43-491c-a61c-3e9773fba70d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 86.36 232.41 180)
+			(uuid "7a40265f-96fb-4813-8961-d7b6f2d4329e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 86.36 224.79 180)
+			(uuid "3c69827d-fee5-4046-bedf-d0ee494c1020")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 86.36 227.33 180)
+			(uuid "f6bbbedf-c022-48c5-a620-b1293ce4f900")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 29.21)
+		(size 17.78 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7c709d1e-4f00-4901-a1f8-f6836429dc30")
+		(property "Sheetname" "Driver 5"
+			(at 179.07 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 179.07 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1A" output
+			(at 196.85 44.45 0)
+			(uuid "b415b4b8-ae68-4f1b-a8e8-ef8847f02155")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1B" output
+			(at 196.85 41.91 0)
+			(uuid "32ad500a-eebe-4312-a538-1903ccd1bbfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 196.85 46.99 0)
+			(uuid "07b7002f-eb21-4d86-bc10-4e342ef9ebcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2B" output
+			(at 196.85 49.53 0)
+			(uuid "7014954f-658f-43c3-87af-b1fbed5f111c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 179.07 46.99 180)
+			(uuid "559e388c-8f8f-43e8-8cc4-8ef8fd7d74be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 179.07 52.07 180)
+			(uuid "0138f4ba-9c5d-401d-8e67-4eff52171f58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 179.07 54.61 180)
+			(uuid "96833ae3-e882-498d-846a-b0d425d061fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3" input
+			(at 179.07 57.15 180)
+			(uuid "1509e3ee-26b8-4e26-b8ea-480a2f9fb6c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 179.07 44.45 180)
+			(uuid "ee2f365b-e710-4857-bacc-f2e65d2a4ba2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 179.07 41.91 180)
+			(uuid "ad72341b-8e43-4545-8a17-0371bf223950")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 179.07 34.29 180)
+			(uuid "88c1f124-effc-4e42-b633-e8bd05cbc23d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 179.07 36.83 180)
+			(uuid "148c6e43-1ab9-4a33-8f2b-e970e1faf0d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 29.21)
+		(size 17.78 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d586785d-5219-4549-8fd2-ceb2e303be2c")
+		(property "Sheetname" "Driver 1"
+			(at 86.36 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 86.36 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1A" output
+			(at 104.14 44.45 0)
+			(uuid "d28e415b-df38-4b18-b0ba-be65430bb191")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1B" output
+			(at 104.14 41.91 0)
+			(uuid "aa9fd6f4-c73e-4538-aeb0-da281d50bd7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 104.14 46.99 0)
+			(uuid "0a00e025-caa3-4311-ba83-2d602de7187c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2B" output
+			(at 104.14 49.53 0)
+			(uuid "ca0dd87d-f572-415e-bda2-77f1034f8879")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 86.36 46.99 180)
+			(uuid "ed4daed6-106c-4c27-86d7-21c63a1f82bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 86.36 52.07 180)
+			(uuid "c3593a13-e122-406b-9d28-963eb252d91a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 86.36 54.61 180)
+			(uuid "0f1f5a7a-afb4-4b6c-8029-349201c88c4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3" input
+			(at 86.36 57.15 180)
+			(uuid "7aa6e565-4d89-4243-a662-b087ef06e9ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 86.36 44.45 180)
+			(uuid "fc51c7a3-b09f-4e45-82f9-ba9895037b0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 86.36 41.91 180)
+			(uuid "f0b7a61d-163d-4081-a309-be4f11af6a2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 86.36 34.29 180)
+			(uuid "9b290b47-f451-4dd0-98e0-6a2fe1ee6724")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 86.36 36.83 180)
+			(uuid "6835ed81-6c5d-46c8-888d-16b1c129d3cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 156.21)
+		(size 17.78 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f069a111-c28e-40fd-84d8-8b318c4858de")
+		(property "Sheetname" "Driver 7"
+			(at 179.07 155.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 179.07 189.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1A" output
+			(at 196.85 171.45 0)
+			(uuid "da92de4d-1eb0-4720-908b-75a7451a312c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1B" output
+			(at 196.85 168.91 0)
+			(uuid "246214c7-5b86-4f3d-9226-6021090c5036")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 196.85 173.99 0)
+			(uuid "34d571fd-8c9a-408d-ba56-ac498b1973ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2B" output
+			(at 196.85 176.53 0)
+			(uuid "b95843b7-8830-48bb-925b-7d9e2ae8417f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 179.07 173.99 180)
+			(uuid "da33930d-2f4f-400e-98a9-4713d00f02db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 179.07 179.07 180)
+			(uuid "1a0a79f2-a24a-4cca-86d5-7bb923bfad8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 179.07 181.61 180)
+			(uuid "7b5db665-3a73-42ae-b955-acc78da2b6a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3" input
+			(at 179.07 184.15 180)
+			(uuid "14cef48d-fbbe-406b-8540-7e710fe27128")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 179.07 171.45 180)
+			(uuid "d57ad32a-e229-466f-bbb1-1eb64b17ed00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 179.07 168.91 180)
+			(uuid "9902de79-428c-4ea2-b64a-30c1198dbf0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 179.07 161.29 180)
+			(uuid "c3f17a61-5190-45bf-a4f9-6559bf76d2da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 179.07 163.83 180)
+			(uuid "16510d1c-0306-4123-9fc1-a4140cc05e85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 156.21)
+		(size 17.78 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f7e37d7f-d74d-464d-bb2e-26fef4e38440")
+		(property "Sheetname" "Driver 3"
+			(at 86.36 155.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 86.36 189.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1A" output
+			(at 104.14 171.45 0)
+			(uuid "41ad5e7e-f65e-4b8d-b89e-aad2fc208fe0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1B" output
+			(at 104.14 168.91 0)
+			(uuid "a1367b3a-b7af-4c39-b2a9-3c1bda4b053a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 104.14 173.99 0)
+			(uuid "7c81dff0-2fb5-4697-a3d9-c77df32610bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2B" output
+			(at 104.14 176.53 0)
+			(uuid "009ef3bf-b575-4d9d-a40b-5443827ebba4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 86.36 173.99 180)
+			(uuid "2db8354e-7700-4969-aed9-4b543ccbe769")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 86.36 179.07 180)
+			(uuid "37cb609e-e753-4902-a326-b3539584af82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 86.36 181.61 180)
+			(uuid "6e740592-1212-409a-81f1-ed6e8a89a34d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3" input
+			(at 86.36 184.15 180)
+			(uuid "f7bb1c9c-671d-4473-9dfc-9201fb1cdb54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 86.36 171.45 180)
+			(uuid "41ed6f2b-4534-4296-a1a0-19ecca1cfe48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 86.36 168.91 180)
+			(uuid "d93ed033-2e56-4c4c-b96e-9768b2ca74c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 86.36 161.29 180)
+			(uuid "f5c65fd9-00a2-4f2f-b20d-2b672a378b46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 86.36 163.83 180)
+			(uuid "451752a5-67aa-4e6b-8b5e-e56d7c52c8ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(page "5")
 				)
 			)
 		)
