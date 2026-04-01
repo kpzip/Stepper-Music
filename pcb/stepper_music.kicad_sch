@@ -8910,7 +8910,7 @@
 		)
 		(uuid "0293918b-5568-48b8-9eb7-59dfa09356bd")
 	)
-	(label "~{ENABLE_3}"
+	(label "ENABLE_3"
 		(at 81.28 195.58 0)
 		(effects
 			(font
@@ -8980,7 +8980,7 @@
 		)
 		(uuid "3d36ba33-fe39-421e-8587-ce85226da093")
 	)
-	(label "~{ENABLE_1}"
+	(label "ENABLE_1"
 		(at 81.28 190.5 0)
 		(effects
 			(font
@@ -9010,7 +9010,7 @@
 		)
 		(uuid "49da0ba5-1fc8-4393-9ddb-91ab919abdad")
 	)
-	(label "~{ENABLE_5}"
+	(label "ENABLE_5"
 		(at 81.28 200.66 0)
 		(effects
 			(font
@@ -9080,7 +9080,7 @@
 		)
 		(uuid "63a7a79d-6b00-4a82-b846-ac3d20a3662a")
 	)
-	(label "~{ENABLE_6}"
+	(label "ENABLE_6"
 		(at 81.28 203.2 0)
 		(effects
 			(font
@@ -9090,7 +9090,7 @@
 		)
 		(uuid "6b6ff49d-80b1-4527-a48c-c4ab9ccd1c82")
 	)
-	(label "~{ENABLE_8}"
+	(label "ENABLE_8"
 		(at 81.28 208.28 0)
 		(effects
 			(font
@@ -9150,7 +9150,7 @@
 		)
 		(uuid "921916f9-486f-4897-a9b0-d679d5ccc723")
 	)
-	(label "~{ENABLE_[1..8]}"
+	(label "ENABLE_[1..8]"
 		(at 203.2 166.37 0)
 		(effects
 			(font
@@ -9160,7 +9160,7 @@
 		)
 		(uuid "960ca2ab-20c7-4781-bf9e-805872eeeb46")
 	)
-	(label "~{ENABLE_4}"
+	(label "ENABLE_4"
 		(at 81.28 198.12 0)
 		(effects
 			(font
@@ -9350,7 +9350,7 @@
 		)
 		(uuid "d08bb026-0664-4e79-8ee0-61b574844596")
 	)
-	(label "~{ENABLE_7}"
+	(label "ENABLE_7"
 		(at 81.28 205.74 0)
 		(effects
 			(font
@@ -9400,7 +9400,7 @@
 		)
 		(uuid "e76f62f9-b6d1-41e1-97d3-18d19b913c1c")
 	)
-	(label "~{ENABLE_2}"
+	(label "ENABLE_2"
 		(at 81.28 193.04 0)
 		(effects
 			(font
@@ -19273,7 +19273,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{ENABLE_[1..8]}" output
+		(pin "ENABLE_[1..8]" output
 			(at 218.44 166.37 180)
 			(uuid "cce5c9d8-1724-4542-b122-711d66522c76")
 			(effects

@@ -2072,7 +2072,7 @@
 			"el0xi0HrCqP/2Q=="
 		)
 	)
-	(label "~{ENABLE_3}"
+	(label "ENABLE_3"
 		(at 73.66 168.91 0)
 		(effects
 			(font
@@ -2082,7 +2082,7 @@
 		)
 		(uuid "07f08d02-a935-4602-a69b-fe628ec56ab3")
 	)
-	(label "~{ENABLE_2}"
+	(label "ENABLE_2"
 		(at 73.66 105.41 0)
 		(effects
 			(font
@@ -2102,7 +2102,7 @@
 		)
 		(uuid "1076d46d-8110-448f-9b3f-d77ba096f532")
 	)
-	(label "~{ENABLE_7}"
+	(label "ENABLE_7"
 		(at 166.37 168.91 0)
 		(effects
 			(font
@@ -2362,7 +2362,7 @@
 		)
 		(uuid "6f7bc29f-840a-49b6-ad34-6f4c05d83ce3")
 	)
-	(label "~{ENABLE_6}"
+	(label "ENABLE_6"
 		(at 166.37 105.41 0)
 		(effects
 			(font
@@ -2382,7 +2382,7 @@
 		)
 		(uuid "844e6625-3673-4f61-b63f-87344c94b21f")
 	)
-	(label "~{ENABLE_[1..8]}"
+	(label "ENABLE_[1..8]"
 		(at 270.51 86.36 0)
 		(effects
 			(font
@@ -2392,7 +2392,7 @@
 		)
 		(uuid "90bbc2cf-bfb9-4b16-a415-62c5d0cd652f")
 	)
-	(label "~{ENABLE_1}"
+	(label "ENABLE_1"
 		(at 73.66 41.91 0)
 		(effects
 			(font
@@ -2422,7 +2422,7 @@
 		)
 		(uuid "9b206cbf-cb89-4155-8fc2-c79632a132e2")
 	)
-	(label "~{ENABLE_8}"
+	(label "ENABLE_8"
 		(at 166.37 232.41 0)
 		(effects
 			(font
@@ -2442,7 +2442,7 @@
 		)
 		(uuid "9d64c25f-ea99-4813-b567-9f723793a774")
 	)
-	(label "~{ENABLE_4}"
+	(label "ENABLE_4"
 		(at 73.66 232.41 0)
 		(effects
 			(font
@@ -2752,7 +2752,7 @@
 		)
 		(uuid "f0339eff-e144-4b21-acec-abc3526493ac")
 	)
-	(label "~{ENABLE_5}"
+	(label "ENABLE_5"
 		(at 166.37 41.91 0)
 		(effects
 			(font
@@ -2792,7 +2792,7 @@
 		)
 		(uuid "ff1b65ad-3e5d-4781-b870-55cac7573a8f")
 	)
-	(hierarchical_label "~{ENABLE_[1..8]}"
+	(hierarchical_label "ENABLE_[1..8]"
 		(shape output)
 		(at 287.02 86.36 0)
 		(effects
