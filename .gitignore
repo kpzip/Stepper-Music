@@ -43,3 +43,5 @@ fp-info-cache
 .history/
 .history_old/
 .history_trim/
+
+outputs/
