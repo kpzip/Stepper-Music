@@ -17415,7 +17415,7 @@
 		(tags "test point SMD pad")
 		(property "Reference" "TP4"
 			(at 0 -1.648 0)
-			(layer "F.SilkS")
+			(layer "User.1")
 			(uuid "d311f49e-2ad7-40ca-869d-5c0f925aa6c8")
 			(effects
 				(font
@@ -39468,7 +39468,7 @@
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
 			(at 0 -1.648 0)
-			(layer "F.SilkS")
+			(layer "User.1")
 			(uuid "ee183c3c-6c69-44f7-a19d-1a12cb07ce3c")
 			(effects
 				(font
@@ -40565,7 +40565,7 @@
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
 			(at 0 -1.648 0)
-			(layer "F.SilkS")
+			(layer "User.1")
 			(uuid "c54fc896-7209-44cb-a6c4-e3502829d69b")
 			(effects
 				(font
@@ -41857,7 +41857,7 @@
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
 			(at 0 -1.648 0)
-			(layer "F.SilkS")
+			(layer "User.1")
 			(uuid "9d096e52-6e08-46bb-af9f-172b86b49bac")
 			(effects
 				(font
@@ -50497,6 +50497,50 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "13768404-3bb6-4f8e-baae-83a5c19e25a1")
+	)
+	(gr_text "+12V"
+		(at 76.5 100.5 0)
+		(layer "F.SilkS")
+		(uuid "9437459d-3f29-47d8-be38-a2c7d3e2cede")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "+3.3V"
+		(at 85 174 0)
+		(layer "F.SilkS")
+		(uuid "6094175f-4649-4280-89a8-32482ad3157d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "GND"
+		(at 89 174 0)
+		(layer "F.SilkS")
+		(uuid "f90df2dd-2438-4e27-be64-b7f167fb6970")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "+5V"
+		(at 101.5 132 0)
+		(layer "F.SilkS")
+		(uuid "a0346b3a-d8f4-4a32-bf90-8282069d98bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
 	)
 	(gr_text "8x Stepper Motor Music Controller\nRevision 1.0\nDesigned By:\nKyle Schmerge"
 		(at 92.375 107.25 90)
@@ -66676,12 +66720,12 @@
 		(uuid "5af2d698-fb01-43e8-9867-26ef4afa4ebc")
 		(hatch edge 0.5)
 		(priority 1)
-		(connect_pads yes
+		(connect_pads
 			(clearance 0.1)
 		)
 		(min_thickness 0.25)
 		(fill yes
-			(thermal_gap 0.5)
+			(thermal_gap 0.1)
 			(thermal_bridge_width 0.5)
 			(island_removal_mode 0)
 		)
