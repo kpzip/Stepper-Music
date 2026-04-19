@@ -1,0 +1,5 @@
+../Core/Inc/bsp.h:17:10:board_millis	4	static
+../Core/Inc/bsp.h:21:8:board_usb_get_serial	32	static
+../Core/Src/usb_descriptors.c:64:17:tud_descriptor_device_cb	4	static
+../Core/Src/usb_descriptors.c:122:17:tud_descriptor_configuration_cb	16	static
+../Core/Src/usb_descriptors.c:157:17:tud_descriptor_string_cb	32	static

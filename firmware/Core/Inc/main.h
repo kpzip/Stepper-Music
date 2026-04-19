@@ -41,6 +41,20 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
+#define PRESCALER 60
+
+extern TIM_HandleTypeDef htim1;
+extern TIM_HandleTypeDef htim2;
+extern TIM_HandleTypeDef htim3;
+extern TIM_HandleTypeDef htim4;
+extern TIM_HandleTypeDef htim5;
+extern TIM_HandleTypeDef htim9;
+extern TIM_HandleTypeDef htim10;
+extern TIM_HandleTypeDef htim11;
+
+extern UART_HandleTypeDef huart1;
+
+extern PCD_HandleTypeDef hpcd_USB_OTG_FS;
 
 /* USER CODE END EC */
 

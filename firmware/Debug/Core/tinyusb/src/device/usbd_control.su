@@ -1,0 +1,10 @@
+../Core/tinyusb/src/device/usbd_control.c:38:19:dcd_edpt0_status_complete	16	static
+../Core/tinyusb/src/device/usbd_control.c:66:10:usbd_get_ctrl_buf	4	static
+../Core/tinyusb/src/device/usbd_control.c:75:20:status_stage_xact	32	static
+../Core/tinyusb/src/device/usbd_control.c:82:6:tud_control_status	16	static
+../Core/tinyusb/src/device/usbd_control.c:94:13:data_stage_xact	56	static
+../Core/tinyusb/src/device/usbd_control.c:110:6:tud_control_xfer	40	static,ignoring_inline_asm
+../Core/tinyusb/src/device/usbd_control.c:136:6:usbd_control_reset	8	static
+../Core/tinyusb/src/device/usbd_control.c:141:6:usbd_control_set_complete_callback	16	static
+../Core/tinyusb/src/device/usbd_control.c:146:6:usbd_control_set_request	16	static
+../Core/tinyusb/src/device/usbd_control.c:156:6:usbd_control_xfer_cb	40	static,ignoring_inline_asm

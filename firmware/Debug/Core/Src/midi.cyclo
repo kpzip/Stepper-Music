@@ -1,0 +1,13 @@
+../Core/Src/midi.c:35:6:motor_init	3
+../Core/Src/midi.c:57:6:midi_enable_recieve	1
+../Core/Src/midi.c:61:6:stepper_freq	3
+../Core/Src/midi.c:82:6:enable_sleep	1
+../Core/Src/midi.c:86:6:disable_sleep	1
+../Core/Src/midi.c:90:6:note_on	14
+../Core/Src/midi.c:149:6:note_off	5
+../Core/Src/midi.c:168:6:process_midi_msg	3
+../Core/Src/midi.c:193:6:MIDI_ProcessByte	9
+../Core/Src/midi.c:245:6:tud_midi_rx_cb	2
+../Core/Src/midi.c:263:6:HAL_UART_RxCpltCallback	2
+../Core/Src/midi.c:271:6:setup	1
+../Core/Src/midi.c:291:6:loop	1
