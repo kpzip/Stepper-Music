@@ -1,0 +1,5227 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "45e01bfc-2e13-4685-a753-ee11630baee7")
+	(paper "B")
+	(lib_symbols
+		(symbol "Motor:Stepper_Motor_unipolar_6pin"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M"
+				(at 3.81 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Stepper_Motor_unipolar_6pin"
+				(at 3.81 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.254 -0.254 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+				(at 0.254 -0.254 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "6-wire unipolar stepper motor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "unipolar stepper motor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Stepper_Motor_unipolar_6pin_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.778) (xy -1.27 2.032) (xy 0 -0.508) (xy 1.27 2.032) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Stepper_Motor_unipolar_6pin_0_1"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -4.445 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -4.445 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.445 2.54)
+					(mid -3.8127 1.905)
+					(end -4.445 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.445 1.27)
+					(mid -3.8127 0.635)
+					(end -4.445 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.445 0)
+					(mid -3.8127 -0.635)
+					(end -4.445 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.445 -1.27)
+					(mid -3.8127 -1.905)
+					(end -4.445 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 4.445) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 4.445)
+					(mid -1.905 3.8127)
+					(end -2.54 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.445)
+					(mid -0.635 3.8127)
+					(end -1.27 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.445) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.2512)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 4.445)
+					(mid 0.635 3.8127)
+					(end 0 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 4.445)
+					(mid 1.905 3.8127)
+					(end 1.27 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 4.445) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Stepper_Motor_unipolar_6pin_1_1"
+				(pin passive line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 123.19 54.61)
+		(uuid "1e0382e2-ac42-430c-b6e5-9d84030acf1f")
+	)
+	(no_connect
+		(at 123.19 245.11)
+		(uuid "22a6301a-17ca-4a26-8a42-579568772eb0")
+	)
+	(no_connect
+		(at 123.19 118.11)
+		(uuid "2382804f-56e8-4ee9-b428-f7ce68afe56f")
+	)
+	(no_connect
+		(at 223.52 173.99)
+		(uuid "24450a68-63ef-4383-95de-5cd6267f70dc")
+	)
+	(no_connect
+		(at 130.81 237.49)
+		(uuid "26accdd3-8948-4006-bf87-d59c7d08e396")
+	)
+	(no_connect
+		(at 130.81 110.49)
+		(uuid "279c70c2-c0ea-480b-b063-03bc9a9b704a")
+	)
+	(no_connect
+		(at 130.81 173.99)
+		(uuid "27b2b0f7-3e84-4611-8de9-6f4d5addc760")
+	)
+	(no_connect
+		(at 215.9 118.11)
+		(uuid "31d10e3f-271f-4729-9e3a-724e2b10dbdf")
+	)
+	(no_connect
+		(at 223.52 110.49)
+		(uuid "3829d8c6-0e8b-4809-8b35-8c2021d45c3d")
+	)
+	(no_connect
+		(at 223.52 237.49)
+		(uuid "3ccf1b8a-def3-47bd-93c3-8bf7798280b5")
+	)
+	(no_connect
+		(at 215.9 54.61)
+		(uuid "49157d08-b2f3-4805-aff4-202000e6dfcc")
+	)
+	(no_connect
+		(at 130.81 46.99)
+		(uuid "5a0212ba-d29a-40d1-8962-994fb92a7a67")
+	)
+	(no_connect
+		(at 215.9 245.11)
+		(uuid "64ffe4d6-87a8-4b89-9e69-e73b28e77dc8")
+	)
+	(no_connect
+		(at 223.52 46.99)
+		(uuid "b3bc80bd-25d5-474d-b4ba-e479a241ccf3")
+	)
+	(no_connect
+		(at 215.9 181.61)
+		(uuid "d6e0528c-cb87-44dc-b415-6e7b303a4301")
+	)
+	(no_connect
+		(at 123.19 181.61)
+		(uuid "fd6b7ae2-6e3f-4c7e-89bd-f48ea9245a66")
+	)
+	(wire
+		(pts
+			(xy 110.49 57.15) (xy 123.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01cf11c5-1064-41fe-8551-fa250e10d7e8")
+	)
+	(wire
+		(pts
+			(xy 73.66 36.83) (xy 86.36 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d71b26-4f54-497a-bc89-22995da165da")
+	)
+	(wire
+		(pts
+			(xy 203.2 184.15) (xy 215.9 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07660a4b-0f01-487c-a764-132a8ad44227")
+	)
+	(wire
+		(pts
+			(xy 196.85 107.95) (xy 220.98 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ae6b2d-9bf6-400d-8d08-3a31ad93025e")
+	)
+	(wire
+		(pts
+			(xy 166.37 57.15) (xy 179.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08dfe29f-5c7b-46fe-ba99-d9cc133d9acd")
+	)
+	(wire
+		(pts
+			(xy 203.2 120.65) (xy 215.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09611350-052b-4d38-b7c5-752cec5b64de")
+	)
+	(wire
+		(pts
+			(xy 104.14 237.49) (xy 113.03 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb72b5c-d663-468e-9510-b43fdfa63f94")
+	)
+	(wire
+		(pts
+			(xy 203.2 240.03) (xy 203.2 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11762ab7-266c-4e7f-86aa-886823016b3f")
+	)
+	(wire
+		(pts
+			(xy 73.66 184.15) (xy 86.36 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129ec8ea-0ab8-4fff-8a70-c2e18e2059b4")
+	)
+	(wire
+		(pts
+			(xy 166.37 247.65) (xy 179.07 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158fd81d-3327-4b5c-8ec3-5e859d3a4e12")
+	)
+	(wire
+		(pts
+			(xy 73.66 173.99) (xy 86.36 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17abf433-a5db-4201-b3f9-5583bd9f9dc6")
+	)
+	(wire
+		(pts
+			(xy 196.85 110.49) (xy 205.74 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f83072-78fa-425a-aec2-84a8b5d62345")
+	)
+	(wire
+		(pts
+			(xy 203.2 49.53) (xy 203.2 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205e8a00-a4fb-48f3-b65b-d4099800ca7b")
+	)
+	(wire
+		(pts
+			(xy 73.66 34.29) (xy 86.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ec4e12-71fb-4e71-99c7-cb6ddba97c48")
+	)
+	(wire
+		(pts
+			(xy 203.2 247.65) (xy 215.9 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "217998cd-f86a-433c-bc75-cdee690d2b1b")
+	)
+	(wire
+		(pts
+			(xy 166.37 110.49) (xy 179.07 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2183531a-9f34-4789-a8b4-cf4c5532889e")
+	)
+	(wire
+		(pts
+			(xy 196.85 240.03) (xy 203.2 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22c575d9-05d7-4e6b-9fd0-7c8cb18b724e")
+	)
+	(wire
+		(pts
+			(xy 205.74 242.57) (xy 215.9 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23180859-bcfa-42bd-9e05-d925d3778854")
+	)
+	(wire
+		(pts
+			(xy 166.37 46.99) (xy 179.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23926373-786a-43cd-931f-2ac7b5940726")
+	)
+	(wire
+		(pts
+			(xy 73.66 100.33) (xy 86.36 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0fba56-27a1-43d1-9949-442f8212ae75")
+	)
+	(wire
+		(pts
+			(xy 73.66 115.57) (xy 86.36 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc838c5-5036-4df4-8134-785c5873bd58")
+	)
+	(wire
+		(pts
+			(xy 196.85 171.45) (xy 220.98 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d129abf-fc8a-4204-90fa-9df3092743f5")
+	)
+	(wire
+		(pts
+			(xy 196.85 232.41) (xy 226.06 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dac50f9-654d-47f7-ab6b-1604cd648888")
+	)
+	(wire
+		(pts
+			(xy 73.66 234.95) (xy 86.36 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d50bf4-31a9-419c-9cd4-2f30f1a11574")
+	)
+	(bus
+		(pts
+			(xy 270.51 86.36) (xy 287.02 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3444bada-076d-4719-a42d-7d87c0eee807")
+	)
+	(wire
+		(pts
+			(xy 133.35 41.91) (xy 133.35 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ce19e3-39c9-4c4f-b5c8-2c6e8316aecc")
+	)
+	(wire
+		(pts
+			(xy 166.37 41.91) (xy 179.07 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e98315-b9d3-4d09-b34b-705411251d47")
+	)
+	(wire
+		(pts
+			(xy 166.37 237.49) (xy 179.07 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370d1bb7-6a01-467f-8f60-0ef450fd1d46")
+	)
+	(wire
+		(pts
+			(xy 133.35 232.41) (xy 133.35 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f69a12-0967-477a-ab9e-cac86600963e")
+	)
+	(wire
+		(pts
+			(xy 104.14 173.99) (xy 113.03 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1bfb5f-9592-4780-afc3-aeac17fb508d")
+	)
+	(wire
+		(pts
+			(xy 113.03 242.57) (xy 123.19 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c65d1b4-8e01-46b9-aa12-82ca27fdcd6a")
+	)
+	(wire
+		(pts
+			(xy 73.66 57.15) (xy 86.36 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cef013a-68cc-448a-807a-a9fe7b963e78")
+	)
+	(wire
+		(pts
+			(xy 104.14 41.91) (xy 133.35 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1b772e-b9d8-4270-ae8c-817bc61d4b9b")
+	)
+	(wire
+		(pts
+			(xy 73.66 237.49) (xy 86.36 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db4b6aa-971e-4f6a-8250-c35fcaf1de75")
+	)
+	(wire
+		(pts
+			(xy 166.37 36.83) (xy 179.07 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c11400-10f9-438d-af69-a9507949ac78")
+	)
+	(wire
+		(pts
+			(xy 110.49 113.03) (xy 110.49 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4379fd8f-26b0-496a-ba28-c7d2eba1be8a")
+	)
+	(wire
+		(pts
+			(xy 104.14 44.45) (xy 128.27 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44bd6ddb-6387-4b3a-9852-56fc51ead0a4")
+	)
+	(wire
+		(pts
+			(xy 73.66 224.79) (xy 86.36 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459fd88d-b19b-48b9-82db-8cb092275fe7")
+	)
+	(wire
+		(pts
+			(xy 205.74 237.49) (xy 205.74 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46fec106-7b99-4d0a-99ab-4e9f4f5f55f0")
+	)
+	(wire
+		(pts
+			(xy 73.66 242.57) (xy 86.36 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474941b9-eb4e-4f92-ab86-73d952919618")
+	)
+	(wire
+		(pts
+			(xy 73.66 97.79) (xy 86.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48bf98af-72b6-4881-92eb-ef61263e56b1")
+	)
+	(wire
+		(pts
+			(xy 166.37 227.33) (xy 179.07 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a9a4259-9875-488b-b5f3-d4951bab6e56")
+	)
+	(wire
+		(pts
+			(xy 205.74 115.57) (xy 215.9 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd6bf6a-c372-46ec-81ff-bfc4cfeb63ca")
+	)
+	(wire
+		(pts
+			(xy 166.37 120.65) (xy 179.07 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4387fa-09e4-4ea6-b441-33120d60fff8")
+	)
+	(wire
+		(pts
+			(xy 166.37 44.45) (xy 179.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc92627-eb18-4dd9-83bb-f238a763bdb0")
+	)
+	(wire
+		(pts
+			(xy 104.14 49.53) (xy 110.49 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed8e143-a80e-4e58-8ad4-272b6794292d")
+	)
+	(wire
+		(pts
+			(xy 73.66 41.91) (xy 86.36 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5259f92b-a9ca-460f-9028-9ad4a15ba420")
+	)
+	(wire
+		(pts
+			(xy 73.66 118.11) (xy 86.36 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541e41ca-d7dd-4fc3-8060-42f350422c44")
+	)
+	(wire
+		(pts
+			(xy 73.66 181.61) (xy 86.36 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e0a1df-dab4-4e24-aeff-ac2e288de14d")
+	)
+	(wire
+		(pts
+			(xy 73.66 247.65) (xy 86.36 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d8be5c-e6c1-4ba8-b852-4436df3a9c76")
+	)
+	(wire
+		(pts
+			(xy 196.85 44.45) (xy 220.98 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5710497a-f093-4bfa-9ec8-49eabf6e2d6e")
+	)
+	(wire
+		(pts
+			(xy 166.37 161.29) (xy 179.07 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57901243-61e9-43fe-9d58-764a68972835")
+	)
+	(wire
+		(pts
+			(xy 196.85 105.41) (xy 226.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a9451c-1638-46fb-9714-bce08258a7de")
+	)
+	(wire
+		(pts
+			(xy 104.14 234.95) (xy 128.27 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57bb52b0-904c-4427-8f19-e1a92b48a527")
+	)
+	(wire
+		(pts
+			(xy 166.37 54.61) (xy 179.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587b392a-2232-45ba-a52a-db2de1c41e21")
+	)
+	(wire
+		(pts
+			(xy 196.85 176.53) (xy 203.2 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e76a554-8e6b-4457-bc0a-c19109119843")
+	)
+	(wire
+		(pts
+			(xy 104.14 110.49) (xy 113.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9175e1-1ee0-4ed3-bf07-c6dbec859bf1")
+	)
+	(wire
+		(pts
+			(xy 166.37 100.33) (xy 179.07 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "620011cd-5085-41e6-91c5-a7e1644e949e")
+	)
+	(wire
+		(pts
+			(xy 196.85 113.03) (xy 203.2 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628305fc-42c7-4311-a779-60b8ea8ef919")
+	)
+	(wire
+		(pts
+			(xy 113.03 115.57) (xy 123.19 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d85493-e3e8-4409-8c26-fa45abf1a94d")
+	)
+	(wire
+		(pts
+			(xy 226.06 105.41) (xy 226.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66eb24d5-0fae-446d-9a9a-600f997c0875")
+	)
+	(wire
+		(pts
+			(xy 166.37 184.15) (xy 179.07 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f5ffa6-e7aa-4798-be42-1dc8143981e9")
+	)
+	(wire
+		(pts
+			(xy 205.74 179.07) (xy 215.9 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f37432-f746-4b9d-8d93-e701cb650d3c")
+	)
+	(wire
+		(pts
+			(xy 73.66 46.99) (xy 86.36 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69afa705-23d2-47b4-a001-15fa9448a70a")
+	)
+	(wire
+		(pts
+			(xy 73.66 245.11) (xy 86.36 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6d2dbf-45f9-480e-a2f0-27bb3d3275c8")
+	)
+	(wire
+		(pts
+			(xy 166.37 115.57) (xy 179.07 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c771873-f33a-4b81-a4c9-3547f127a390")
+	)
+	(wire
+		(pts
+			(xy 73.66 232.41) (xy 86.36 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cfdab8b-48ef-4385-a35d-c7a53faca987")
+	)
+	(wire
+		(pts
+			(xy 104.14 107.95) (xy 128.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d53ca98-2861-47a1-8fdb-28acd27cd5e5")
+	)
+	(wire
+		(pts
+			(xy 196.85 46.99) (xy 205.74 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6debf8be-d7f6-43d0-a103-10f60fa1e8bd")
+	)
+	(wire
+		(pts
+			(xy 133.35 168.91) (xy 133.35 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee10749-3a21-4b91-811f-3c11e1775260")
+	)
+	(wire
+		(pts
+			(xy 226.06 41.91) (xy 226.06 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703e53a7-95de-488c-912e-ee2172dbff6b")
+	)
+	(wire
+		(pts
+			(xy 128.27 44.45) (xy 128.27 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a7d8c2-d127-4336-95b9-2ceacb9af45c")
+	)
+	(wire
+		(pts
+			(xy 73.66 227.33) (xy 86.36 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724763b1-7763-4675-ab45-14c0cbe8a6d5")
+	)
+	(wire
+		(pts
+			(xy 104.14 171.45) (xy 128.27 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c5e04f-7704-4177-80a0-0e19d257a913")
+	)
+	(wire
+		(pts
+			(xy 110.49 184.15) (xy 123.19 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a146fa3-b63c-4ad4-829c-9d814e8659ad")
+	)
+	(wire
+		(pts
+			(xy 128.27 171.45) (xy 128.27 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bff96a5-1c0e-4590-b657-8d0320bd3a8d")
+	)
+	(wire
+		(pts
+			(xy 205.74 110.49) (xy 205.74 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb83336-5a68-4a6e-a694-c084fdee35d8")
+	)
+	(wire
+		(pts
+			(xy 166.37 224.79) (xy 179.07 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7edac614-f906-44bc-b17c-9a1897371a96")
+	)
+	(wire
+		(pts
+			(xy 270.51 97.79) (xy 287.02 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82716852-5329-4634-9366-bc06913386f8")
+	)
+	(wire
+		(pts
+			(xy 113.03 173.99) (xy 113.03 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e9b486-6cd3-488a-acd9-620a9665b792")
+	)
+	(wire
+		(pts
+			(xy 73.66 171.45) (xy 86.36 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856c5673-604a-428f-9e31-d0e3e99bb198")
+	)
+	(wire
+		(pts
+			(xy 220.98 171.45) (xy 220.98 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86cbad15-d71b-4251-a32a-8c53c83b0952")
+	)
+	(wire
+		(pts
+			(xy 220.98 234.95) (xy 220.98 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5334f2-97b4-4a4f-84ac-5329edd1a86f")
+	)
+	(wire
+		(pts
+			(xy 73.66 179.07) (xy 86.36 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc95e2b-17ed-4c6a-a8e8-075bb5cc1733")
+	)
+	(wire
+		(pts
+			(xy 196.85 49.53) (xy 203.2 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d060cdb-53bd-4f3c-bfd0-95e310581a4a")
+	)
+	(wire
+		(pts
+			(xy 196.85 168.91) (xy 226.06 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6baa16-32c3-4235-aef6-11bbe4a14226")
+	)
+	(wire
+		(pts
+			(xy 196.85 41.91) (xy 226.06 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b6aae9-0baf-4d07-aed1-76b44a25f94f")
+	)
+	(wire
+		(pts
+			(xy 166.37 168.91) (xy 179.07 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9765f577-94df-4f14-9bc5-d1b1d4b5e6fe")
+	)
+	(wire
+		(pts
+			(xy 270.51 95.25) (xy 287.02 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1d4faa-a224-4f7b-a3fa-4f6640ed738e")
+	)
+	(wire
+		(pts
+			(xy 196.85 237.49) (xy 205.74 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4b9440-f1b0-46b8-a0ed-a52715babeb7")
+	)
+	(wire
+		(pts
+			(xy 203.2 57.15) (xy 215.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9f5c6c-01c7-4802-9c15-ad54562b08ca")
+	)
+	(wire
+		(pts
+			(xy 110.49 120.65) (xy 123.19 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3f5fbd-fc39-4b7d-8b11-81f36d16b5ab")
+	)
+	(bus
+		(pts
+			(xy 270.51 91.44) (xy 287.02 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00913da-58f5-412a-ada9-10f962e53ab2")
+	)
+	(wire
+		(pts
+			(xy 166.37 107.95) (xy 179.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c9da42-b426-49d0-8d8f-58f845d3c563")
+	)
+	(wire
+		(pts
+			(xy 128.27 107.95) (xy 128.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3257bbf-67e4-445b-a19c-5dcd53940094")
+	)
+	(wire
+		(pts
+			(xy 104.14 240.03) (xy 110.49 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a0eb32-4b9a-4826-a17e-37316d05960c")
+	)
+	(wire
+		(pts
+			(xy 166.37 234.95) (xy 179.07 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68d195f-a5dc-4e4c-b497-eec35853a64f")
+	)
+	(wire
+		(pts
+			(xy 166.37 163.83) (xy 179.07 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac2c2fc-3516-4dfa-b925-9879887f6624")
+	)
+	(wire
+		(pts
+			(xy 110.49 49.53) (xy 110.49 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aade3cee-8681-41b7-ac70-17873d4014d2")
+	)
+	(wire
+		(pts
+			(xy 73.66 107.95) (xy 86.36 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac375d05-7c9d-4e4d-801c-4a9ea49ed7fe")
+	)
+	(wire
+		(pts
+			(xy 110.49 247.65) (xy 123.19 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3d2922-a16b-4614-8c12-8a488ca76d1c")
+	)
+	(wire
+		(pts
+			(xy 226.06 232.41) (xy 226.06 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aead4aa6-d146-42e2-9815-cd44196e9df6")
+	)
+	(wire
+		(pts
+			(xy 73.66 44.45) (xy 86.36 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e5fbfc-ba4c-47b6-bc4c-d5264167a957")
+	)
+	(wire
+		(pts
+			(xy 270.51 104.14) (xy 287.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d81e50-5789-4d28-a591-ec5d9709da0d")
+	)
+	(wire
+		(pts
+			(xy 203.2 113.03) (xy 203.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2fbd480-c8e6-4670-bce7-d70c98d54a45")
+	)
+	(wire
+		(pts
+			(xy 73.66 168.91) (xy 86.36 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b314c2f4-c41d-4313-aadb-60ed0e823aef")
+	)
+	(wire
+		(pts
+			(xy 220.98 107.95) (xy 220.98 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68f714c-ec9a-4326-a877-fe3b38c088ba")
+	)
+	(wire
+		(pts
+			(xy 73.66 54.61) (xy 86.36 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7eb4190-1358-42e4-a1b2-c1529f88cc18")
+	)
+	(wire
+		(pts
+			(xy 104.14 168.91) (xy 133.35 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1fd393-0ef6-4a5f-860a-7013062a2311")
+	)
+	(wire
+		(pts
+			(xy 166.37 118.11) (xy 179.07 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc91d324-4467-4268-a5ad-f04b61517b12")
+	)
+	(wire
+		(pts
+			(xy 133.35 105.41) (xy 133.35 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf5a0be-bbfd-4345-8c31-1f580f053140")
+	)
+	(wire
+		(pts
+			(xy 73.66 163.83) (xy 86.36 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdfaa7a4-b2ac-45d9-9cda-41103fbe23ed")
+	)
+	(wire
+		(pts
+			(xy 203.2 176.53) (xy 203.2 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c18c89a9-3066-4ecc-96e1-1ea592cd88ec")
+	)
+	(wire
+		(pts
+			(xy 166.37 181.61) (xy 179.07 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19d8222-6594-4a3c-a296-e43e6240972e")
+	)
+	(wire
+		(pts
+			(xy 196.85 173.99) (xy 205.74 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c22dccd6-e9e3-4d5a-bac3-df19d0719a9a")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 113.03 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24621d9-f45c-44b2-88f8-dd031a3b689c")
+	)
+	(wire
+		(pts
+			(xy 110.49 176.53) (xy 110.49 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34068bb-166e-4575-98ba-e7bc13776791")
+	)
+	(wire
+		(pts
+			(xy 166.37 173.99) (xy 179.07 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c406ea8a-8775-4da0-ae86-d7ea09547313")
+	)
+	(wire
+		(pts
+			(xy 205.74 173.99) (xy 205.74 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c447c03f-5414-4972-b86d-5e88e3fb347c")
+	)
+	(wire
+		(pts
+			(xy 196.85 234.95) (xy 220.98 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97fe5c2-967c-4f0b-8b38-f49392e82dc6")
+	)
+	(wire
+		(pts
+			(xy 166.37 97.79) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caae193d-c86f-44c3-86f1-21b82e1f3400")
+	)
+	(wire
+		(pts
+			(xy 73.66 105.41) (xy 86.36 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1c1818-6c84-4b71-bd50-602a2408d273")
+	)
+	(wire
+		(pts
+			(xy 166.37 179.07) (xy 179.07 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd27e322-59f8-44b6-aa25-245ca80405e8")
+	)
+	(wire
+		(pts
+			(xy 110.49 240.03) (xy 110.49 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5f32eb-592f-4944-835f-5368b61d0bab")
+	)
+	(wire
+		(pts
+			(xy 166.37 232.41) (xy 179.07 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cecf1f51-a63c-448e-b89a-b294235c94dd")
+	)
+	(wire
+		(pts
+			(xy 73.66 110.49) (xy 86.36 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1703532-cab3-4669-beb7-788b0d135a55")
+	)
+	(wire
+		(pts
+			(xy 104.14 176.53) (xy 110.49 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d32a20fd-74c8-4483-982a-11ff6b9c881a")
+	)
+	(wire
+		(pts
+			(xy 220.98 44.45) (xy 220.98 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66b389a-dd98-47e7-892d-c3d32b82d66c")
+	)
+	(wire
+		(pts
+			(xy 166.37 52.07) (xy 179.07 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d980917e-502c-494a-8079-139ff66d65f7")
+	)
+	(wire
+		(pts
+			(xy 270.51 100.33) (xy 287.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd14f4ff-3f8c-41ac-800e-b07a9cadf758")
+	)
+	(wire
+		(pts
+			(xy 113.03 237.49) (xy 113.03 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded9afb2-fa38-47b4-84a7-cba50dea91f4")
+	)
+	(wire
+		(pts
+			(xy 270.51 106.68) (xy 287.02 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6465b5e-e247-48e6-8801-deab73bff13d")
+	)
+	(wire
+		(pts
+			(xy 113.03 52.07) (xy 123.19 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6df8361-67a0-4321-ab50-1bc87eb1ad03")
+	)
+	(wire
+		(pts
+			(xy 104.14 46.99) (xy 113.03 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f52157-d1c6-418b-a822-4fe7edebb4fb")
+	)
+	(wire
+		(pts
+			(xy 104.14 113.03) (xy 110.49 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ff832b-5a42-4649-9483-a11cf2a94ff4")
+	)
+	(wire
+		(pts
+			(xy 166.37 245.11) (xy 179.07 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9da98e6-fb7e-4be7-934e-f44f84c1fea9")
+	)
+	(wire
+		(pts
+			(xy 113.03 110.49) (xy 113.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f02959-9bf1-4440-9584-aaf2f72b0c3c")
+	)
+	(wire
+		(pts
+			(xy 205.74 52.07) (xy 215.9 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0f0e25-9e48-46ab-bd4c-d580999a0588")
+	)
+	(wire
+		(pts
+			(xy 73.66 52.07) (xy 86.36 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac33124-8481-4f18-aebf-76e63ed51554")
+	)
+	(wire
+		(pts
+			(xy 73.66 161.29) (xy 86.36 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae2b1a3-0252-41de-859a-960d956594c5")
+	)
+	(wire
+		(pts
+			(xy 104.14 232.41) (xy 133.35 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebaf4088-5876-4901-96f0-734a41f64c66")
+	)
+	(wire
+		(pts
+			(xy 128.27 234.95) (xy 128.27 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2e80da-42e0-4927-8e98-718de4d8e555")
+	)
+	(wire
+		(pts
+			(xy 113.03 179.07) (xy 123.19 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28123c8-37ba-4116-b4d5-3b8dd7909a66")
+	)
+	(wire
+		(pts
+			(xy 166.37 242.57) (xy 179.07 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f484e737-af38-4804-8af5-6c4f3b6ee396")
+	)
+	(wire
+		(pts
+			(xy 205.74 46.99) (xy 205.74 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f639ed58-4769-45b7-94ed-1cd0b3c76225")
+	)
+	(wire
+		(pts
+			(xy 226.06 168.91) (xy 226.06 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f835b0d1-b2eb-469d-a006-f2eb47bc9a71")
+	)
+	(wire
+		(pts
+			(xy 104.14 105.41) (xy 133.35 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9287502-7801-424d-bc8d-5ec91a86b3df")
+	)
+	(wire
+		(pts
+			(xy 166.37 171.45) (xy 179.07 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab11e27-7c42-44db-8bc2-7175145bbc05")
+	)
+	(bus
+		(pts
+			(xy 270.51 88.9) (xy 287.02 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd04ef1-b415-4982-b5c3-b3adcba4c8a7")
+	)
+	(wire
+		(pts
+			(xy 73.66 120.65) (xy 86.36 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc10943b-b8ef-4738-8a1d-c6bac7efab99")
+	)
+	(wire
+		(pts
+			(xy 166.37 34.29) (xy 179.07 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd71abf-8a92-4174-9f2e-421d27bc6473")
+	)
+	(wire
+		(pts
+			(xy 166.37 105.41) (xy 179.07 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd337d6f-5471-4fd0-a60b-bf88e10750f7")
+	)
+	(image
+		(at 342.9 172.72)
+		(scale 6.45697)
+		(uuid "0974c273-0042-4b16-8145-3bf129070b93")
+		(data "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"
+			"el0xi0HrCqP/2Q=="
+		)
+	)
+	(label "ENABLE_3"
+		(at 73.66 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07f08d02-a935-4602-a69b-fe628ec56ab3")
+	)
+	(label "ENABLE_2"
+		(at 73.66 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d892e11-2105-4571-8d21-fe5b7062c931")
+	)
+	(label "MS3"
+		(at 73.66 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1076d46d-8110-448f-9b3f-d77ba096f532")
+	)
+	(label "ENABLE_7"
+		(at 166.37 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11340dbf-b837-4cc7-9aeb-ef7c3af63448")
+	)
+	(label "MS3"
+		(at 73.66 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15f88e33-28c7-42e0-9696-9f2bc9054efe")
+	)
+	(label "STEP_7"
+		(at 166.37 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17b59acd-9a4a-482a-89ec-930fcd77803d")
+	)
+	(label "STEP_[1..8]"
+		(at 270.51 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18032ea2-5095-4949-a153-756ae3133990")
+	)
+	(label "~{RESET}"
+		(at 166.37 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b705476-7d1e-48bb-9622-ac2cd663b568")
+	)
+	(label "~{RESET}"
+		(at 73.66 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c0d34e6-3c9b-4d43-bf07-dd8b245f4071")
+	)
+	(label "MS1"
+		(at 166.37 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f6ab022-a206-445b-8d5e-6545e7e2b734")
+	)
+	(label "MS2"
+		(at 270.51 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20ee0e77-ff6f-4b19-8c2c-c59a300f10a0")
+	)
+	(label "DIR_2"
+		(at 73.66 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f608791-aead-4af3-a5b1-50c532ac75e4")
+	)
+	(label "MS2"
+		(at 73.66 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36d76748-c398-4a6d-bdf8-d79a14f4c7df")
+	)
+	(label "DIR_3"
+		(at 73.66 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37cb60d1-d86c-4212-87b5-41f22fa2406c")
+	)
+	(label "DIR_8"
+		(at 166.37 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f5aa53c-3806-4bff-89bb-af441c690121")
+	)
+	(label "~{RESET}"
+		(at 270.51 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41479b23-1fad-49b7-8cc9-4b28fb7ba26d")
+	)
+	(label "MS1"
+		(at 166.37 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4be96203-01a3-40a6-8266-de1dcbdccff7")
+	)
+	(label "MS3"
+		(at 270.51 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5184474d-111e-4bf9-bf0a-4518f1907c2e")
+	)
+	(label "~{SLEEP}"
+		(at 166.37 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57bd0f98-806d-40db-bd6d-ca0fdf049c8e")
+	)
+	(label "MS3"
+		(at 166.37 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57ff57e5-666c-472a-9d07-c8bc572e5437")
+	)
+	(label "~{SLEEP}"
+		(at 166.37 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "592d4916-415a-4564-afa9-43d1c55eac9e")
+	)
+	(label "STEP_8"
+		(at 166.37 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c36df0c-110f-44a9-867c-1298c299b761")
+	)
+	(label "MS3"
+		(at 73.66 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e270280-d96b-4804-8231-d9064e77d1f4")
+	)
+	(label "~{SLEEP}"
+		(at 166.37 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fa72de9-35c3-4f11-a6f2-0b0747e85c1d")
+	)
+	(label "MS2"
+		(at 73.66 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "610d8bfe-aa7b-4c4b-85a2-24485f3cda6f")
+	)
+	(label "MS3"
+		(at 166.37 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "683c1da2-358b-4c26-b78c-48d4a72e305b")
+	)
+	(label "DIR_5"
+		(at 166.37 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68b16db4-7a44-4ad6-af34-e306100894cc")
+	)
+	(label "MS1"
+		(at 73.66 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ebdf39a-b72a-48ed-ab76-86db64a62c7f")
+	)
+	(label "STEP_1"
+		(at 73.66 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f7bc29f-840a-49b6-ad34-6f4c05d83ce3")
+	)
+	(label "ENABLE_6"
+		(at 166.37 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b44e7e6-f470-42da-bd34-a9b939132f20")
+	)
+	(label "~{SLEEP}"
+		(at 73.66 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "844e6625-3673-4f61-b63f-87344c94b21f")
+	)
+	(label "ENABLE_[1..8]"
+		(at 270.51 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90bbc2cf-bfb9-4b16-a415-62c5d0cd652f")
+	)
+	(label "ENABLE_1"
+		(at 73.66 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "938e060c-c078-456b-9cf3-bbe682dc7968")
+	)
+	(label "MS2"
+		(at 166.37 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "996270c2-ce91-44e3-8fd8-9c28f562b030")
+	)
+	(label "STEP_3"
+		(at 73.66 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b206cbf-cb89-4155-8fc2-c79632a132e2")
+	)
+	(label "ENABLE_8"
+		(at 166.37 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b3e912b-3788-4e60-b996-9317e07a87bc")
+	)
+	(label "DIR_6"
+		(at 166.37 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d64c25f-ea99-4813-b567-9f723793a774")
+	)
+	(label "ENABLE_4"
+		(at 73.66 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e16e2c6-bc46-4db1-98fb-ab9c537618fd")
+	)
+	(label "~{RESET}"
+		(at 73.66 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fab72e5-d679-4609-9143-4d3a6a2b35d4")
+	)
+	(label "MS2"
+		(at 73.66 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0d0dbba-b27f-4142-853f-8e4f31ad64d9")
+	)
+	(label "STEP_6"
+		(at 166.37 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a65e7ce6-6b5b-4cd6-9bc3-6f5795b15d7e")
+	)
+	(label "DIR_7"
+		(at 166.37 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9a8da58-fef6-4030-9bc7-e2047635e2d9")
+	)
+	(label "~{RESET}"
+		(at 166.37 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aab5cea3-71c9-48b1-9ae7-9b0a6984a8c3")
+	)
+	(label "DIR_[1..8]"
+		(at 270.51 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac121384-7830-47c2-a32e-70e9111fc9e9")
+	)
+	(label "~{SLEEP}"
+		(at 73.66 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aee9ce92-f897-4c27-896b-3c19c4d028ec")
+	)
+	(label "~{SLEEP}"
+		(at 270.51 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af08f747-815c-47e8-b168-b43747a95672")
+	)
+	(label "~{SLEEP}"
+		(at 166.37 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af1fbbb4-913f-4af0-b193-05ed22cda0b8")
+	)
+	(label "MS3"
+		(at 166.37 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b20c64dd-bab1-4a71-932d-29e81cf3074c")
+	)
+	(label "STEP_2"
+		(at 73.66 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b526a8bb-aa2e-443a-bce3-4021f6d3b2af")
+	)
+	(label "MS1"
+		(at 270.51 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b95b7570-b301-4963-bcea-e70dec7336a0")
+	)
+	(label "MS1"
+		(at 166.37 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9ef9454-8135-413d-8dbc-85c891482320")
+	)
+	(label "MS2"
+		(at 166.37 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb06e910-167f-42a6-899a-76a6168f8521")
+	)
+	(label "~{RESET}"
+		(at 73.66 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc1267a2-355f-4a68-9d48-26dd84b08e82")
+	)
+	(label "MS1"
+		(at 73.66 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0b8cf95-2e82-4956-a865-b9e17d4a8ee5")
+	)
+	(label "~{RESET}"
+		(at 73.66 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1976485-e826-413a-a4df-9e8b683e89a9")
+	)
+	(label "~{SLEEP}"
+		(at 73.66 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3745945-4990-43b6-8783-13ff739bc135")
+	)
+	(label "DIR_4"
+		(at 73.66 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c71025f4-c257-47dc-bbae-c2da5dad65d8")
+	)
+	(label "~{RESET}"
+		(at 166.37 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca0192a4-dc81-4875-bf7c-a6c5d7577d83")
+	)
+	(label "MS3"
+		(at 166.37 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc7c5275-3e77-4580-b1ae-9be4fe3f7fbb")
+	)
+	(label "MS2"
+		(at 166.37 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd2a3424-314e-4966-83d9-cb1b23d6200b")
+	)
+	(label "MS2"
+		(at 166.37 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1829b6b-2228-4099-958b-7f928adbe0a9")
+	)
+	(label "~{RESET}"
+		(at 166.37 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dac287a5-65df-4ceb-a443-d82fa7602be7")
+	)
+	(label "DIR_1"
+		(at 73.66 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc0c27fe-199a-42e4-9e2c-da00492397a3")
+	)
+	(label "STEP_5"
+		(at 166.37 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "deeddbd6-c69f-4730-b0d3-02e5ead20abb")
+	)
+	(label "MS1"
+		(at 73.66 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0e04986-6570-458f-bf2a-1a09001ab40a")
+	)
+	(label "~{SLEEP}"
+		(at 73.66 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2b9ff95-7cb3-4eca-957d-fc53731b209e")
+	)
+	(label "STEP_4"
+		(at 73.66 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8944ace-9ca0-4232-a857-2ec86088254e")
+	)
+	(label "MS1"
+		(at 166.37 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0339eff-e144-4b21-acec-abc3526493ac")
+	)
+	(label "ENABLE_5"
+		(at 166.37 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f43e6285-3d0e-49c8-b8b3-224316a4d24a")
+	)
+	(label "MS2"
+		(at 73.66 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6afdd14-0f61-4c90-8123-7f8b58a5dc5b")
+	)
+	(label "MS3"
+		(at 73.66 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd1731a0-aa34-48e4-a312-071e96d8b8c9")
+	)
+	(label "MS1"
+		(at 73.66 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff1b65ad-3e5d-4781-b870-55cac7573a8f")
+	)
+	(hierarchical_label "ENABLE_[1..8]"
+		(shape output)
+		(at 287.02 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0265d200-8d9f-455c-b013-8b719fb364a9")
+	)
+	(hierarchical_label "DIR_[1..8]"
+		(shape output)
+		(at 287.02 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21a0b3ad-617f-4b05-aada-b2fbfd3daee0")
+	)
+	(hierarchical_label "STEP_[1..8]"
+		(shape output)
+		(at 287.02 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93ca0140-6fc7-4400-a240-8b347c3059fd")
+	)
+	(hierarchical_label "MS1"
+		(shape output)
+		(at 287.02 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b91e8feb-4c91-45a6-a451-c9615a72c45e")
+	)
+	(hierarchical_label "MS2"
+		(shape output)
+		(at 287.02 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b94dde6d-5550-4f9f-ba38-04b51f473457")
+	)
+	(hierarchical_label "MS3"
+		(shape output)
+		(at 287.02 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0c045cf-5e4a-41f0-b14c-4ae7339924c7")
+	)
+	(hierarchical_label "~{RESET}"
+		(shape output)
+		(at 287.02 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c710a3ad-df87-44e5-acb9-526d97d57b22")
+	)
+	(hierarchical_label "~{SLEEP}"
+		(shape output)
+		(at 287.02 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7b4e225-c8c6-4c8f-8583-1f4c942f8df2")
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_unipolar_6pin")
+		(at 223.52 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e736a51-e21a-4283-93d0-d98e0d62395d")
+		(property "Reference" "M7"
+			(at 228.6 179.489 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_unipolar_6pin"
+			(at 228.6 182.029 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 223.774 181.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 223.774 181.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-wire unipolar stepper motor"
+			(at 223.52 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B-PH-K-S"
+			(at 223.52 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 223.52 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "455-1708-ND"
+			(at 223.52 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "1ef18fa5-1ddf-471a-bde6-e24c1be1216c")
+		)
+		(pin "5"
+			(uuid "c4c85583-61b5-4d17-8546-818474374e0e")
+		)
+		(pin "3"
+			(uuid "0929aef1-b958-4b83-bf18-416d2b4c5417")
+		)
+		(pin "1"
+			(uuid "2cba0431-d34f-47ee-897d-ce5ac9f57aca")
+		)
+		(pin "4"
+			(uuid "eb1a0f38-e4f7-47d5-9d5a-056f91cc33bc")
+		)
+		(pin "2"
+			(uuid "d96e26db-d9f0-4ecc-8c68-434b60839f88")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_unipolar_6pin")
+		(at 223.52 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e7af2a9-babf-46ae-b837-a8b9dcb4ed4b")
+		(property "Reference" "M6"
+			(at 228.6 115.989 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_unipolar_6pin"
+			(at 228.6 118.529 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 223.774 118.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 223.774 118.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-wire unipolar stepper motor"
+			(at 223.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B-PH-K-S"
+			(at 223.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 223.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "455-1708-ND"
+			(at 223.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "489ce755-677d-4e04-b593-dce8dfeeae3e")
+		)
+		(pin "5"
+			(uuid "41fc5aaa-8624-46d8-94a4-7de8357de889")
+		)
+		(pin "3"
+			(uuid "29dbd8a9-b16e-440f-9041-239fbb6d5589")
+		)
+		(pin "1"
+			(uuid "a84d4576-7955-4348-a249-4db880c340ba")
+		)
+		(pin "4"
+			(uuid "f36768a7-f229-4ecb-8d5d-1f3fc245d5cb")
+		)
+		(pin "2"
+			(uuid "1fcb8f54-3370-4f10-819d-6ffff524cba1")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_unipolar_6pin")
+		(at 130.81 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "591eaf40-c4b3-4080-943a-a58033888966")
+		(property "Reference" "M2"
+			(at 135.89 115.989 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_unipolar_6pin"
+			(at 135.89 118.529 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 131.064 118.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 131.064 118.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-wire unipolar stepper motor"
+			(at 130.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B-PH-K-S"
+			(at 130.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 130.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "455-1708-ND"
+			(at 130.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "80075c1a-4fe6-43cd-aa1a-64fffa7df84f")
+		)
+		(pin "5"
+			(uuid "f6765147-02e7-406d-bc3c-2ac34fdded0c")
+		)
+		(pin "3"
+			(uuid "eef5517b-b99e-4ee8-b3c3-e9503bba292f")
+		)
+		(pin "1"
+			(uuid "b157cbaf-6898-45e9-a2b2-2eb705859355")
+		)
+		(pin "4"
+			(uuid "236eeae0-dcb2-4ac6-ae5b-ed7995576bc9")
+		)
+		(pin "2"
+			(uuid "016761dd-9026-4979-9d6f-bbcea31c155a")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_unipolar_6pin")
+		(at 130.81 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67913181-ec28-4b8d-8aba-1c5cc288e0bd")
+		(property "Reference" "M3"
+			(at 135.89 179.489 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_unipolar_6pin"
+			(at 135.89 182.029 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 131.064 181.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 131.064 181.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-wire unipolar stepper motor"
+			(at 130.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B-PH-K-S"
+			(at 130.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 130.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "455-1708-ND"
+			(at 130.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "94edd0be-21e7-4a23-8087-8b5ea68fd114")
+		)
+		(pin "5"
+			(uuid "e87134e4-3129-4d4f-8fba-ff8e686df580")
+		)
+		(pin "3"
+			(uuid "b77240a9-1a9b-43bb-a336-e23050fc36a0")
+		)
+		(pin "1"
+			(uuid "5bb24db8-405a-45e9-aff4-a77826a356bd")
+		)
+		(pin "4"
+			(uuid "930e37cc-6525-41a8-8691-873d660c97be")
+		)
+		(pin "2"
+			(uuid "18bfdb5f-09fd-4b49-b0ae-b99d52aebbf2")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_unipolar_6pin")
+		(at 223.52 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "687b04a6-37d3-40c6-ade9-b2a2a40ae3f8")
+		(property "Reference" "M8"
+			(at 228.6 242.989 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_unipolar_6pin"
+			(at 228.6 245.529 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 223.774 245.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 223.774 245.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-wire unipolar stepper motor"
+			(at 223.52 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B-PH-K-S"
+			(at 223.52 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 223.52 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "455-1708-ND"
+			(at 223.52 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "6de3c90e-3cc3-4e03-9935-927b06ddadb5")
+		)
+		(pin "5"
+			(uuid "12edddac-ddca-4840-a0c9-c08afc86c6a4")
+		)
+		(pin "3"
+			(uuid "d8f94c3c-c5e2-434e-b6a6-6b153ea8d262")
+		)
+		(pin "1"
+			(uuid "bc4e2c33-e158-45b6-9c81-8bac8e477f2e")
+		)
+		(pin "4"
+			(uuid "5e6e4da7-7fce-4673-8f0e-7f1e99a1cb61")
+		)
+		(pin "2"
+			(uuid "9288e18f-ee3b-4cc0-802a-75c4525c575d")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_unipolar_6pin")
+		(at 130.81 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72a6b92f-2600-4e3b-b533-cde5929422cc")
+		(property "Reference" "M4"
+			(at 135.89 242.989 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_unipolar_6pin"
+			(at 135.89 245.529 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 131.064 245.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 131.064 245.364 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-wire unipolar stepper motor"
+			(at 130.81 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B-PH-K-S"
+			(at 130.81 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 130.81 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "455-1708-ND"
+			(at 130.81 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "900069e0-c52b-4ea3-9793-99f53b87cac0")
+		)
+		(pin "5"
+			(uuid "877b680e-8e94-4dbc-879f-f06ce77f6236")
+		)
+		(pin "3"
+			(uuid "d93b3e33-d4ae-4786-bcb3-de48e3a4e4c6")
+		)
+		(pin "1"
+			(uuid "cac7a208-8524-4f66-b4d4-8a5e27c7afce")
+		)
+		(pin "4"
+			(uuid "d80d3f89-a230-4988-82f3-cd527080fb29")
+		)
+		(pin "2"
+			(uuid "55f3a89e-bb2d-4c6f-88b6-5b04704c3541")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_unipolar_6pin")
+		(at 130.81 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8611e04-0d56-48df-955f-5dced96fcbcc")
+		(property "Reference" "M1"
+			(at 135.89 52.489 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_unipolar_6pin"
+			(at 135.89 55.029 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 131.064 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 131.064 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-wire unipolar stepper motor"
+			(at 130.81 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B-PH-K-S"
+			(at 130.81 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 130.81 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "455-1708-ND"
+			(at 130.81 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "e82b7e3d-5a00-4e52-a677-404bf76597e4")
+		)
+		(pin "5"
+			(uuid "136f69c2-0596-42ef-88a3-b5beaa53695f")
+		)
+		(pin "3"
+			(uuid "45f3d3c2-a9d8-4f59-a387-5d39f64ea1ea")
+		)
+		(pin "1"
+			(uuid "3fe0d60b-5b3d-424c-8f03-28f6bd65560a")
+		)
+		(pin "4"
+			(uuid "a1978df9-0fa0-46e9-ace4-fec0436ed5d2")
+		)
+		(pin "2"
+			(uuid "38f3fa20-00b7-44eb-9a84-021f82931cc7")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Stepper_Motor_unipolar_6pin")
+		(at 223.52 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2afb3a5-ad17-46ad-accd-fb176e9417bf")
+		(property "Reference" "M5"
+			(at 228.6 52.489 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper_Motor_unipolar_6pin"
+			(at 228.6 55.029 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 223.774 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+			(at 223.774 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-wire unipolar stepper motor"
+			(at 223.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B-PH-K-S"
+			(at 223.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 223.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "455-1708-ND"
+			(at 223.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "10fb5f1c-b8ef-42ec-8faa-0d751492846d")
+		)
+		(pin "5"
+			(uuid "2ae1bde4-385d-4e76-a47b-f314629ea536")
+		)
+		(pin "3"
+			(uuid "ff815d8f-1b88-4881-aef3-e0614ea8e3f3")
+		)
+		(pin "1"
+			(uuid "03e1f96c-43fc-4e72-be6f-08f4ca70c09e")
+		)
+		(pin "4"
+			(uuid "6588b0d7-f637-4b34-8c0b-2944bdd22fc8")
+		)
+		(pin "2"
+			(uuid "a5d18524-0d9d-4d83-82f2-a552bc0be83b")
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(reference "M5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 92.71)
+		(size 17.78 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "08eedecc-4324-421b-8619-41688fa76849")
+		(property "Sheetname" "Driver 2"
+			(at 86.36 91.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 86.36 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1A" output
+			(at 104.14 107.95 0)
+			(uuid "60f647fc-6102-478e-956f-dbf4923e8637")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1B" output
+			(at 104.14 105.41 0)
+			(uuid "ad1fecc5-42cd-45ff-a570-ec622b35e1ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 104.14 110.49 0)
+			(uuid "36e039e1-5875-4ebb-bf36-99cb1e0c517f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2B" output
+			(at 104.14 113.03 0)
+			(uuid "3f4bb760-ed4f-4fb3-bc3f-06a799e9929c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 86.36 110.49 180)
+			(uuid "e78e761b-1994-4367-9530-da28bfd8df13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 86.36 115.57 180)
+			(uuid "9cb5b335-ad20-4b7c-94e9-658e75d66b1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 86.36 118.11 180)
+			(uuid "f6e904f2-2716-4f73-8399-bac9ea7f4afd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3" input
+			(at 86.36 120.65 180)
+			(uuid "e308cc82-3eda-451d-93f9-e321354f18e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 86.36 107.95 180)
+			(uuid "9c2af528-e23b-441b-8f6c-ee5c77eb26f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 86.36 105.41 180)
+			(uuid "9290e22f-95bf-4bec-88fa-18aa83d642c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 86.36 97.79 180)
+			(uuid "62f03022-ab0e-4e9f-88ab-4efbc38a9d33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 86.36 100.33 180)
+			(uuid "16395bac-725c-489a-a84b-6ee27d039b25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 219.71)
+		(size 17.78 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5bbe4836-44e8-4f24-b1ae-ed92f44e542e")
+		(property "Sheetname" "Driver 8"
+			(at 179.07 218.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 179.07 253.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1A" output
+			(at 196.85 234.95 0)
+			(uuid "9020fa22-de72-44d0-8296-85fd83761d89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1B" output
+			(at 196.85 232.41 0)
+			(uuid "d52993d5-9f9d-4f17-a4c1-d8065edbb20c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 196.85 237.49 0)
+			(uuid "e620563a-73e1-43b7-8a52-1d87e82d5ab5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2B" output
+			(at 196.85 240.03 0)
+			(uuid "33418306-3923-4129-bc67-d5c4d83f4795")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 179.07 237.49 180)
+			(uuid "b6e43a4f-a352-41db-9466-64ed1c9d3dac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 179.07 242.57 180)
+			(uuid "bbd70f2a-2487-44bf-9032-67ce7d9dc55a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 179.07 245.11 180)
+			(uuid "46bc2182-306f-4912-9a8c-26958db37322")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3" input
+			(at 179.07 247.65 180)
+			(uuid "c8a04c04-f1e4-4c7c-83a9-6549810cfb74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 179.07 234.95 180)
+			(uuid "5af42987-dd73-4dfd-b0de-0ba23943bc19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 179.07 232.41 180)
+			(uuid "b3160a4d-539f-4ffe-83b9-8ec7c1739fac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 179.07 224.79 180)
+			(uuid "6c3a2f7a-9c0a-4572-90ce-0c6fa85b77ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 179.07 227.33 180)
+			(uuid "ebe24710-beb7-4503-967a-33384390c23e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 92.71)
+		(size 17.78 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "60dae45a-bf18-4832-b54f-8416f293d78e")
+		(property "Sheetname" "Driver 6"
+			(at 179.07 91.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 179.07 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1A" output
+			(at 196.85 107.95 0)
+			(uuid "148c4281-c3a4-4f7a-9b6e-d673c3419418")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1B" output
+			(at 196.85 105.41 0)
+			(uuid "fed12c32-6a79-4203-940b-35fa6c959a23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 196.85 110.49 0)
+			(uuid "4c50c073-cc0f-4af8-b748-db1eb94b3144")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2B" output
+			(at 196.85 113.03 0)
+			(uuid "c823a1e1-e0c8-4616-a827-5cf95cf0b949")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 179.07 110.49 180)
+			(uuid "0f8d4754-f5fb-416e-96b6-83af1df53920")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 179.07 115.57 180)
+			(uuid "9a8aee56-e5fe-42c2-b4d2-7677c6ca7035")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 179.07 118.11 180)
+			(uuid "c6651d86-28e2-4bd6-adba-43b3a1a12051")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3" input
+			(at 179.07 120.65 180)
+			(uuid "81fce3ec-c654-4780-bfd3-ff029cf200e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 179.07 107.95 180)
+			(uuid "fde99af6-7eff-4af8-bf36-d4816de7a9d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 179.07 105.41 180)
+			(uuid "b3703bf1-dee1-403c-a05b-e827c947eb55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 179.07 97.79 180)
+			(uuid "b99dbd30-54ad-48e6-9d4a-aa1fafed2dd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 179.07 100.33 180)
+			(uuid "c50bd682-3476-4701-aebf-f43731ec3504")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 219.71)
+		(size 17.78 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "627db15f-8545-460a-83cc-41b559e00082")
+		(property "Sheetname" "Driver 4"
+			(at 86.36 218.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 86.36 253.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1A" output
+			(at 104.14 234.95 0)
+			(uuid "a51306b9-09c6-4287-9489-8053aed098dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1B" output
+			(at 104.14 232.41 0)
+			(uuid "854b2033-f138-41f9-be12-12852dd5b664")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 104.14 237.49 0)
+			(uuid "ce1c4df4-bb1b-4fe3-afa1-4191005b73f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2B" output
+			(at 104.14 240.03 0)
+			(uuid "761cfa1e-9b3f-4534-9878-5bf8724c13ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 86.36 237.49 180)
+			(uuid "7dd49532-3661-4dc6-a327-cd6651c91ade")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 86.36 242.57 180)
+			(uuid "a2feb4c1-2160-4f05-bd2d-55a4f304b36c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 86.36 245.11 180)
+			(uuid "71f85703-946b-4760-946c-c0929449de9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3" input
+			(at 86.36 247.65 180)
+			(uuid "87a94c20-8607-4d4c-8465-c577d887766a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 86.36 234.95 180)
+			(uuid "ef47b542-3e43-491c-a61c-3e9773fba70d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 86.36 232.41 180)
+			(uuid "7a40265f-96fb-4813-8961-d7b6f2d4329e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 86.36 224.79 180)
+			(uuid "3c69827d-fee5-4046-bedf-d0ee494c1020")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 86.36 227.33 180)
+			(uuid "f6bbbedf-c022-48c5-a620-b1293ce4f900")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 29.21)
+		(size 17.78 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7c709d1e-4f00-4901-a1f8-f6836429dc30")
+		(property "Sheetname" "Driver 5"
+			(at 179.07 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 179.07 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1A" output
+			(at 196.85 44.45 0)
+			(uuid "b415b4b8-ae68-4f1b-a8e8-ef8847f02155")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1B" output
+			(at 196.85 41.91 0)
+			(uuid "32ad500a-eebe-4312-a538-1903ccd1bbfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 196.85 46.99 0)
+			(uuid "07b7002f-eb21-4d86-bc10-4e342ef9ebcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2B" output
+			(at 196.85 49.53 0)
+			(uuid "7014954f-658f-43c3-87af-b1fbed5f111c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 179.07 46.99 180)
+			(uuid "559e388c-8f8f-43e8-8cc4-8ef8fd7d74be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 179.07 52.07 180)
+			(uuid "0138f4ba-9c5d-401d-8e67-4eff52171f58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 179.07 54.61 180)
+			(uuid "96833ae3-e882-498d-846a-b0d425d061fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3" input
+			(at 179.07 57.15 180)
+			(uuid "1509e3ee-26b8-4e26-b8ea-480a2f9fb6c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 179.07 44.45 180)
+			(uuid "ee2f365b-e710-4857-bacc-f2e65d2a4ba2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 179.07 41.91 180)
+			(uuid "ad72341b-8e43-4545-8a17-0371bf223950")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 179.07 34.29 180)
+			(uuid "88c1f124-effc-4e42-b633-e8bd05cbc23d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 179.07 36.83 180)
+			(uuid "148c6e43-1ab9-4a33-8f2b-e970e1faf0d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 29.21)
+		(size 17.78 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d586785d-5219-4549-8fd2-ceb2e303be2c")
+		(property "Sheetname" "Driver 1"
+			(at 86.36 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 86.36 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1A" output
+			(at 104.14 44.45 0)
+			(uuid "d28e415b-df38-4b18-b0ba-be65430bb191")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1B" output
+			(at 104.14 41.91 0)
+			(uuid "aa9fd6f4-c73e-4538-aeb0-da281d50bd7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 104.14 46.99 0)
+			(uuid "0a00e025-caa3-4311-ba83-2d602de7187c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2B" output
+			(at 104.14 49.53 0)
+			(uuid "ca0dd87d-f572-415e-bda2-77f1034f8879")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 86.36 46.99 180)
+			(uuid "ed4daed6-106c-4c27-86d7-21c63a1f82bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 86.36 52.07 180)
+			(uuid "c3593a13-e122-406b-9d28-963eb252d91a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 86.36 54.61 180)
+			(uuid "0f1f5a7a-afb4-4b6c-8029-349201c88c4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3" input
+			(at 86.36 57.15 180)
+			(uuid "7aa6e565-4d89-4243-a662-b087ef06e9ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 86.36 44.45 180)
+			(uuid "fc51c7a3-b09f-4e45-82f9-ba9895037b0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 86.36 41.91 180)
+			(uuid "f0b7a61d-163d-4081-a309-be4f11af6a2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 86.36 34.29 180)
+			(uuid "9b290b47-f451-4dd0-98e0-6a2fe1ee6724")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 86.36 36.83 180)
+			(uuid "6835ed81-6c5d-46c8-888d-16b1c129d3cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 156.21)
+		(size 17.78 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f069a111-c28e-40fd-84d8-8b318c4858de")
+		(property "Sheetname" "Driver 7"
+			(at 179.07 155.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 179.07 189.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1A" output
+			(at 196.85 171.45 0)
+			(uuid "da92de4d-1eb0-4720-908b-75a7451a312c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1B" output
+			(at 196.85 168.91 0)
+			(uuid "246214c7-5b86-4f3d-9226-6021090c5036")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 196.85 173.99 0)
+			(uuid "34d571fd-8c9a-408d-ba56-ac498b1973ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2B" output
+			(at 196.85 176.53 0)
+			(uuid "b95843b7-8830-48bb-925b-7d9e2ae8417f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 179.07 173.99 180)
+			(uuid "da33930d-2f4f-400e-98a9-4713d00f02db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 179.07 179.07 180)
+			(uuid "1a0a79f2-a24a-4cca-86d5-7bb923bfad8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 179.07 181.61 180)
+			(uuid "7b5db665-3a73-42ae-b955-acc78da2b6a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3" input
+			(at 179.07 184.15 180)
+			(uuid "14cef48d-fbbe-406b-8540-7e710fe27128")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 179.07 171.45 180)
+			(uuid "d57ad32a-e229-466f-bbb1-1eb64b17ed00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 179.07 168.91 180)
+			(uuid "9902de79-428c-4ea2-b64a-30c1198dbf0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 179.07 161.29 180)
+			(uuid "c3f17a61-5190-45bf-a4f9-6559bf76d2da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 179.07 163.83 180)
+			(uuid "16510d1c-0306-4123-9fc1-a4140cc05e85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 156.21)
+		(size 17.78 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f7e37d7f-d74d-464d-bb2e-26fef4e38440")
+		(property "Sheetname" "Driver 3"
+			(at 86.36 155.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 86.36 189.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1A" output
+			(at 104.14 171.45 0)
+			(uuid "41ad5e7e-f65e-4b8d-b89e-aad2fc208fe0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1B" output
+			(at 104.14 168.91 0)
+			(uuid "a1367b3a-b7af-4c39-b2a9-3c1bda4b053a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2A" output
+			(at 104.14 173.99 0)
+			(uuid "7c81dff0-2fb5-4697-a3d9-c77df32610bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2B" output
+			(at 104.14 176.53 0)
+			(uuid "009ef3bf-b575-4d9d-a40b-5443827ebba4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 86.36 173.99 180)
+			(uuid "2db8354e-7700-4969-aed9-4b543ccbe769")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS1" input
+			(at 86.36 179.07 180)
+			(uuid "37cb609e-e753-4902-a326-b3539584af82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS2" input
+			(at 86.36 181.61 180)
+			(uuid "6e740592-1212-409a-81f1-ed6e8a89a34d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MS3" input
+			(at 86.36 184.15 180)
+			(uuid "f7bb1c9c-671d-4473-9dfc-9201fb1cdb54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 86.36 171.45 180)
+			(uuid "41ed6f2b-4534-4296-a1a0-19ecca1cfe48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 86.36 168.91 180)
+			(uuid "d93ed033-2e56-4c4c-b96e-9768b2ca74c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 86.36 161.29 180)
+			(uuid "f5c65fd9-00a2-4f2f-b20d-2b672a378b46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 86.36 163.83 180)
+			(uuid "451752a5-67aa-4e6b-8b5e-e56d7c52c8ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stepper_music"
+				(path "/c1f09015-b8de-4a7b-b4da-e4fcb6b13235/65bd6e05-ecc8-4355-bcb4-1d1e2a69c8df"
+					(page "5")
+				)
+			)
+		)
+	)
+)

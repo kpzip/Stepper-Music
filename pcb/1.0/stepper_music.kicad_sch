@@ -13179,7 +13179,7 @@
 				)
 			)
 		)
-		(property "Value" "0Ω"
+		(property "Value" "88.7kΩ"
 			(at 184.15 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13233,7 +13233,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RC1206FR-0788K7L"
 			(at 184.15 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -13244,7 +13244,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "311-88.7KFRCT-ND"
 			(at 184.15 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -14621,7 +14621,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75e24dff-ff2e-48fe-a87a-e5de807f10a9")
 		(property "Reference" "R8"
